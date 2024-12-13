@@ -1,4 +1,4 @@
-﻿#language: ru
+﻿58 000,00#language: ru
 
 @tree
 
