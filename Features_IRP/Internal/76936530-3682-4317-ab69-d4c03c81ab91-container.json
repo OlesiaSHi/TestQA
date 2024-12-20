@@ -1,0 +1,42 @@
+{
+	"uuid": "592328e3-547f-4154-ae6e-723e3fdfde68",
+	"name": "Контекст_Открытие формы справочника \"Пользователи\" (Users)",
+	"description": "",
+	"children": [
+		"76936530-3682-4317-ab69-d4c03c81ab91"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441117050,
+			"stop": 1734441117069,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441117069,
+			"stop": 1734441117321,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,118 @@
+{
+	"uuid": "aa50f008-8d1f-4bcf-970c-6014c64981ac",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Закрытие авансов покупателей\" (CustomersAdvancesClosing)",
+	"name": "Открытие формы документа \"Закрытие авансов покупателей\" (CustomersAdvancesClosing)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"закрытие авансов покупателей\" (customersadvancesclosing)",
+	"testCaseId": "18b1ae76c76b09ead69b73c624de6d67",
+	"start": 1734441152907,
+	"stop": 1734441153663,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"CustomersAdvancesClosing\"",
+			"start": 1734441153593,
+			"stop": 1734441153597,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CustomersAdvancesClosing"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441153597,
+			"stop": 1734441153659,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441153659,
+			"stop": 1734441153661,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441153661,
+			"stop": 1734441153663,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Закрытие авансов покупателей\" (CustomersAdvancesClosing)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Закрытие авансов покупателей\" (CustomersAdvancesClosing)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

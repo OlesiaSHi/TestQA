@@ -1,0 +1,42 @@
+{
+	"uuid": "5ae854c8-0751-48b6-adc8-75d76329c8f3",
+	"name": "Контекст_Открытие формы справочника \"Соглашения с банком\" (BankTerms)",
+	"description": "",
+	"children": [
+		"5c24a2ea-2386-4e97-afd9-c01e3ffe38a6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441081450,
+			"stop": 1734441081478,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441081478,
+			"stop": 1734441081720,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

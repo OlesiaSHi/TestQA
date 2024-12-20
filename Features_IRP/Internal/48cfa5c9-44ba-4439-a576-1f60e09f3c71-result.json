@@ -1,0 +1,118 @@
+{
+	"uuid": "48cfa5c9-44ba-4439-a576-1f60e09f3c71",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Рабочие места\" (Workstations)",
+	"name": "Открытие формы списка справочника \"Рабочие места\" (Workstations)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"рабочие места\" (workstations)",
+	"testCaseId": "619812097239311d25cda2e74199ff41",
+	"start": 1734441077541,
+	"stop": 1734441078156,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"Workstations\"",
+			"start": 1734441078043,
+			"stop": 1734441078046,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Workstations"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441078046,
+			"stop": 1734441078151,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441078151,
+			"stop": 1734441078154,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441078154,
+			"stop": 1734441078156,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Рабочие места\" (Workstations)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Рабочие места\" (Workstations)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

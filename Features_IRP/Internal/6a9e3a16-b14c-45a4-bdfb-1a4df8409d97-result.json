@@ -1,0 +1,118 @@
+{
+	"uuid": "6a9e3a16-b14c-45a4-bdfb-1a4df8409d97",
+	"historyId": "Дымовые тесты - Регистры сведений - ФормаСписка.Открытие формы списка регистра сведений \"История статусов объектов\" (ObjectStatuses)",
+	"name": "Открытие формы списка регистра сведений \"История статусов объектов\" (ObjectStatuses)",
+	"fullName": "internal/091_регистрысведений_формасписка.feature_открытие формы списка регистра сведений \"история статусов объектов\" (objectstatuses)",
+	"testCaseId": "f4933b67561a9cc082ffcb7a2ead6e3c",
+	"start": 1734438903826,
+	"stop": 1734438904458,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка регистра сведений \"ObjectStatuses\"",
+			"start": 1734438904337,
+			"stop": 1734438904340,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ObjectStatuses"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438904340,
+			"stop": 1734438904451,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438904451,
+			"stop": 1734438904453,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438904454,
+			"stop": 1734438904457,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка регистра сведений \"История статусов объектов\" (ObjectStatuses)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка регистра сведений \"История статусов объектов\" (ObjectStatuses)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

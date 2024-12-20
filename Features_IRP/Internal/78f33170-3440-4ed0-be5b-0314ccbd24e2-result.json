@@ -1,0 +1,118 @@
+{
+	"uuid": "78f33170-3440-4ed0-be5b-0314ccbd24e2",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Шаблоны печати\" (PrintTemplates)",
+	"name": "Открытие формы справочника \"Шаблоны печати\" (PrintTemplates)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"шаблоны печати\" (printtemplates)",
+	"testCaseId": "e75e7f538a00d3ef1bc270e1682fcc98",
+	"start": 1734438820337,
+	"stop": 1734438821020,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"PrintTemplates\"",
+			"start": 1734438820828,
+			"stop": 1734438820832,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PrintTemplates"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438820832,
+			"stop": 1734438821016,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438821016,
+			"stop": 1734438821018,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438821018,
+			"stop": 1734438821019,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Шаблоны печати\" (PrintTemplates)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Шаблоны печати\" (PrintTemplates)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

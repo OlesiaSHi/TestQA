@@ -1,0 +1,118 @@
+{
+	"uuid": "2f44ea55-3d77-4a3f-98e1-ac5c1dfbb7f0",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Метаданные конфигурации\" (ConfigurationMetadata)",
+	"name": "Открытие формы справочника \"Метаданные конфигурации\" (ConfigurationMetadata)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"метаданные конфигурации\" (configurationmetadata)",
+	"testCaseId": "eb1ba0a86249694518c751d30af8ba88",
+	"start": 1734441085723,
+	"stop": 1734441086261,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"ConfigurationMetadata\"",
+			"start": 1734441086176,
+			"stop": 1734441086179,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ConfigurationMetadata"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441086179,
+			"stop": 1734441086257,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441086257,
+			"stop": 1734441086259,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441086259,
+			"stop": 1734441086261,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Метаданные конфигурации\" (ConfigurationMetadata)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Метаданные конфигурации\" (ConfigurationMetadata)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

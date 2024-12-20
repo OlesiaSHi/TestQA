@@ -1,0 +1,42 @@
+{
+	"uuid": "3e482f47-3b4d-43d8-a751-f5839ecb04ff",
+	"name": "Контекст_Открытие формы обработки \"Сканирование штрихкода\" (ScanBarcode)",
+	"description": "",
+	"children": [
+		"e452fb77-abb8-44fa-9172-c47d7962d5c1"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441181657,
+			"stop": 1734441181672,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441181672,
+			"stop": 1734441181887,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

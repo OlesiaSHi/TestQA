@@ -1,0 +1,118 @@
+{
+	"uuid": "d4c262c6-ba56-4112-adae-be9244a0c081",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Ввод начальных остатков\" (OpeningEntry)",
+	"name": "Открытие формы списка документа \"Ввод начальных остатков\" (OpeningEntry)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"ввод начальных остатков\" (openingentry)",
+	"testCaseId": "0952178d3bfb3402ad10aee2510f768c",
+	"start": 1734438844936,
+	"stop": 1734438845552,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"OpeningEntry\"",
+			"start": 1734438845422,
+			"stop": 1734438845426,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "OpeningEntry"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438845426,
+			"stop": 1734438845547,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438845547,
+			"stop": 1734438845549,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438845549,
+			"stop": 1734438845552,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Ввод начальных остатков\" (OpeningEntry)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Ввод начальных остатков\" (OpeningEntry)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

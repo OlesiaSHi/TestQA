@@ -1,0 +1,118 @@
+{
+	"uuid": "421a9723-a5e0-4607-a046-d3dfea494b05",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Штрихкодирование товаров\" (Labeling)",
+	"name": "Открытие формы списка документа \"Штрихкодирование товаров\" (Labeling)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"штрихкодирование товаров\" (labeling)",
+	"testCaseId": "b59912ae2306adcf3228df9c0895a741",
+	"start": 1734441130284,
+	"stop": 1734441130875,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"Labeling\"",
+			"start": 1734441130766,
+			"stop": 1734441130768,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Labeling"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441130768,
+			"stop": 1734441130871,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441130872,
+			"stop": 1734441130873,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441130874,
+			"stop": 1734441130875,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Штрихкодирование товаров\" (Labeling)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Штрихкодирование товаров\" (Labeling)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

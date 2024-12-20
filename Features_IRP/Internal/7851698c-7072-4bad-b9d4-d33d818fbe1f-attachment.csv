@@ -1,0 +1,6 @@
+﻿"Ref","DeletionMark","Code","Type","ItemBundle","UniqueMD5","Description_en","Description_hash","Description_ru","Description_tr"
+"e1cib/data/Catalog.Specifications?ref=b762b13668d0905011eb766bf96b2755","False","1","Enum.SpecificationType.Set","","A3 26 8D 43 98 25 08 12 B0 08 0D 6E EA C5 3A E0","Спецификация 1","","",""
+"e1cib/data/Catalog.Specifications?ref=b762b13668d0905011eb766bf96b2756","False","2","Enum.SpecificationType.Set","","96 C4 57 EB 58 E9 E7 D3 7E F1 52 45 3E FD 98 A3","Спецификация 2","","",""
+"e1cib/data/Catalog.Specifications?ref=b762b13668d0905011eb766bf96b275b","False","3","Enum.SpecificationType.Bundle","e1cib/data/Catalog.Items?ref=b762b13668d0905011eb766bf96b275a","06 CC D5 7E 2A 7D D6 30 37 93 94 9E 85 4C FF B1","Набор","","",""
+"e1cib/data/Catalog.Specifications?ref=b762b13668d0905011eb7674324a4a4a","False","4","Enum.SpecificationType.Set","e1cib/data/Catalog.Items?ref=b762b13668d0905011eb766bf96b275a","A3 0A 49 B9 4A 04 0A D1 5F 44 78 D2 F3 88 87 E7","Товар с характеристиками","Товар с характеристиками","Товар с характеристиками","Товар с характеристиками"
+"e1cib/data/Catalog.Specifications?ref=b771ba98a7719ecf11ec3335036600f4","False","5","Enum.SpecificationType.Set","e1cib/data/Catalog.Items?ref=b762b13668d0905011eb766bf96b275a","","","","",""

@@ -1,0 +1,42 @@
+{
+	"uuid": "380ad725-795f-4e44-89a6-721d938f79e1",
+	"name": "Контекст_Открытие формы списка справочника \"Шаблоны печати\" (PrintTemplates)",
+	"description": "",
+	"children": [
+		"a6394a5a-9f55-439f-b4b0-a7edb92888ef"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441068794,
+			"stop": 1734441068823,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441068823,
+			"stop": 1734441069092,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

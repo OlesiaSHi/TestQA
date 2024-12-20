@@ -1,0 +1,118 @@
+{
+	"uuid": "33cae3b9-7bb6-4b92-ae7e-131b32ede057",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Драйвера оборудования\" (EquipmentDrivers)",
+	"name": "Открытие формы справочника \"Драйвера оборудования\" (EquipmentDrivers)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"драйвера оборудования\" (equipmentdrivers)",
+	"testCaseId": "ef47a4abc44b8e9f0b56b7cbf012318a",
+	"start": 1734441089736,
+	"stop": 1734441090325,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"EquipmentDrivers\"",
+			"start": 1734441090237,
+			"stop": 1734441090238,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "EquipmentDrivers"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441090238,
+			"stop": 1734441090321,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441090321,
+			"stop": 1734441090324,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441090324,
+			"stop": 1734441090325,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Драйвера оборудования\" (EquipmentDrivers)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Драйвера оборудования\" (EquipmentDrivers)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

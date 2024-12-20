@@ -1,0 +1,42 @@
+{
+	"uuid": "ced303e0-bf28-4e7d-b345-bdcd04ac6bef",
+	"name": "Контекст_Открытие формы списка справочника \"Адресная иерархия\" (IDInfoAddresses)",
+	"description": "",
+	"children": [
+		"8009aa39-4d90-4f1a-93d2-7957a96570f0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438767450,
+			"stop": 1734438767467,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438767467,
+			"stop": 1734438767746,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

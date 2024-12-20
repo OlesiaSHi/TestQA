@@ -1,0 +1,42 @@
+{
+	"uuid": "7326cb06-13c2-4ffe-9b48-2fc0a3e2f419",
+	"name": "Контекст_Открытие формы документа \"Возврат от розничного покупателя\" (RetailReturnReceipt)",
+	"description": "",
+	"children": [
+		"e8c3cc0d-d701-4c07-8891-7a554d774000"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438881702,
+			"stop": 1734438881721,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438881722,
+			"stop": 1734438881965,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

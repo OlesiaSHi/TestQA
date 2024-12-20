@@ -1,0 +1,42 @@
+{
+	"uuid": "8978b354-0acb-4098-8f44-c37e6b2b0db9",
+	"name": "Контекст_Открытие формы списка справочника \"Ключи аналитики ценообразования\" (PriceKeys)",
+	"description": "",
+	"children": [
+		"dcbeb68d-49ff-4abf-8eee-c7194b28c0cf"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438779636,
+			"stop": 1734438779666,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438779666,
+			"stop": 1734438779942,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

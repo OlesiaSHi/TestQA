@@ -1,0 +1,118 @@
+{
+	"uuid": "971e339f-8840-4961-8b2f-62529211e509",
+	"historyId": "Дымовые тесты - Регистры сведений - ФормаОбъекта.Открытие формы регистра сведений \"Настройки налоговых ставок\" (TaxSettings)",
+	"name": "Открытие формы регистра сведений \"Настройки налоговых ставок\" (TaxSettings)",
+	"fullName": "internal/092_регистрысведений_формаобъекта.feature_открытие формы регистра сведений \"настройки налоговых ставок\" (taxsettings)",
+	"testCaseId": "ea14f9c1b2007acebad08837405eb75c",
+	"start": 1734438907665,
+	"stop": 1734438908093,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму регистра сведений \"TaxSettings\"",
+			"start": 1734438907992,
+			"stop": 1734438907995,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "TaxSettings"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438907996,
+			"stop": 1734438908090,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438908090,
+			"stop": 1734438908092,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438908092,
+			"stop": 1734438908093,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы регистра сведений \"Настройки налоговых ставок\" (TaxSettings)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы регистра сведений \"Настройки налоговых ставок\" (TaxSettings)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

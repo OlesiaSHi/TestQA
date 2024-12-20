@@ -1,0 +1,118 @@
+{
+	"uuid": "57dedee3-a976-4bae-b7cc-5dbccbd0179d",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Страны\" (Countries)",
+	"name": "Открытие формы списка справочника \"Страны\" (Countries)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"страны\" (countries)",
+	"testCaseId": "d5b5bea8a5a847906de0879734ca8bdb",
+	"start": 1734438761116,
+	"stop": 1734438761745,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"Countries\"",
+			"start": 1734438761627,
+			"stop": 1734438761631,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Countries"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438761632,
+			"stop": 1734438761739,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438761739,
+			"stop": 1734438761741,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438761742,
+			"stop": 1734438761745,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Страны\" (Countries)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Страны\" (Countries)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

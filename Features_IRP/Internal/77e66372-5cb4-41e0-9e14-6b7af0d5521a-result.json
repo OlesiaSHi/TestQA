@@ -1,0 +1,118 @@
+{
+	"uuid": "77e66372-5cb4-41e0-9e14-6b7af0d5521a",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Статус базы данных\" (DataBaseStatus)",
+	"name": "Открытие формы справочника \"Статус базы данных\" (DataBaseStatus)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"статус базы данных\" (databasestatus)",
+	"testCaseId": "261a3624a002b3dfbda3372349e9eb79",
+	"start": 1734438800579,
+	"stop": 1734438801210,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"DataBaseStatus\"",
+			"start": 1734438801103,
+			"stop": 1734438801107,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "DataBaseStatus"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438801108,
+			"stop": 1734438801207,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438801207,
+			"stop": 1734438801208,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438801208,
+			"stop": 1734438801210,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Статус базы данных\" (DataBaseStatus)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Статус базы данных\" (DataBaseStatus)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

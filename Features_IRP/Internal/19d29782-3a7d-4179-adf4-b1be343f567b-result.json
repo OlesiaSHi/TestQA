@@ -1,0 +1,296 @@
+{
+	"uuid": "19d29782-3a7d-4179-adf4-b1be343f567b",
+	"historyId": "проверка формы элемента справочника Организации.проверка формы элемента справочника Организации",
+	"name": "проверка формы элемента справочника Организации",
+	"fullName": "internal/справочникорганиции.feature_проверка формы элемента справочника организации",
+	"testCaseId": "31b3c2528d656cdcf55ea43897211a73",
+	"start": 1734438973982,
+	"stop": 1734438974456,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Открытие элемента",
+			"start": 1734438974029,
+			"stop": 1734438974209,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю \"Справочники\" \"Организации\"",
+					"start": 1734438974029,
+					"stop": 1734438974110,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Справочники"
+						},
+						{
+							"name": "Парам2",
+							"value": "Организации"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно \"Организации\"",
+					"start": 1734438974110,
+					"stop": 1734438974196,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организации"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'FormCreate'",
+					"start": 1734438974196,
+					"stop": 1734438974209,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FormCreate"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Установка флага",
+			"start": 1734438974209,
+			"stop": 1734438974401,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда открылось окно \"Организация (создание)\"",
+					"start": 1734438974209,
+					"stop": 1734438974337,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я устанавливаю флаг с именем 'OurCompany'",
+					"start": 1734438974337,
+					"stop": 1734438974349,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "OurCompany"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы \"Валюты\" присутствует на форме",
+					"start": 1734438974349,
+					"stop": 1734438974396,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Валюты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы \"Вид налога\" присутствует на форме",
+					"start": 1734438974396,
+					"stop": 1734438974401,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Вид налога"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Снятие флага",
+			"start": 1734438974401,
+			"stop": 1734438974456,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я снимаю флаг с именем 'OurCompany'",
+					"start": 1734438974401,
+					"stop": 1734438974408,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "OurCompany"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы \"Валюты\" существует и невидим на форме",
+					"start": 1734438974408,
+					"stop": 1734438974450,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Валюты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы \"Вид налога\" существует и невидим на форме",
+					"start": 1734438974450,
+					"stop": 1734438974456,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Вид налога"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "проверка формы элемента справочника Организации"
+		},
+		{
+			"name": "feature",
+			"value": "проверка формы элемента справочника Организации"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

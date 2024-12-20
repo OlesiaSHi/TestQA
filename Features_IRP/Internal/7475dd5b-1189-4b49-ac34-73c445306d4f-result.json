@@ -1,0 +1,118 @@
+{
+	"uuid": "7475dd5b-1189-4b49-ac34-73c445306d4f",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Объект соответствия внешних данных\" (DataMappingItems)",
+	"name": "Открытие формы справочника \"Объект соответствия внешних данных\" (DataMappingItems)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"объект соответствия внешних данных\" (datamappingitems)",
+	"testCaseId": "65a3a295bdd57eaf179c2e089d8eb2a7",
+	"start": 1734441089122,
+	"stop": 1734441089736,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"DataMappingItems\"",
+			"start": 1734441089631,
+			"stop": 1734441089636,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "DataMappingItems"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441089636,
+			"stop": 1734441089733,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441089733,
+			"stop": 1734441089735,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441089735,
+			"stop": 1734441089736,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Объект соответствия внешних данных\" (DataMappingItems)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Объект соответствия внешних данных\" (DataMappingItems)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "570904b1-64fd-45f4-b2b6-ac76a5ce92da",
+	"name": "Контекст_Открытие формы справочника \"Спецификации товаров\" (Specifications)",
+	"description": "",
+	"children": [
+		"804c00eb-ffca-47b8-944e-83fed526a306"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441112357,
+			"stop": 1734441112375,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441112375,
+			"stop": 1734441112655,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "bc13444b-d3f7-4263-a030-b8eed1315843",
+	"name": "Контекст_Открытие формы справочника \"Характеристики\" (ItemKeys)",
+	"description": "",
+	"children": [
+		"354fc083-4c10-4db0-807c-9251a8c7b92e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441096778,
+			"stop": 1734441096803,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441096803,
+			"stop": 1734441096984,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

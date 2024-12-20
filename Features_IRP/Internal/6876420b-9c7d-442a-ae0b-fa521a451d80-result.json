@@ -1,0 +1,118 @@
+{
+	"uuid": "6876420b-9c7d-442a-ae0b-fa521a451d80",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Настройки контактной информации\" (IDInfoSets)",
+	"name": "Открытие формы списка справочника \"Настройки контактной информации\" (IDInfoSets)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"настройки контактной информации\" (idinfosets)",
+	"testCaseId": "a3f3c50a838d712ca7ded8ee0cf245a1",
+	"start": 1734438768093,
+	"stop": 1734438768668,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"IDInfoSets\"",
+			"start": 1734438768548,
+			"stop": 1734438768550,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "IDInfoSets"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438768550,
+			"stop": 1734438768664,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438768665,
+			"stop": 1734438768666,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438768666,
+			"stop": 1734438768668,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Настройки контактной информации\" (IDInfoSets)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Настройки контактной информации\" (IDInfoSets)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

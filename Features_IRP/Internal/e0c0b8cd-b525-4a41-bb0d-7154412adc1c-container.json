@@ -1,0 +1,42 @@
+{
+	"uuid": "34050e8e-57b2-4e64-b7cb-8876875fd26c",
+	"name": "Контекст_Открытие формы списка справочника \"Периоды планирования\" (PlanningPeriods)",
+	"description": "",
+	"children": [
+		"e0c0b8cd-b525-4a41-bb0d-7154412adc1c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441066966,
+			"stop": 1734441066986,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441066987,
+			"stop": 1734441067253,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "f210e144-4f22-4397-b663-2475f84b212d",
+	"name": "Контекст_Открытие формы обработки \"История данных\" (DataHistory)",
+	"description": "",
+	"children": [
+		"dade1280-3d4f-455d-9490-67d497e32719"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441177494,
+			"stop": 1734441177515,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441177515,
+			"stop": 1734441177798,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

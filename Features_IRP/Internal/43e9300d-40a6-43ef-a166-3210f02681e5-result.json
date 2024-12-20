@@ -1,0 +1,1834 @@
+{
+	"uuid": "43e9300d-40a6-43ef-a166-3210f02681e5",
+	"historyId": "проверка движения документа Поступление товаров._0501 подготовительный сценарий (движения документа Поступление товаров)",
+	"name": "_0501 подготовительный сценарий (движения документа Поступление товаров)",
+	"fullName": "internal/закупки/поступлениетоваровуслуг.feature__0501 подготовительный сценарий (движения документа поступление товаров)",
+	"testCaseId": "4c72d0e6fc6ca663b865a9edc42238cc",
+	"start": 1734438924056,
+	"stop": 1734438932330,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Ошибка при вызове метода контекста (Write):",
+		"trace": "{ExternalDataProcessor.VanessaAutomation.Form.ПодготовкаИЗагрузкаДанных.Form(669)}: Ошибка при вызове метода контекста (Write): Значение \"1\" поля \"Код\" не уникально\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: File_\"C__Base_ДемоIRP\"_ (Test app)\n        ИмяАктивнойФормы: \n        ИмяФичи: проверка движения документа Поступление товаров\n        ИмяСценария: _0501 подготовительный сценарий (движения документа Поступление товаров)\n        НомерСтрокиДерева: 2 546\n        НомерСтрокиФичи: 539\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Закупки\\ПоступлениеТоваровУслуг.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/ПодготовкаИЗагрузкаДанных/ПодготовкаИЗагрузкаДанных.epf\n        ИмяПроцедуры: ЯПроверяюИлиСоздаюДляСправочникаОбъекты\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 15664\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 15:35:32"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда экспорт основных данных",
+			"start": 1734438924073,
+			"stop": 1734438932329,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я перезаполняю константу \"SaasMode\" значением \"False\"",
+					"start": 1734438924073,
+					"stop": 1734438924111,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "SaasMode"
+						},
+						{
+							"name": "Парам2",
+							"value": "False"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю константу \"EnableLinkedRowsIntegrity\" значением \"False\"",
+					"start": 1734438924111,
+					"stop": 1734438924162,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "EnableLinkedRowsIntegrity"
+						},
+						{
+							"name": "Парам2",
+							"value": "False"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю константу \"UseLockDataModification\" значением \"True\"",
+					"start": 1734438924162,
+					"stop": 1734438924194,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "UseLockDataModification"
+						},
+						{
+							"name": "Парам2",
+							"value": "True"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю константу \"UseItemKey\" значением \"True\"",
+					"start": 1734438924194,
+					"stop": 1734438924226,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "UseItemKey"
+						},
+						{
+							"name": "Парам2",
+							"value": "True"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю константу \"UseCompanies\" значением \"True\"",
+					"start": 1734438924226,
+					"stop": 1734438924254,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "UseCompanies"
+						},
+						{
+							"name": "Парам2",
+							"value": "True"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю константу \"NotFirstStart\" значением \"False\"",
+					"start": 1734438924254,
+					"stop": 1734438924279,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "NotFirstStart"
+						},
+						{
+							"name": "Парам2",
+							"value": "False"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Currencies\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924279,
+					"stop": 1734438924333,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Currencies"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "f3dde78b-92cd-4dbd-8f96-17ff97d50f1e-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Taxes\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924333,
+					"stop": 1734438924380,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Taxes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "644c6ead-cb97-43c4-a0bd-60dc3f78d833-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"TaxRates\":",
+					"start": 1734438924380,
+					"stop": 1734438924413,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "TaxRates"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "f5e6118d-9ba7-4006-ac25-22d0347d9587-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"UseDocuments\":",
+					"start": 1734438924413,
+					"stop": 1734438924443,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "UseDocuments"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "d5d78d04-6377-4419-968d-e3973011a229-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"ItemTypes\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924443,
+					"stop": 1734438924514,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemTypes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "71109058-c7f0-49d8-a86d-9cb18ccd064b-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"AvailableAttributes\":",
+					"start": 1734438924514,
+					"stop": 1734438924562,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "AvailableAttributes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0978e796-10d0-483b-8e40-506970620f9f-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"PriceTypes\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924562,
+					"stop": 1734438924671,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PriceTypes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "8ccd4f0c-c9fa-4918-88d4-e7078b078cee-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"ExternalDataProc\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924671,
+					"stop": 1734438924743,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ExternalDataProc"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "40d96fd7-8095-4ce1-81ee-e791a33226d7-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"UserGroups\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924743,
+					"stop": 1734438924777,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "UserGroups"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0dc9f8ff-e7a6-47fc-8987-f5bc1d80d7e7-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Units\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924777,
+					"stop": 1734438924827,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Units"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "a7dd7ddc-5c20-4e7f-97c5-9b15b30479a6-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"AddAttributeAndPropertyValues\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924827,
+					"stop": 1734438924990,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "AddAttributeAndPropertyValues"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "7d673338-7cbb-453c-b6d7-7e14cee480d6-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"CashAccounts\" объекты с обмен данными загрузка истина:",
+					"start": 1734438924990,
+					"stop": 1734438925097,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "CashAccounts"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "c0bd1037-5f45-4002-a24c-f0535b389ebc-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"TaxRates\" объекты с обмен данными загрузка истина:",
+					"start": 1734438925097,
+					"stop": 1734438925166,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "TaxRates"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "2501e812-1000-4988-953c-37148d19ca1f-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"IntegrationSettings\" объекты с обмен данными загрузка истина:",
+					"start": 1734438925166,
+					"stop": 1734438925216,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "IntegrationSettings"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "f4766704-7ff0-4277-a08d-080085e14669-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"ConnectionSetting\":",
+					"start": 1734438925216,
+					"stop": 1734438925264,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ConnectionSetting"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "fc2b96d3-6957-41ed-b866-06754265c503-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Items\" объекты с обмен данными загрузка истина:",
+					"start": 1734438925264,
+					"stop": 1734438925362,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Items"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "7c4cd868-59bc-45cf-9ee4-020ffdbc0a71-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"AddAttributes\":",
+					"start": 1734438925362,
+					"stop": 1734438925443,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "AddAttributes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "f55d55db-8658-4b53-a835-40addded2e17-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Companies\" объекты с обмен данными загрузка истина:",
+					"start": 1734438925443,
+					"stop": 1734438925643,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Companies"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "1e5946a1-52fb-4fad-8ba4-95b7b3da3547-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"Currencies\":",
+					"start": 1734438925644,
+					"stop": 1734438925687,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Currencies"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "c621c39c-d467-4587-808f-8a3a91e008b4-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Partners\" объекты с обмен данными загрузка истина:",
+					"start": 1734438925687,
+					"stop": 1734438925946,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Partners"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "69603ad2-5a0f-4e39-b53c-002eca838d4d-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"BusinessUnits\" объекты с обмен данными загрузка истина:",
+					"start": 1734438925946,
+					"stop": 1734438926014,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "BusinessUnits"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "89a14bc8-8784-49f3-8aa3-061fc26299ce-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Users\" объекты с обмен данными загрузка истина:",
+					"start": 1734438926014,
+					"stop": 1734438926073,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Users"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "5ce19f32-27dd-4b06-8091-912977e77750-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"AccessProfiles\" объекты с обмен данными загрузка истина:",
+					"start": 1734438926073,
+					"stop": 1734438926154,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "AccessProfiles"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "342e5d49-4703-4302-9628-f590178da7f8-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"Roles\":",
+					"start": 1734438926154,
+					"stop": 1734438926201,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Roles"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "9ff74f27-6520-4418-8196-9dce8c6b93e7-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"PartnerSegments\" объекты с обмен данными загрузка истина:",
+					"start": 1734438926201,
+					"stop": 1734438926298,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PartnerSegments"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "01ec1553-3029-424a-acbf-0a8923679740-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Stores\" объекты с обмен данными загрузка истина:",
+					"start": 1734438926298,
+					"stop": 1734438926419,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Stores"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0cf28284-0caa-4a2d-9dcd-a18d10b4bc81-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Agreements\" объекты с обмен данными загрузка истина::",
+					"start": 1734438926419,
+					"stop": 1734438926724,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Agreements"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "2d8da828-a58d-41c1-b0c3-657a67b960e9-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Specifications\" объекты с обмен данными загрузка истина:",
+					"start": 1734438926724,
+					"stop": 1734438926868,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Specifications"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "fbd6ae12-25c7-4654-8f41-83f84baaa703-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"DataSet\":",
+					"start": 1734438926868,
+					"stop": 1734438926988,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "DataSet"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "92de5026-0609-43f3-ab7b-075d70c5b988-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"DataQuantity\":",
+					"start": 1734438926988,
+					"stop": 1734438927074,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "DataQuantity"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "d6994647-52c4-4734-833a-8d541295269e-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"DataBaseStatus\" объекты с обмен данными загрузка истина:",
+					"start": 1734438927074,
+					"stop": 1734438927199,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "DataBaseStatus"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "f9195e32-f2e4-48dc-a580-723fc37fa6f9-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"ConnectionSettings\":",
+					"start": 1734438927199,
+					"stop": 1734438927322,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ConnectionSettings"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "5b22bba9-914a-414d-a001-203034dd19ff-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"ObjectStatuses\" объекты с обмен данными загрузка истина:",
+					"start": 1734438927322,
+					"stop": 1734438927842,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ObjectStatuses"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "c7bde26a-4586-45c0-8643-e5d91f19ab54-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Countries\" объекты с обмен данными загрузка истина:",
+					"start": 1734438927842,
+					"stop": 1734438927876,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Countries"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "786e008a-a4ea-47af-b92c-bcb1596f0d79-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"PaymentSchedules\" объекты с обмен данными загрузка истина:",
+					"start": 1734438927876,
+					"stop": 1734438927939,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PaymentSchedules"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0a01b6ae-9acf-40d3-bb4b-24b5288516ad-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"StagesOfPayment\":",
+					"start": 1734438927939,
+					"stop": 1734438928002,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "StagesOfPayment"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "85b509de-9777-44d4-96db-305a4909f778-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"ItemKeys\" объекты с обмен данными загрузка истина:",
+					"start": 1734438928127,
+					"stop": 1734438928457,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemKeys"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "1e80bf72-483f-48ca-a6b2-55ba516478f2-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"AddAttributes\":",
+					"start": 1734438928457,
+					"stop": 1734438928548,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "AddAttributes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "98114050-2d03-42e2-bee6-3260a85d7651-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"SpecificationAffectPricingMD5\":",
+					"start": 1734438928548,
+					"stop": 1734438928627,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "SpecificationAffectPricingMD5"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "1082dbcc-742b-465b-8e12-88e823d54f5a-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для документа \"PriceList\" объекты с обмен данными загрузка истина:",
+					"start": 1734438928627,
+					"stop": 1734438928803,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PriceList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "1804ce46-0bfa-4e21-954d-b9124f8c020a-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"ItemList\":",
+					"start": 1734438928803,
+					"stop": 1734438928845,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "3018e3a0-d24e-49fc-9ace-4c97f7b4464e-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"ItemKeyList\":",
+					"start": 1734438928845,
+					"stop": 1734438928918,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemKeyList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "494caebc-55f6-493b-9d79-3b464e767599-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для плана видов характеристик \"CurrencyMovementType\" объекты с обмен данными загрузка истина:",
+					"start": 1734438928919,
+					"stop": 1734438929073,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "CurrencyMovementType"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "5d01e35e-692a-4b15-99e9-7a189c153f6a-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для плана видов характеристик \"AddAttributeAndProperty\" объекты с обмен данными загрузка истина:",
+					"start": 1734438929073,
+					"stop": 1734438929227,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "AddAttributeAndProperty"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "8a9ed018-2b72-4f7c-a099-f05d865da5a2-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для регистра сведений \"CurrencyRates\" записи:",
+					"start": 1734438929227,
+					"stop": 1734438929298,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "CurrencyRates"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "2d39f5bb-6528-41e2-b0a0-b8dc7b248b9d-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для регистра сведений \"Taxes\" записи:",
+					"start": 1734438929298,
+					"stop": 1734438929363,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Taxes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0754c763-cceb-498b-bfe5-a85a4c866187-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для регистра сведений \"TaxSettings\" записи:",
+					"start": 1734438929363,
+					"stop": 1734438929400,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "TaxSettings"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "72ea2a41-58b6-4b1e-bea2-5a2a2a668f45-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для регистра сведений \"PricesByItems\" записи:",
+					"start": 1734438929400,
+					"stop": 1734438929435,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PricesByItems"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "f1ca491a-3b36-45fe-a870-e63740ef6bb1-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для регистра сведений \"PricesByItemKeys\" записи:",
+					"start": 1734438929435,
+					"stop": 1734438929498,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PricesByItemKeys"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "d68cbde6-5198-4923-94f6-b0d09dacccd5-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для регистра сведений \"Barcodes\" записи:",
+					"start": 1734438929498,
+					"stop": 1734438929598,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Barcodes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "5fbf2f65-3fc1-45a6-b0ff-910a4d3a0a6d-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для регистра сведений \"PartnerSegments\" записи:",
+					"start": 1734438929598,
+					"stop": 1734438929791,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PartnerSegments"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "387531fd-c7c9-44ef-b497-b5bb36de5c8e-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"ExpenseAndRevenueTypes\" объекты:",
+					"start": 1734438929791,
+					"stop": 1734438932329,
+					"status": "failed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false,
+						"message": "Ошибка при вызове метода контекста (Write):",
+						"trace": "{ExternalDataProcessor.VanessaAutomation.Form.ПодготовкаИЗагрузкаДанных.Form(669)}: Ошибка при вызове метода контекста (Write): Значение \"1\" поля \"Код\" не уникально\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: File_\"C__Base_ДемоIRP\"_ (Test app)\n        ИмяАктивнойФормы: \n        ИмяФичи: проверка движения документа Поступление товаров\n        ИмяСценария: _0501 подготовительный сценарий (движения документа Поступление товаров)\n        НомерСтрокиДерева: 2 546\n        НомерСтрокиФичи: 539\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Закупки\\ПоступлениеТоваровУслуг.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/ПодготовкаИЗагрузкаДанных/ПодготовкаИЗагрузкаДанных.epf\n        ИмяПроцедуры: ЯПроверяюИлиСоздаюДляСправочникаОбъекты\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 15664\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 15:35:32"
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ExpenseAndRevenueTypes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "dcdbf063-780b-47a1-a647-791c75be6355-attachment.csv",
+							"type": "text/csv"
+						},
+						{
+							"name": "ЗначенияПеременных.mxl",
+							"source": "19aa7d45-812f-481d-bdfc-ddf436aa3629-attachment.mxl",
+							"type": "mxl"
+						},
+						{
+							"name": "ЗначенияПеременных.html",
+							"source": "1b9ca094-fc23-4e62-a621-6b000e31d728-attachment.html",
+							"type": "html"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Когда загрузка документа Поступление товаров и услуг",
+			"start": 1734438932329,
+			"stop": 1734438932330,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я проверяю или создаю для справочника \"ExpenseAndRevenueTypes\" объекты:",
+					"start": 1734438932329,
+					"stop": 1734438932329,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ExpenseAndRevenueTypes"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "7e8ceef9-cb32-4908-b71c-f2592455805b-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"RowIDs\" объекты:",
+					"start": 1734438932329,
+					"stop": 1734438932329,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "RowIDs"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "1cc5b747-f853-42ab-bdd5-44fc694047db-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для документа \"PurchaseInvoice\" объекты:",
+					"start": 1734438932329,
+					"stop": 1734438932329,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "PurchaseInvoice"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "ccc68307-e5a8-4786-95fd-28703cd3d2d1-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"ItemList\":",
+					"start": 1734438932329,
+					"stop": 1734438932329,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "39535073-0261-4891-97a8-aa4d530ca8f3-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"TaxList\":",
+					"start": 1734438932330,
+					"stop": 1734438932330,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "TaxList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "2f8f03ba-ca0d-43f1-83da-d138f4de67a7-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"Currencies\":",
+					"start": 1734438932330,
+					"stop": 1734438932330,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Currencies"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "c85b9eac-af4a-4316-bcee-198083ce58d4-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"RowIDInfo\":",
+					"start": 1734438932330,
+					"stop": 1734438932330,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "RowIDInfo"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "bf30f2e2-a1d4-414b-ae18-038ba99b4b8f-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я выполняю код встроенного языка на сервере",
+			"start": 1734438932330,
+			"stop": 1734438932330,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Документы.PurchaseInvoice.НайтиПоНомеру(101).ПолучитьОбъект().Записать(РежимЗаписиДокумента.Проведение);"
+				}
+			],
+			"attachments": [
+				{
+					"name": "MainScreen",
+					"source": "8a21c451-1adf-445e-84c2-9f8dc382e595-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "20fb7a59-d4a5-4b10-869d-875a124f283e-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "7b3f5ccc-2395-432f-a52b-70e19d0bbaee-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0501 подготовительный сценарий (движения документа Поступление товаров)"
+		},
+		{
+			"name": "feature",
+			"value": "_0501 подготовительный сценарий (движения документа Поступление товаров)"
+		},
+		{
+			"name": "tag",
+			"value": "ДвиженияДокументов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Закупки"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "a756a684-fada-47ef-8f24-4b63228bcda6-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "1644e2a4-28f8-46f0-bd6c-857fb63d0c95-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "3a7ca8ae-42bf-42d9-8b3b-7da15ddc51f6-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "14569d19-6727-4c14-b627-4efe39c57310-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "d8087394-8bcf-4434-b8c0-dc0c7fbc694b-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

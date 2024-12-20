@@ -1,0 +1,42 @@
+{
+	"uuid": "279664f8-0c08-4629-a3fd-9b108ea3d599",
+	"name": "Контекст_Открытие формы справочника \"Настройки вывода мультивалютной аналитики\" (CurrencyMovementSets)",
+	"description": "",
+	"children": [
+		"5568c206-3ebf-49ba-b0af-38919a5a663c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441087512,
+			"stop": 1734441087541,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441087541,
+			"stop": 1734441087804,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

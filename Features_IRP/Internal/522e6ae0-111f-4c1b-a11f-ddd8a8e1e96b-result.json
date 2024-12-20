@@ -1,0 +1,118 @@
+{
+	"uuid": "522e6ae0-111f-4c1b-a11f-ddd8a8e1e96b",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Комплектация набора\" (Bundling)",
+	"name": "Открытие формы документа \"Комплектация набора\" (Bundling)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"комплектация набора\" (bundling)",
+	"testCaseId": "72be69cdf3b61b2b4fd9dd8e0ea35ecb",
+	"start": 1734438861516,
+	"stop": 1734438862106,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"Bundling\"",
+			"start": 1734438861950,
+			"stop": 1734438861954,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Bundling"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438861955,
+			"stop": 1734438862102,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438862102,
+			"stop": 1734438862104,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438862104,
+			"stop": 1734438862106,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Комплектация набора\" (Bundling)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Комплектация набора\" (Bundling)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "9c625201-9a22-499a-974c-e850e615dbf2",
+	"name": "Контекст_Открытие формы списка документа \"Сверка взаиморасчетов\" (ReconciliationStatement)",
+	"description": "",
+	"children": [
+		"cd7d8a0b-0e06-44ef-8eaa-32e72ad9466f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438851920,
+			"stop": 1734438851945,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438851945,
+			"stop": 1734438852170,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

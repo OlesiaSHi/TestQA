@@ -1,0 +1,118 @@
+{
+	"uuid": "3b5be096-935e-4e06-aaee-6c3b15286574",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Оприходование товаров\" (StockAdjustmentAsSurplus)",
+	"name": "Открытие формы документа \"Оприходование товаров\" (StockAdjustmentAsSurplus)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"оприходование товаров\" (stockadjustmentassurplus)",
+	"testCaseId": "71d493a23b37585b6b1a380d2003ca50",
+	"start": 1734441173293,
+	"stop": 1734441173902,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"StockAdjustmentAsSurplus\"",
+			"start": 1734441173731,
+			"stop": 1734441173734,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "StockAdjustmentAsSurplus"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441173735,
+			"stop": 1734441173898,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441173898,
+			"stop": 1734441173900,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441173900,
+			"stop": 1734441173902,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Оприходование товаров\" (StockAdjustmentAsSurplus)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Оприходование товаров\" (StockAdjustmentAsSurplus)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "8ac345d3-0efd-4457-b440-a2876b59ce2c",
+	"name": "Контекст_Открытие формы списка справочника \"Расширения\" (Extensions)",
+	"description": "",
+	"children": [
+		"15fb2995-5bce-4b69-8e5d-41f72e23b75c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438764193,
+			"stop": 1734438764209,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438764210,
+			"stop": 1734438764487,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

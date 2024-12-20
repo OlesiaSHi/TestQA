@@ -1,0 +1,42 @@
+{
+	"uuid": "479145a2-cca3-432f-bfbb-c1f43318dec8",
+	"name": "Контекст_Открытие формы списка документа \"Резервирование запланированного прихода товара\" (PlannedReceiptReservation)",
+	"description": "",
+	"children": [
+		"7df0338a-54cf-4d49-9363-fa957f21816f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438847681,
+			"stop": 1734438847697,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438847697,
+			"stop": 1734438847887,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

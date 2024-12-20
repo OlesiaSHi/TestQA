@@ -1,0 +1,27 @@
+{
+	"uuid": "5669eb28-0d95-47bf-8ce0-59db2a79921e",
+	"name": "Контекст__0502 проверка движений документа Поступление товаров по регистру R1001 Закупки",
+	"description": "",
+	"children": [
+		"9f6cf0ae-9c25-4365-86e5-42515ee5b853"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441220716,
+			"stop": 1734441220735,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

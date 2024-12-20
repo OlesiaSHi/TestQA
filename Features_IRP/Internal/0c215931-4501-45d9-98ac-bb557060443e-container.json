@@ -1,0 +1,27 @@
+{
+	"uuid": "fcfd2e78-8866-4121-91ab-c214caec4792",
+	"name": "Контекст__0901 проверка отчета Информация по номенклатуре",
+	"description": "",
+	"children": [
+		"0c215931-4501-45d9-98ac-bb557060443e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441289533,
+			"stop": 1734441289548,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

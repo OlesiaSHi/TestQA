@@ -1,0 +1,118 @@
+{
+	"uuid": "aba0a449-b8ea-4ee3-b738-e13a1d09c94e",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Причины отмены/возврата\" (CancelReturnReasons)",
+	"name": "Открытие формы справочника \"Причины отмены/возврата\" (CancelReturnReasons)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"причины отмены/возврата\" (cancelreturnreasons)",
+	"testCaseId": "693efe4bad3bf3f9c9fee9ef7e1223af",
+	"start": 1734438794516,
+	"stop": 1734438795087,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"CancelReturnReasons\"",
+			"start": 1734438795002,
+			"stop": 1734438795006,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CancelReturnReasons"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438795006,
+			"stop": 1734438795084,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438795085,
+			"stop": 1734438795086,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438795086,
+			"stop": 1734438795087,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Причины отмены/возврата\" (CancelReturnReasons)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Причины отмены/возврата\" (CancelReturnReasons)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "ba347837-05d7-4654-b1da-f0a35b8149f9",
+	"name": "Контекст_Открытие формы справочника \"Платежные терминалы\" (PaymentTerminals)",
+	"description": "",
+	"children": [
+		"b0372974-a4a5-4a3a-9f3b-d3358c181af2"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441104384,
+			"stop": 1734441104407,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441104407,
+			"stop": 1734441104694,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

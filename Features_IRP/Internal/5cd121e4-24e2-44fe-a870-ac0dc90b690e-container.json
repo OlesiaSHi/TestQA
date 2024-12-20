@@ -1,0 +1,42 @@
+{
+	"uuid": "5759f107-04d9-460a-9f95-68bf124fbe6f",
+	"name": "Контекст_Открытие формы документа \"Прочие наличные доходы\" (CashRevenue)",
+	"description": "",
+	"children": [
+		"5cd121e4-24e2-44fe-a870-ac0dc90b690e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441150483,
+			"stop": 1734441150504,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441150504,
+			"stop": 1734441150725,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

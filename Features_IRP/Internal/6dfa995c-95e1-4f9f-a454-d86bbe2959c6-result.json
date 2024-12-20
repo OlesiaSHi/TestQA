@@ -1,0 +1,118 @@
+{
+	"uuid": "6dfa995c-95e1-4f9f-a454-d86bbe2959c6",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Рабочее место кассира\" (PointOfSale)",
+	"name": "Открытие формы обработки \"Рабочее место кассира\" (PointOfSale)",
+	"fullName": "internal/082_обработки_формаобъекта.feature_открытие формы обработки \"рабочее место кассира\" (pointofsale)",
+	"testCaseId": "e5c9a6e289ebc88f18a960e3e7205fc3",
+	"start": 1734441179315,
+	"stop": 1734441180492,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"PointOfSale\"",
+			"start": 1734441179844,
+			"stop": 1734441179846,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PointOfSale"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441179846,
+			"stop": 1734441180484,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441180484,
+			"stop": 1734441180489,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441180489,
+			"stop": 1734441180492,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Рабочее место кассира\" (PointOfSale)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы обработки \"Рабочее место кассира\" (PointOfSale)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

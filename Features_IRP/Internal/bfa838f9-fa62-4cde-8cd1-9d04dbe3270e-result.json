@@ -1,0 +1,118 @@
+{
+	"uuid": "bfa838f9-fa62-4cde-8cd1-9d04dbe3270e",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Адрес файловых хранилищ\" (FileStoragesInfo)",
+	"name": "Открытие формы справочника \"Адрес файловых хранилищ\" (FileStoragesInfo)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"адрес файловых хранилищ\" (filestoragesinfo)",
+	"testCaseId": "97287ec7acc71ba188cd14fe9455d210",
+	"start": 1734441093019,
+	"stop": 1734441093560,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"FileStoragesInfo\"",
+			"start": 1734441093486,
+			"stop": 1734441093489,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FileStoragesInfo"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441093489,
+			"stop": 1734441093556,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441093556,
+			"stop": 1734441093558,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441093559,
+			"stop": 1734441093560,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Адрес файловых хранилищ\" (FileStoragesInfo)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Адрес файловых хранилищ\" (FileStoragesInfo)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

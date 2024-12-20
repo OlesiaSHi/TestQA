@@ -1,0 +1,118 @@
+{
+	"uuid": "df480b1f-f67d-4918-b452-277b121012ed",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Серии номенклатуры\" (SerialLotNumbers)",
+	"name": "Открытие формы списка справочника \"Серии номенклатуры\" (SerialLotNumbers)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"серии номенклатуры\" (seriallotnumbers)",
+	"testCaseId": "6774ca0576e7db8af54ba2e741ec583b",
+	"start": 1734438781471,
+	"stop": 1734438782100,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"SerialLotNumbers\"",
+			"start": 1734438781969,
+			"stop": 1734438781973,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SerialLotNumbers"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438781974,
+			"stop": 1734438782096,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438782096,
+			"stop": 1734438782098,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438782098,
+			"stop": 1734438782100,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Серии номенклатуры\" (SerialLotNumbers)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Серии номенклатуры\" (SerialLotNumbers)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

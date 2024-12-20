@@ -1,0 +1,118 @@
+{
+	"uuid": "c8580111-0525-46d9-aaf6-5284979338a9",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Дополнительная налоговая аналитика\" (TaxAnalytics)",
+	"name": "Открытие формы списка справочника \"Дополнительная налоговая аналитика\" (TaxAnalytics)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"дополнительная налоговая аналитика\" (taxanalytics)",
+	"testCaseId": "bbbd1c61809ce122c0f86cf5bf267658",
+	"start": 1734438785155,
+	"stop": 1734438785753,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"TaxAnalytics\"",
+			"start": 1734438785645,
+			"stop": 1734438785647,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "TaxAnalytics"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438785647,
+			"stop": 1734438785749,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438785749,
+			"stop": 1734438785751,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438785751,
+			"stop": 1734438785753,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Дополнительная налоговая аналитика\" (TaxAnalytics)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Дополнительная налоговая аналитика\" (TaxAnalytics)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "55c7fbac-2334-4a00-afba-fbf1c9f038b0",
+	"name": "Контекст_Открытие формы списка справочника \"Склады\" (Stores)",
+	"description": "",
+	"children": [
+		"14cd6ed3-0c66-4831-b62c-2dd414914e49"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441072748,
+			"stop": 1734441072769,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441072769,
+			"stop": 1734441072955,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

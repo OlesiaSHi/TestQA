@@ -1,0 +1,118 @@
+{
+	"uuid": "13df2ff8-d208-4703-8ea6-29ed0908a590",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Реализация розничному покупателю\" (RetailSalesReceipt)",
+	"name": "Открытие формы списка документа \"Реализация розничному покупателю\" (RetailSalesReceipt)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"реализация розничному покупателю\" (retailsalesreceipt)",
+	"testCaseId": "55aa61f49f1f7d1553093608ed8be487",
+	"start": 1734441139677,
+	"stop": 1734441140292,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"RetailSalesReceipt\"",
+			"start": 1734441140151,
+			"stop": 1734441140154,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "RetailSalesReceipt"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441140154,
+			"stop": 1734441140288,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441140288,
+			"stop": 1734441140290,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441140290,
+			"stop": 1734441140292,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Реализация розничному покупателю\" (RetailSalesReceipt)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Реализация розничному покупателю\" (RetailSalesReceipt)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

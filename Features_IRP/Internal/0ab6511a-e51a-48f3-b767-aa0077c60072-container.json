@@ -1,0 +1,42 @@
+{
+	"uuid": "7c152cca-d145-43ae-aa64-739601a5318e",
+	"name": "Контекст_Открытие формы списка документа \"Прочие наличные расходы\" (CashExpense)",
+	"description": "",
+	"children": [
+		"0ab6511a-e51a-48f3-b767-aa0077c60072"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441120106,
+			"stop": 1734441120131,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441120131,
+			"stop": 1734441120391,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

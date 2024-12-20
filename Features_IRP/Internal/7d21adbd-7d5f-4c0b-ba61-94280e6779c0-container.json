@@ -1,0 +1,42 @@
+{
+	"uuid": "8eefe11a-8539-478c-94c0-f3de386d87fb",
+	"name": "Контекст_Открытие формы списка документа \"Заказ на перемещение товаров\" (InventoryTransferOrder)",
+	"description": "",
+	"children": [
+		"7d21adbd-7d5f-4c0b-ba61-94280e6779c0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438841932,
+			"stop": 1734438841953,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438841953,
+			"stop": 1734438842188,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "4add7f82-5616-4241-9747-dfa46832c7b9",
+	"name": "Контекст_Открытие формы списка документа \"Пересорт товара\" (ItemStockAdjustment)",
+	"description": "",
+	"children": [
+		"6e5eb963-d108-4d5d-a266-f04bc2626a8a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438843134,
+			"stop": 1734438843155,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438843155,
+			"stop": 1734438843400,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

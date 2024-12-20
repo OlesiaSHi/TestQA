@@ -1,0 +1,118 @@
+{
+	"uuid": "12c471ad-9133-4b5b-aba7-0763d8e2d9a0",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Поступление товаров и услуг\" (PurchaseInvoice)",
+	"name": "Открытие формы документа \"Поступление товаров и услуг\" (PurchaseInvoice)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"поступление товаров и услуг\" (purchaseinvoice)",
+	"testCaseId": "fee306fe590c6c88a7ee5955910a6319",
+	"start": 1734441163500,
+	"stop": 1734441164288,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"PurchaseInvoice\"",
+			"start": 1734441163955,
+			"stop": 1734441163959,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PurchaseInvoice"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441163959,
+			"stop": 1734441164282,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441164282,
+			"stop": 1734441164285,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441164285,
+			"stop": 1734441164288,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Поступление товаров и услуг\" (PurchaseInvoice)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Поступление товаров и услуг\" (PurchaseInvoice)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

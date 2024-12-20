@@ -1,0 +1,118 @@
+{
+	"uuid": "fe904e36-f7ff-4917-b411-78a049a37ac2",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Дебет-нота\" (DebitNote)",
+	"name": "Открытие формы документа \"Дебет-нота\" (DebitNote)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"дебет-нота\" (debitnote)",
+	"testCaseId": "022fa8f9637fcd0073d1bf7c03e46885",
+	"start": 1734441153663,
+	"stop": 1734441154139,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"DebitNote\"",
+			"start": 1734441153999,
+			"stop": 1734441154003,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "DebitNote"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441154003,
+			"stop": 1734441154135,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441154135,
+			"stop": 1734441154137,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441154137,
+			"stop": 1734441154139,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Дебет-нота\" (DebitNote)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Дебет-нота\" (DebitNote)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

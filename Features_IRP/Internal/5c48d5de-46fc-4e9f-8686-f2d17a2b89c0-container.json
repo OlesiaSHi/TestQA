@@ -1,0 +1,42 @@
+{
+	"uuid": "7c586f69-07e4-4116-8c14-3256d3340e23",
+	"name": "Контекст_Открытие формы справочника \"Розничные покупатели\" (RetailCustomers)",
+	"description": "",
+	"children": [
+		"5c48d5de-46fc-4e9f-8686-f2d17a2b89c0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441108437,
+			"stop": 1734441108454,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441108454,
+			"stop": 1734441108753,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "4f943d5b-c4e1-45dc-9a31-801763666cb2",
+	"name": "Контекст_Открытие формы списка справочника \"Интерфейсные группы\" (InterfaceGroups)",
+	"description": "",
+	"children": [
+		"ac1fce48-a893-4c5a-b57e-1641281cb9fe"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441057006,
+			"stop": 1734441057031,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441057031,
+			"stop": 1734441057305,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

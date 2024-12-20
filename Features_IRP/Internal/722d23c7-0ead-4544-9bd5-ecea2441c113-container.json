@@ -1,0 +1,42 @@
+{
+	"uuid": "8fd40c45-0b47-4d4b-975b-abed32d2c84a",
+	"name": "Контекст_Открытие формы документа \"Закрытие заказа покупателя\" (SalesOrderClosing)",
+	"description": "",
+	"children": [
+		"722d23c7-0ead-4544-9bd5-ecea2441c113"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441170713,
+			"stop": 1734441170733,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441170733,
+			"stop": 1734441170878,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,6 @@
+﻿"Ref","DeletionMark","Code","Currency","ExternalDataProc","ExternalDataProcSettings","Description_en","Description_hash","Description_ru","Description_tr"
+"e1cib/data/Catalog.PriceTypes?refName=ManualPriceType","False","1","","","ValueStorage:AQEIAAAAAAAAAO+7v3siVSJ9","Ручное назначение","","",""
+"e1cib/data/Catalog.PriceTypes?ref=b762b13668d0905011eb76684b9f6866","False","2","e1cib/data/Catalog.Currencies?ref=b762b13668d0905011eb7663e35d795e","","ValueStorage:AQEIAAAAAAAAAO+7v3siVSJ9","Опт","","",""
+"e1cib/data/Catalog.PriceTypes?ref=b762b13668d0905011eb76684b9f686e","False","3","e1cib/data/Catalog.Currencies?ref=b762b13668d0905011eb7663e35d795e","","ValueStorage:AQEIAAAAAAAAAO+7v3siVSJ9","Цена поставщика 1","","",""
+"e1cib/data/Catalog.PriceTypes?ref=b762b13668d0905011eb76684b9f686f","False","4","e1cib/data/Catalog.Currencies?ref=b762b13668d0905011eb7663e35d795e","","ValueStorage:AQEIAAAAAAAAAO+7v3siVSJ9","Цена поставщика 2","","",""
+"e1cib/data/Catalog.PriceTypes?ref=b762b13668d0905011eb767f10805e2a","False","5","e1cib/data/Catalog.Currencies?ref=b762b13668d0905011eb7663e35d795e","","ValueStorage:AQEIAAAAAAAAAO+7v3siVSJ9","Розница","","",""

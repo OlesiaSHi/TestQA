@@ -1,0 +1,118 @@
+{
+	"uuid": "1d72170a-dc2e-4ec8-85d3-ce9db3db8232",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Расходная товарная накладная\" (ShipmentConfirmation)",
+	"name": "Открытие формы документа \"Расходная товарная накладная\" (ShipmentConfirmation)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"расходная товарная накладная\" (shipmentconfirmation)",
+	"testCaseId": "6b53fa3f8188d5fa0d4bbd6ad3040b08",
+	"start": 1734438886895,
+	"stop": 1734438887634,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"ShipmentConfirmation\"",
+			"start": 1734438887451,
+			"stop": 1734438887454,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ShipmentConfirmation"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438887454,
+			"stop": 1734438887630,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438887630,
+			"stop": 1734438887632,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438887632,
+			"stop": 1734438887634,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Расходная товарная накладная\" (ShipmentConfirmation)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Расходная товарная накладная\" (ShipmentConfirmation)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

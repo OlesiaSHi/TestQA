@@ -1,0 +1,118 @@
+{
+	"uuid": "fa716308-6f4c-47ca-8fac-0b39644db048",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Статьи доходов и расходов\" (ExpenseAndRevenueTypes)",
+	"name": "Открытие формы справочника \"Статьи доходов и расходов\" (ExpenseAndRevenueTypes)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"статьи доходов и расходов\" (expenseandrevenuetypes)",
+	"testCaseId": "c0f77d0131c3311b025aabfd46e0197b",
+	"start": 1734438802407,
+	"stop": 1734438803040,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"ExpenseAndRevenueTypes\"",
+			"start": 1734438802922,
+			"stop": 1734438802927,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ExpenseAndRevenueTypes"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438802927,
+			"stop": 1734438803035,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438803036,
+			"stop": 1734438803037,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438803037,
+			"stop": 1734438803039,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Статьи доходов и расходов\" (ExpenseAndRevenueTypes)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Статьи доходов и расходов\" (ExpenseAndRevenueTypes)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

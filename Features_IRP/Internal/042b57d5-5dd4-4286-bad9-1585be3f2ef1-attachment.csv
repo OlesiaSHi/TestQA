@@ -1,0 +1,3 @@
+﻿"Ref","DeletionMark","Code","Description","ExternalDataProc","IntegrationType","ExternalDataProcSettings","UniqueID"
+"e1cib/data/Catalog.IntegrationSettings?ref=b762b13668d0905011eb7663e35d7966","False","1","Источник курса валют 1","","Enum.IntegrationType.CurrencyRates","ValueStorage:AQEIAAAAAAAAAO+7v3siVSJ9","_8a862d6e657e4386b794c6e29f6a05e0"
+"e1cib/data/Catalog.IntegrationSettings?ref=b762b13668d0905011eb7663e35d7967","False","2","Источник курса валют 2","","Enum.IntegrationType.CurrencyRates","ValueStorage:AQEIAAAAAAAAAO+7v3siVSJ9","_b3fe2453726d4545b3334f227d3a00ba"

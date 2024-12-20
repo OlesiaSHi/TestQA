@@ -1,0 +1,118 @@
+{
+	"uuid": "24b884e0-acff-4fd9-a308-1407e1170d38",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Условия предоставления специальных предложений\" (SpecialOfferRules)",
+	"name": "Открытие формы списка справочника \"Условия предоставления специальных предложений\" (SpecialOfferRules)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"условия предоставления специальных предложений\" (specialofferrules)",
+	"testCaseId": "298a4e87dec06c884b816d51ef9aa1df",
+	"start": 1734441070022,
+	"stop": 1734441070613,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"SpecialOfferRules\"",
+			"start": 1734441070513,
+			"stop": 1734441070521,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SpecialOfferRules"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441070521,
+			"stop": 1734441070608,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441070608,
+			"stop": 1734441070610,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441070611,
+			"stop": 1734441070613,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Условия предоставления специальных предложений\" (SpecialOfferRules)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Условия предоставления специальных предложений\" (SpecialOfferRules)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

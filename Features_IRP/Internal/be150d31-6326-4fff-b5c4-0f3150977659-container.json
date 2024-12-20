@@ -1,0 +1,42 @@
+{
+	"uuid": "6e8c4526-aa30-49ab-b2b7-c650b85afbeb",
+	"name": "Контекст_Открытие формы списка справочника \"Организации\" (Companies)",
+	"description": "",
+	"children": [
+		"be150d31-6326-4fff-b5c4-0f3150977659"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441047876,
+			"stop": 1734441047894,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441047894,
+			"stop": 1734441048133,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

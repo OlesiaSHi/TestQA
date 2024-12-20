@@ -1,0 +1,217 @@
+{
+	"uuid": "3209ffb6-c0b2-4bc6-b04c-e7367fa38197",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Сканирование штрихкода\" (ScanBarcode)",
+	"name": "Открытие формы обработки \"Сканирование штрихкода\" (ScanBarcode)",
+	"fullName": "internal/082_обработки_формаобъекта.feature_открытие формы обработки \"сканирование штрихкода\" (scanbarcode)",
+	"testCaseId": "79d443fe7114812113deeae82059ec9d",
+	"start": 1734438896193,
+	"stop": 1734438898696,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Значение не является значением объектного типа (Object)\n                {DataProcessor.ScanBarcode.Form.Form.Form(19)}:FillItemList(FormOwner.Object);",
+		"trace": "{ExternalDataProcessor.Условие.Form.Форма.Form(263)}: Не удалось открыть основную форму обработки ScanBarcode\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Дымовые тесты - Обработки - ФормаОбъекта\n        ИмяСценария: Открытие формы обработки \"Сканирование штрихкода\" (ScanBarcode)\n        НомерСтрокиДерева: 1 597\n        НомерСтрокиФичи: 82\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\082_Обработки_ФормаОбъекта.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/Условие/step_definitions/Условие.epf\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 15664\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:02 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 15:34:58\n        ДеталиОшибки:\n                Значение не является значением объектного типа (Object)\n                {DataProcessor.ScanBarcode.Form.Form.Form(19)}:FillItemList(FormOwner.Object);\n                \n"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"ScanBarcode\"",
+			"start": 1734438896617,
+			"stop": 1734438896620,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ScanBarcode"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438896621,
+			"stop": 1734438898695,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда я вызываю исключение \"Не удалось открыть основную форму обработки ScanBarcode\"",
+					"start": 1734438898000,
+					"stop": 1734438898695,
+					"status": "failed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false,
+						"message": "Значение не является значением объектного типа (Object)\n                {DataProcessor.ScanBarcode.Form.Form.Form(19)}:FillItemList(FormOwner.Object);",
+						"trace": "{ExternalDataProcessor.Условие.Form.Форма.Form(263)}: Не удалось открыть основную форму обработки ScanBarcode\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: 1С:Предприятие\n        ИмяАктивнойФормы: ErrorWindow\n        ИмяФичи: Дымовые тесты - Обработки - ФормаОбъекта\n        ИмяСценария: Открытие формы обработки \"Сканирование штрихкода\" (ScanBarcode)\n        НомерСтрокиДерева: 1 597\n        НомерСтрокиФичи: 82\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\082_Обработки_ФормаОбъекта.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/Условие/step_definitions/Условие.epf\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 15664\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:02 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 15:34:58\n        ДеталиОшибки:\n                Значение не является значением объектного типа (Object)\n                {DataProcessor.ScanBarcode.Form.Form.Form(19)}:FillItemList(FormOwner.Object);\n                \n"
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Не удалось открыть основную форму обработки ScanBarcode"
+						}
+					],
+					"attachments": [
+						{
+							"name": "ЗначенияПеременных.mxl",
+							"source": "d17f4266-6491-4193-b699-23f7ac00564e-attachment.mxl",
+							"type": "mxl"
+						},
+						{
+							"name": "ЗначенияПеременных.html",
+							"source": "0c07b7a3-6e2c-4ce8-ab11-687e0ce177b5-attachment.html",
+							"type": "html"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438898696,
+			"stop": 1734438898696,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда я вызываю исключение \"Не удалось открыть основную форму обработки ScanBarcode\"",
+					"start": 1734438898696,
+					"stop": 1734438898696,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Не удалось открыть основную форму обработки ScanBarcode"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438898696,
+			"stop": 1734438898696,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "MainScreen",
+					"source": "6520ad0f-e227-4f6d-819e-a78df372da6c-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "3ddccea8-1f11-46e8-a5f4-ca0031a9e08e-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "056036ca-681b-4dee-9e2d-2950fdedcd05-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Сканирование штрихкода\" (ScanBarcode)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы обработки \"Сканирование штрихкода\" (ScanBarcode)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "1b41fc61-71a8-4d8b-b888-d27e759428ad-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "f26cc986-0ffa-4fc1-9f63-c567ff700155-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "b7a6eae3-0f51-49c4-bf1b-ed2a474ffaf8-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "2188e511-9161-4c0d-a4b0-cf511715ee52-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "4e9e5b7d-706e-4744-b033-1edff3d491e9-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

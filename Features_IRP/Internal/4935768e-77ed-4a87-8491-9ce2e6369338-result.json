@@ -1,0 +1,118 @@
+{
+	"uuid": "4935768e-77ed-4a87-8491-9ce2e6369338",
+	"historyId": "Дымовые тесты - Регистры сведений - ФормаОбъекта.Открытие формы регистра сведений \"Налоги организации\" (Taxes)",
+	"name": "Открытие формы регистра сведений \"Налоги организации\" (Taxes)",
+	"fullName": "internal/092_регистрысведений_формаобъекта.feature_открытие формы регистра сведений \"налоги организации\" (taxes)",
+	"testCaseId": "6c76d152fef162e224125fe2d7bbc11b",
+	"start": 1734438907067,
+	"stop": 1734438907665,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму регистра сведений \"Taxes\"",
+			"start": 1734438907584,
+			"stop": 1734438907588,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Taxes"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438907588,
+			"stop": 1734438907662,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438907662,
+			"stop": 1734438907664,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438907664,
+			"stop": 1734438907665,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы регистра сведений \"Налоги организации\" (Taxes)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы регистра сведений \"Налоги организации\" (Taxes)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

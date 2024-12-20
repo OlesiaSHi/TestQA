@@ -1,0 +1,3 @@
+﻿"Ref","Key","RowID","Quantity","Basis","CurrentStep","NextStep","RowRef","BasisKey"
+"e1cib/data/Document.PurchaseInvoice?ref=b068201e88dd788f11efb6f29ed7c076","35a1b8c1-7423-4ef5-9d49-7211802648fd","35a1b8c1-7423-4ef5-9d49-7211802648fd","2","","","e1cib/data/Catalog.MovementRules?refName=GR","e1cib/data/Catalog.RowIDs?ref=b068201e88dd788f11efb6f29ed7c074",""
+"e1cib/data/Document.PurchaseInvoice?ref=b068201e88dd788f11efb6f29ed7c076","b7e004c7-89b2-46da-9b5c-b6a9ef0bcb35","b7e004c7-89b2-46da-9b5c-b6a9ef0bcb35","1","","","","e1cib/data/Catalog.RowIDs?ref=b068201e88dd788f11efb6f29ed7c075",""

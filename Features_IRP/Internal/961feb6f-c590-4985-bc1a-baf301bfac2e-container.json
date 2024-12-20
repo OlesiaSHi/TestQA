@@ -1,0 +1,27 @@
+{
+	"uuid": "ba4ae6da-5293-433f-9417-96e964f109aa",
+	"name": "Контекст__0402 проверка заполнения цены из соглашения",
+	"description": "",
+	"children": [
+		"961feb6f-c590-4985-bc1a-baf301bfac2e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438921017,
+			"stop": 1734438921036,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

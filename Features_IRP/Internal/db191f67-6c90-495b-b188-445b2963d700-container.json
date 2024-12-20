@@ -1,0 +1,42 @@
+{
+	"uuid": "009f0c50-fbbd-478e-959f-27c76cc356df",
+	"name": "Контекст_Открытие формы справочника \"Виды номенклатуры\" (ItemTypes)",
+	"description": "",
+	"children": [
+		"db191f67-6c90-495b-b188-445b2963d700"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438811568,
+			"stop": 1734438811585,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438811585,
+			"stop": 1734438811867,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

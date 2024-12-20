@@ -1,0 +1,42 @@
+{
+	"uuid": "355c2e93-cdaf-4c63-8798-ccfbe7c823b4",
+	"name": "Контекст_Открытие формы списка справочника \"Статьи доходов и расходов\" (ExpenseAndRevenueTypes)",
+	"description": "",
+	"children": [
+		"bb9a1f91-3c3f-45eb-a54d-55a42de79724"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441051475,
+			"stop": 1734441051487,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441051489,
+			"stop": 1734441051609,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

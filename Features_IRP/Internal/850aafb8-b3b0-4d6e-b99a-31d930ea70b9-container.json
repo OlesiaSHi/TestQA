@@ -1,0 +1,42 @@
+{
+	"uuid": "c7e8de62-52d5-4381-9b7b-1276a47997d5",
+	"name": "Контекст_Открытие формы документа \"Сопоставление документа-основания взаиморасчетов с платежами\" (InvoiceMatch)",
+	"description": "",
+	"children": [
+		"850aafb8-b3b0-4d6e-b99a-31d930ea70b9"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441157219,
+			"stop": 1734441157240,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441157240,
+			"stop": 1734441157460,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,118 @@
+{
+	"uuid": "602ed632-f9ea-4f1d-b748-7eb1840af986",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Заказ поставщику\" (PurchaseOrder)",
+	"name": "Открытие формы документа \"Заказ поставщику\" (PurchaseOrder)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"заказ поставщику\" (purchaseorder)",
+	"testCaseId": "a19248aa99077df6399dbe066679aa6e",
+	"start": 1734441164288,
+	"stop": 1734441165016,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"PurchaseOrder\"",
+			"start": 1734441164768,
+			"stop": 1734441164771,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PurchaseOrder"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441164771,
+			"stop": 1734441165012,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441165012,
+			"stop": 1734441165014,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441165014,
+			"stop": 1734441165015,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Заказ поставщику\" (PurchaseOrder)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Заказ поставщику\" (PurchaseOrder)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

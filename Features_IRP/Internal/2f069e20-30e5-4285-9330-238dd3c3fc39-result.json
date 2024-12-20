@@ -1,0 +1,118 @@
+{
+	"uuid": "2f069e20-30e5-4285-9330-238dd3c3fc39",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Кассовая книга\" (CashStatement)",
+	"name": "Открытие формы списка документа \"Кассовая книга\" (CashStatement)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"кассовая книга\" (cashstatement)",
+	"testCaseId": "83f70d1fc09904e7e43f1a09758d8fed",
+	"start": 1734441122770,
+	"stop": 1734441123352,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"CashStatement\"",
+			"start": 1734441123238,
+			"stop": 1734441123241,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CashStatement"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441123242,
+			"stop": 1734441123349,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441123349,
+			"stop": 1734441123350,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441123350,
+			"stop": 1734441123352,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Кассовая книга\" (CashStatement)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Кассовая книга\" (CashStatement)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,118 @@
+{
+	"uuid": "52ce242e-4821-4dd9-909f-f8baf6abb2a9",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Способы применения специальных предложений\" (SpecialOfferTypes)",
+	"name": "Открытие формы справочника \"Способы применения специальных предложений\" (SpecialOfferTypes)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"способы применения специальных предложений\" (specialoffertypes)",
+	"testCaseId": "0e2eb391aaf3d25a8ea1fbd6a7f73ff7",
+	"start": 1734438824844,
+	"stop": 1734438825430,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"SpecialOfferTypes\"",
+			"start": 1734438825308,
+			"stop": 1734438825311,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SpecialOfferTypes"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438825311,
+			"stop": 1734438825426,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438825426,
+			"stop": 1734438825428,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438825428,
+			"stop": 1734438825430,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Способы применения специальных предложений\" (SpecialOfferTypes)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Способы применения специальных предложений\" (SpecialOfferTypes)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

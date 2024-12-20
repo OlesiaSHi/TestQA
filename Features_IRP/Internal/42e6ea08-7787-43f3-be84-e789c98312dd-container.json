@@ -1,0 +1,42 @@
+{
+	"uuid": "8d1e0d4b-f220-4c8f-b60e-1f0e29776c4a",
+	"name": "Контекст_Открытие формы справочника \"Условия оплаты\" (PaymentSchedules)",
+	"description": "",
+	"children": [
+		"42e6ea08-7787-43f3-be84-e789c98312dd"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441103778,
+			"stop": 1734441103796,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441103796,
+			"stop": 1734441104087,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

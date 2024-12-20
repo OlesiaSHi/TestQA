@@ -1,0 +1,118 @@
+{
+	"uuid": "62910185-d012-4dae-948b-e80c42eda255",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Заявка на перемещение денежных средств\" (CashTransferOrder)",
+	"name": "Открытие формы списка документа \"Заявка на перемещение денежных средств\" (CashTransferOrder)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"заявка на перемещение денежных средств\" (cashtransferorder)",
+	"testCaseId": "d1cb192b2db7b4359b2a12bb11f07e0a",
+	"start": 1734438836806,
+	"stop": 1734438837430,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"CashTransferOrder\"",
+			"start": 1734438837285,
+			"stop": 1734438837288,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CashTransferOrder"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438837288,
+			"stop": 1734438837426,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438837427,
+			"stop": 1734438837428,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438837428,
+			"stop": 1734438837430,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Заявка на перемещение денежных средств\" (CashTransferOrder)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Заявка на перемещение денежных средств\" (CashTransferOrder)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

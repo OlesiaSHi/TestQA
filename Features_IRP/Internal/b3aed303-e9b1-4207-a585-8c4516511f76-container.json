@@ -1,0 +1,42 @@
+{
+	"uuid": "c2de7429-69a1-47cd-9694-d7a8eaf5ae79",
+	"name": "Контекст_Открытие формы списка регистра сведений \"Временное хранилище настроек номенклатуры\" (SavedItems)",
+	"description": "",
+	"children": [
+		"b3aed303-e9b1-4207-a585-8c4516511f76"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441191339,
+			"stop": 1734441191359,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441191359,
+			"stop": 1734441191649,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

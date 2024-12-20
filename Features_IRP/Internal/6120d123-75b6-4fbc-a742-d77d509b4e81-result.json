@@ -1,0 +1,118 @@
+{
+	"uuid": "6120d123-75b6-4fbc-a742-d77d509b4e81",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Кредит-нота\" (CreditNote)",
+	"name": "Открытие формы списка документа \"Кредит-нота\" (CreditNote)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"кредит-нота\" (creditnote)",
+	"testCaseId": "06ba7d8cca225de39c8edbe557e6867b",
+	"start": 1734438837430,
+	"stop": 1734438838042,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"CreditNote\"",
+			"start": 1734438837898,
+			"stop": 1734438837901,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CreditNote"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438837901,
+			"stop": 1734438838036,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438838036,
+			"stop": 1734438838038,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438838038,
+			"stop": 1734438838042,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Кредит-нота\" (CreditNote)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Кредит-нота\" (CreditNote)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

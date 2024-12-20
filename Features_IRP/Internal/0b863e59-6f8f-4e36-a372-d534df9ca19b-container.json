@@ -1,0 +1,42 @@
+{
+	"uuid": "444071d0-f9fd-4d2e-a24d-79b83fbfaaad",
+	"name": "Контекст_Открытие формы списка справочника \"Сегменты номенклатуры\" (ItemSegments)",
+	"description": "",
+	"children": [
+		"0b863e59-6f8f-4e36-a372-d534df9ca19b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438771486,
+			"stop": 1734438771519,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438771519,
+			"stop": 1734438771809,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

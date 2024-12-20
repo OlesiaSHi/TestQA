@@ -1,0 +1,118 @@
+{
+	"uuid": "e197f139-2a18-4ee3-b46f-ac97589d14c4",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Закрытие заказа покупателя\" (SalesOrderClosing)",
+	"name": "Открытие формы списка документа \"Закрытие заказа покупателя\" (SalesOrderClosing)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"закрытие заказа покупателя\" (salesorderclosing)",
+	"testCaseId": "9d2797282e85c8a93907fdaed9e37fb7",
+	"start": 1734438855147,
+	"stop": 1734438855764,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"SalesOrderClosing\"",
+			"start": 1734438855614,
+			"stop": 1734438855617,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SalesOrderClosing"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438855617,
+			"stop": 1734438855760,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438855760,
+			"stop": 1734438855762,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438855762,
+			"stop": 1734438855764,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Закрытие заказа покупателя\" (SalesOrderClosing)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Закрытие заказа покупателя\" (SalesOrderClosing)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

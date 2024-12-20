@@ -1,0 +1,118 @@
+{
+	"uuid": "12eae5f7-672a-49bd-bb7b-63c9ead22feb",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Настройки дополнительных реквизитов и сведений\" (AddAttributeAndPropertySets)",
+	"name": "Открытие формы справочника \"Настройки дополнительных реквизитов и сведений\" (AddAttributeAndPropertySets)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"настройки дополнительных реквизитов и сведений\" (addattributeandpropertysets)",
+	"testCaseId": "57aa9c394617689cebb19c7252f116a9",
+	"start": 1734441079559,
+	"stop": 1734441080221,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"AddAttributeAndPropertySets\"",
+			"start": 1734441080064,
+			"stop": 1734441080068,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "AddAttributeAndPropertySets"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441080068,
+			"stop": 1734441080218,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441080218,
+			"stop": 1734441080219,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441080220,
+			"stop": 1734441080221,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Настройки дополнительных реквизитов и сведений\" (AddAttributeAndPropertySets)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Настройки дополнительных реквизитов и сведений\" (AddAttributeAndPropertySets)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

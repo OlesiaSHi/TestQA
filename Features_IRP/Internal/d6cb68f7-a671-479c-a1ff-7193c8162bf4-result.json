@@ -1,0 +1,118 @@
+{
+	"uuid": "d6cb68f7-a671-479c-a1ff-7193c8162bf4",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Платежное поручение исходящие\" (BankPayment)",
+	"name": "Открытие формы списка документа \"Платежное поручение исходящие\" (BankPayment)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"платежное поручение исходящие\" (bankpayment)",
+	"testCaseId": "902ac201f1c3b25b98f812521907231f",
+	"start": 1734441118233,
+	"stop": 1734441118901,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"BankPayment\"",
+			"start": 1734441118743,
+			"stop": 1734441118745,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "BankPayment"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441118745,
+			"stop": 1734441118895,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441118895,
+			"stop": 1734441118898,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441118899,
+			"stop": 1734441118901,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Платежное поручение исходящие\" (BankPayment)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Платежное поручение исходящие\" (BankPayment)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

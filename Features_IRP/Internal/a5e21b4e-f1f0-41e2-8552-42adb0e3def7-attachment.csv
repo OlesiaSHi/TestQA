@@ -1,0 +1,4 @@
+﻿"Ref","DeletionMark","Parent","IsFolder","Code","Type","UseSerialLotNumber","Description_en","Description_hash","Description_ru","Description_tr","UniqueID"
+"e1cib/data/Catalog.ItemTypes?ref=b762b13668d0905011eb76684b9f6878","False","","False","1","Enum.ItemTypes.Product","False","Товар (есть размер и цвет)","","","","_9809d5c84df64fc48985f8c7ab28fb6b"
+"e1cib/data/Catalog.ItemTypes?ref=b762b13668d0905011eb76684b9f6879","False","","False","2","Enum.ItemTypes.Product","False","Товар (без характеристик)","","","","_32c63d8e5ee94926b3c772ab02c5243e"
+"e1cib/data/Catalog.ItemTypes?ref=b762b13668d0905011eb76684b9f687a","False","","False","3","Enum.ItemTypes.Service","False","Услуги","","","","_388e5f43acea441bbb8763a12b66ffca"

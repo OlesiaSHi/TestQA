@@ -1,0 +1,42 @@
+{
+	"uuid": "b11c0132-266a-4bbe-9d00-5867d7b77dd3",
+	"name": "Контекст_Открытие формы списка документа \"Платежное поручение входящее\" (BankReceipt)",
+	"description": "",
+	"children": [
+		"bb52ae54-35b9-4963-8c18-b982a897f961"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438832373,
+			"stop": 1734438832389,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438832389,
+			"stop": 1734438832613,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

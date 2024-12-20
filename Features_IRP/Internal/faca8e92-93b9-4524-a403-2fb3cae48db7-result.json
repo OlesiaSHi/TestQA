@@ -1,0 +1,209 @@
+{
+	"uuid": "faca8e92-93b9-4524-a403-2fb3cae48db7",
+	"historyId": "проверка добавления картинок в справочник Номенклатура._0602 проверка добавления картинки",
+	"name": "_0602 проверка добавления картинки",
+	"fullName": "internal/картинки.feature__0602 проверка добавления картинки",
+	"testCaseId": "a00e183446a7a36dc4109fd67b564e37",
+	"start": 1734418038973,
+	"stop": 1734418051389,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Кнопка с именем <update_slider> не найдена.",
+		"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(4460)}: Кнопка с именем <update_slider> не найдена. ТекущееОкно=Товар с характеристиками (Номенклатура)\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Товар с характеристиками (Номенклатура)\n        ИмяАктивнойФормы: Catalog.Items.Form.ItemForm\n        ИмяФичи: проверка добавления картинок в справочник Номенклатура\n        ИмяСценария: _0602 проверка добавления картинки\n        НомерСтрокиДерева: 14\n        НомерСтрокиФичи: 27\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Картинки.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 19268\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:13 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 9:47:31"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Catalog.Items?ref=b762b13668d0905011eb76684b9f687d\"",
+			"start": 1734418039009,
+			"stop": 1734418039287,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/data/Catalog.Items?ref=b762b13668d0905011eb76684b9f687d"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю файл \"C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Files\\itempicture1.png\"",
+			"start": 1734418039288,
+			"stop": 1734418039293,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Files\\itempicture1.png"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я делаю клик по элементу клиента тестирования '+' 'Тип' UI Automation",
+			"start": 1734418039293,
+			"stop": 1734418040291,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "+"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тип"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'update_slider'",
+			"start": 1734418040291,
+			"stop": 1734418051388,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Кнопка с именем <update_slider> не найдена.",
+				"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(4460)}: Кнопка с именем <update_slider> не найдена. ТекущееОкно=Товар с характеристиками (Номенклатура)\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Товар с характеристиками (Номенклатура)\n        ИмяАктивнойФормы: Catalog.Items.Form.ItemForm\n        ИмяФичи: проверка добавления картинок в справочник Номенклатура\n        ИмяСценария: _0602 проверка добавления картинки\n        НомерСтрокиДерева: 14\n        НомерСтрокиФичи: 27\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Картинки.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 19268\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:13 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 9:47:31"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "update_slider"
+				}
+			],
+			"attachments": [
+				{
+					"name": "ЗначенияПеременных.mxl",
+					"source": "d996d7e6-28da-4116-92f7-9a0286a2b08a-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЗначенияПеременных.html",
+					"source": "4a60b2d1-4860-4000-997c-41eae6064be8-attachment.html",
+					"type": "html"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я делаю клик по элементу клиента тестирования 'Бренд 1' 'Тип' UI Automation",
+			"start": 1734418051389,
+			"stop": 1734418051389,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Бренд 1"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тип"
+				}
+			],
+			"attachments": [
+				{
+					"name": "MainScreen",
+					"source": "31bf5360-ea15-44e2-9ea1-5147222bf5b4-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "dde26ca1-d3e7-4fa9-9d5f-9b96914e6dd8-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "82b396a8-6648-44dd-825e-d21533bbeecb-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0602 проверка добавления картинки"
+		},
+		{
+			"name": "feature",
+			"value": "_0602 проверка добавления картинки"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "9c73c170-918f-46fb-8231-1a54ac91e487-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "63059944-e41a-48cb-8a19-9719f95b9186-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "75e7f2bc-c495-4dbd-a8de-fd45fb72cacb-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "7070ed09-6581-4a3b-9723-9c6fc2ba4e3a-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "dbe9a664-2bb3-4073-828e-2ecf5b80f479-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "d8585422-4719-4f7f-8c4e-e3d056fd824f",
+	"name": "Контекст_Открытие формы справочника \"Номенклатура\" (Items)",
+	"description": "",
+	"children": [
+		"4e089987-8e68-4c0b-93fe-9c4eb79f4ca7"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441097471,
+			"stop": 1734441097508,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441097508,
+			"stop": 1734441097796,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

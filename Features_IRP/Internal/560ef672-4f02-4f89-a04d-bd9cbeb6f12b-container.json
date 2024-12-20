@@ -1,0 +1,27 @@
+{
+	"uuid": "8d9e9847-6bc0-473d-a3b9-fd5a9c18bc7d",
+	"name": "Контекст__0901 подготовитьный сценарий (тестирование отчетов)",
+	"description": "",
+	"children": [
+		"560ef672-4f02-4f89-a04d-bd9cbeb6f12b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441279133,
+			"stop": 1734441279204,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

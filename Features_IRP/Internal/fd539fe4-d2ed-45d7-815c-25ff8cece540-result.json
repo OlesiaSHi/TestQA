@@ -1,0 +1,209 @@
+{
+	"uuid": "fd539fe4-d2ed-45d7-815c-25ff8cece540",
+	"historyId": "проверка формы элемента справочника Организации.проверка функциональной опции искользовать организации в Заказе клиента",
+	"name": "проверка функциональной опции искользовать организации в Заказе клиента",
+	"fullName": "internal/справочникорганиции.feature_проверка функциональной опции искользовать организации в заказе клиента",
+	"testCaseId": "041e6c8a3f6a41dbbb04003e0b825c6b",
+	"start": 1734438974456,
+	"stop": 1734438977352,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Переменная \"False\" не описана",
+		"trace": "{ExternalDataProcessor.VanessaAutomation.Form.ИнициаторДанных.Form(92)}: Переменная \"False\" не описана\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: File_\"C__Base_ДемоIRP\"_ (Test app)\n        ИмяАктивнойФормы: \n        ИмяФичи: проверка формы элемента справочника Организации\n        ИмяСценария: проверка функциональной опции искользовать организации в Заказе клиента\n        НомерСтрокиДерева: 3 079\n        НомерСтрокиФичи: 30\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\СправочникОрганиции.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/ИнициаторДанных/step_definitions/БиблиотекаШаговИнициаторДанных.epf\n        ИмяПроцедуры: ЯУстанавливаюКонстантуВЗначениеПеременной\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 15664\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:03 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 15:36:17"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я устанавливаю константу \"UseCompanies\" в значение переменной \"False\"",
+			"start": 1734438974560,
+			"stop": 1734438977351,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Переменная \"False\" не описана",
+				"trace": "{ExternalDataProcessor.VanessaAutomation.Form.ИнициаторДанных.Form(92)}: Переменная \"False\" не описана\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: File_\"C__Base_ДемоIRP\"_ (Test app)\n        ИмяАктивнойФормы: \n        ИмяФичи: проверка формы элемента справочника Организации\n        ИмяСценария: проверка функциональной опции искользовать организации в Заказе клиента\n        НомерСтрокиДерева: 3 079\n        НомерСтрокиФичи: 30\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\СправочникОрганиции.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/ИнициаторДанных/step_definitions/БиблиотекаШаговИнициаторДанных.epf\n        ИмяПроцедуры: ЯУстанавливаюКонстантуВЗначениеПеременной\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 15664\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:03 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 15:36:17"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "UseCompanies"
+				},
+				{
+					"name": "Парам2",
+					"value": "False"
+				}
+			],
+			"attachments": [
+				{
+					"name": "ЗначенияПеременных.mxl",
+					"source": "dab11e7a-0a6f-4eb9-b517-402673749a62-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЗначенияПеременных.html",
+					"source": "9835e68a-95b1-4fd3-a249-5da7c5f03543-attachment.html",
+					"type": "html"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Продажи\" \"Заказы покупателей\"",
+			"start": 1734438977352,
+			"stop": 1734438977352,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказы покупателей\"",
+			"start": 1734438977352,
+			"stop": 1734438977352,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'FormCreate'",
+			"start": 1734438977352,
+			"stop": 1734438977352,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FormCreate"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы \"Организация\" отсутствует на форме",
+			"start": 1734438977352,
+			"stop": 1734438977352,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация"
+				}
+			],
+			"attachments": [
+				{
+					"name": "MainScreen",
+					"source": "3cc18767-6a31-4931-adc0-3fe82dcbda5d-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "e9ce67a3-fd79-4604-9584-ca67f52d7cf8-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "ee97ca51-05b5-4f43-9e4d-9e6836fb98c0-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "проверка функциональной опции искользовать организации в Заказе клиента"
+		},
+		{
+			"name": "feature",
+			"value": "проверка функциональной опции искользовать организации в Заказе клиента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "7573b437-f4a9-4c05-b212-eff6233cf292-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "9059c804-e8de-4d52-9ba2-97adce1154d7-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "79955f96-59eb-44f8-a591-704fc0d9ee17-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "477f74ad-acca-49e1-9de4-ecd8d1b24070-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "ae0d18cd-4dec-467b-8c13-52818872ffbe-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

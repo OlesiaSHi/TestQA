@@ -1,0 +1,42 @@
+{
+	"uuid": "2aeb73a3-8584-487c-a3a1-faa50df24a32",
+	"name": "Контекст_Открытие формы списка справочника \"Внешние обработки\" (ExternalDataProc)",
+	"description": "",
+	"children": [
+		"4d1b7a18-cdf9-42aa-976f-cddb70319ac6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441052506,
+			"stop": 1734441052522,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441052522,
+			"stop": 1734441052818,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

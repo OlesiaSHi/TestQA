@@ -1,0 +1,717 @@
+{
+	"uuid": "961feb6f-c590-4985-bc1a-baf301bfac2e",
+	"historyId": "заказ поставщику._0402 проверка заполнения цены из соглашения",
+	"name": "_0402 проверка заполнения цены из соглашения",
+	"fullName": "internal/закупки/заказ поставщику.feature__0402 проверка заполнения цены из соглашения",
+	"testCaseId": "3e56ec1f51ac3ab716971923d3336079",
+	"start": 1734438921017,
+	"stop": 1734438924055,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Заполнение окумента заказ поставщику",
+			"start": 1734438921036,
+			"stop": 1734438922675,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я открываю навигационную ссылку \"e1cib/list/Document.PurchaseOrder\"",
+					"start": 1734438921036,
+					"stop": 1734438921038,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "e1cib/list/Document.PurchaseOrder"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'FormCreate'",
+					"start": 1734438921038,
+					"stop": 1734438921112,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FormCreate"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку выбора у поля с именем 'Partner'",
+					"start": 1734438921112,
+					"stop": 1734438921323,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Partner"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно \"Партнеры\"",
+					"start": 1734438921323,
+					"stop": 1734438921476,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Партнеры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я перехожу к строке:",
+					"start": 1734438921476,
+					"stop": 1734438921482,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "74173c2e-985e-4996-bcfd-064499ac038b-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я выбираю текущую строку",
+					"start": 1734438921482,
+					"stop": 1734438921492,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'ItemList' я активизирую поле с именем 'ItemListLineNumber'",
+					"start": 1734438921492,
+					"stop": 1734438921802,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						},
+						{
+							"name": "Парам2",
+							"value": "ItemListLineNumber"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'ItemList' я нажимаю на кнопку с именем 'ItemListAdd'",
+					"start": 1734438921803,
+					"stop": 1734438922158,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						},
+						{
+							"name": "Парам2",
+							"value": "ItemListAdd"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'ItemList' я активизирую поле с именем 'ItemListItem'",
+					"start": 1734438922158,
+					"stop": 1734438922253,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						},
+						{
+							"name": "Парам2",
+							"value": "ItemListItem"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'ItemList' я нажимаю кнопку выбора у реквизита с именем 'ItemListItem'",
+					"start": 1734438922253,
+					"stop": 1734438922268,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						},
+						{
+							"name": "Парам2",
+							"value": "ItemListItem"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я перехожу к строке:",
+					"start": 1734438922268,
+					"stop": 1734438922417,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "6da19277-7c54-48ba-b42a-74456724f4cf-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я активизирую поле с именем 'Description'",
+					"start": 1734438922417,
+					"stop": 1734438922426,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						},
+						{
+							"name": "Парам2",
+							"value": "Description"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я выбираю текущую строку",
+					"start": 1734438922427,
+					"stop": 1734438922434,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'ItemList' я завершаю редактирование строки",
+					"start": 1734438922434,
+					"stop": 1734438922675,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Проверка зполнения",
+			"start": 1734438922675,
+			"stop": 1734438922709,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда таблица 'ItemList' стала равной:",
+					"start": 1734438922675,
+					"stop": 1734438922709,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "c37ca303-fccf-4393-8e29-344aa3629b27-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Изменение вида цен и проверка его перезаполнения при перевыборе соглашения",
+			"start": 1734438922709,
+			"stop": 1734438924055,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице 'ItemList' я активизирую поле с именем 'ItemListPriceType'",
+					"start": 1734438922709,
+					"stop": 1734438922714,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						},
+						{
+							"name": "Парам2",
+							"value": "ItemListPriceType"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'ItemList' я выбираю текущую строку",
+					"start": 1734438922714,
+					"stop": 1734438922726,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'ItemList' я нажимаю кнопку выбора у реквизита с именем 'ItemListPriceType'",
+					"start": 1734438922726,
+					"stop": 1734438922758,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						},
+						{
+							"name": "Парам2",
+							"value": "ItemListPriceType"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я перехожу к строке:",
+					"start": 1734438922758,
+					"stop": 1734438922897,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "727de6e9-bcc2-48e4-b971-df6ef7e0aa06-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я выбираю текущую строку",
+					"start": 1734438922898,
+					"stop": 1734438922906,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда таблица 'ItemList' стала равной:",
+					"start": 1734438922907,
+					"stop": 1734438923031,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "3c463a60-dcd3-48ca-948d-eb955ccac75c-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю кнопку выбора у поля с именем 'Agreement'",
+					"start": 1734438923239,
+					"stop": 1734438923274,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Agreement"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я перехожу к строке:",
+					"start": 1734438923275,
+					"stop": 1734438923452,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "125ed945-3cae-4821-8427-f2411ebc6ede-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'List' я выбираю текущую строку",
+					"start": 1734438923452,
+					"stop": 1734438923459,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно \"Табличная часть товаров будет обновлена\"",
+					"start": 1734438923459,
+					"stop": 1734438923586,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Табличная часть товаров будет обновлена"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'FormOK'",
+					"start": 1734438923586,
+					"stop": 1734438923598,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FormOK"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда таблица 'ItemList' стала равной:",
+					"start": 1734438923598,
+					"stop": 1734438923727,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ItemList"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "a8f4e4ad-4437-4218-b9a1-53eb3a32411b-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1734438923727,
+					"stop": 1734438924055,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0402 проверка заполнения цены из соглашения"
+		},
+		{
+			"name": "feature",
+			"value": "_0402 проверка заполнения цены из соглашения"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Закупки"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

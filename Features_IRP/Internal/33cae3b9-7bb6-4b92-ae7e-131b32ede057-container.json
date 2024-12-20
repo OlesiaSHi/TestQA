@@ -1,0 +1,42 @@
+{
+	"uuid": "83b8388c-5097-4126-acea-44b23b8a4565",
+	"name": "Контекст_Открытие формы справочника \"Драйвера оборудования\" (EquipmentDrivers)",
+	"description": "",
+	"children": [
+		"33cae3b9-7bb6-4b92-ae7e-131b32ede057"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441089736,
+			"stop": 1734441089755,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441089755,
+			"stop": 1734441090037,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

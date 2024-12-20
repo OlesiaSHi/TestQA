@@ -1,0 +1,118 @@
+{
+	"uuid": "f5e75b62-89f9-46b9-bac6-f3c1041dffc3",
+	"historyId": "Дымовые тесты - Регистры сведений - ФормаСписка.Открытие формы списка регистра сведений \"Временное хранилище настроек номенклатуры\" (SavedItems)",
+	"name": "Открытие формы списка регистра сведений \"Временное хранилище настроек номенклатуры\" (SavedItems)",
+	"fullName": "internal/091_регистрысведений_формасписка.feature_открытие формы списка регистра сведений \"временное хранилище настроек номенклатуры\" (saveditems)",
+	"testCaseId": "ac3346d40fddd86f9fc1c5647ed50822",
+	"start": 1734438904458,
+	"stop": 1734438905054,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка регистра сведений \"SavedItems\"",
+			"start": 1734438904948,
+			"stop": 1734438904952,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SavedItems"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438904952,
+			"stop": 1734438905051,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438905051,
+			"stop": 1734438905052,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438905052,
+			"stop": 1734438905053,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка регистра сведений \"Временное хранилище настроек номенклатуры\" (SavedItems)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка регистра сведений \"Временное хранилище настроек номенклатуры\" (SavedItems)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

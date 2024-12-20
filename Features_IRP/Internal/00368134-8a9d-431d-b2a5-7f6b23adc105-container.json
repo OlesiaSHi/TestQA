@@ -1,0 +1,42 @@
+{
+	"uuid": "aaf47c2e-718d-47c7-be42-8491c9108a36",
+	"name": "Контекст_Открытие формы отчета \"Цены\" (PriceInfo)",
+	"description": "",
+	"children": [
+		"00368134-8a9d-431d-b2a5-7f6b23adc105"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441176267,
+			"stop": 1734441176285,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441176285,
+			"stop": 1734441176592,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

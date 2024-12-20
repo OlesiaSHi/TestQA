@@ -1,0 +1,42 @@
+{
+	"uuid": "1c168e16-062c-4da7-b724-be72ed61d409",
+	"name": "Контекст_Открытие формы списка документа \"Заказ покупателя\" (SalesOrder)",
+	"description": "",
+	"children": [
+		"78c7b990-5096-4771-9036-43006101c55a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438854554,
+			"stop": 1734438854579,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438854579,
+			"stop": 1734438854803,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

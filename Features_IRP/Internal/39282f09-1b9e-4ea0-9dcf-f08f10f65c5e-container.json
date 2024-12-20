@@ -1,0 +1,42 @@
+{
+	"uuid": "1529929f-a665-48d6-969f-433daf92314d",
+	"name": "Контекст_Открытие формы отчета \"Движения документа\" (DocumentRegistrationsReport)",
+	"description": "",
+	"children": [
+		"39282f09-1b9e-4ea0-9dcf-f08f10f65c5e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441175652,
+			"stop": 1734441175671,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441175671,
+			"stop": 1734441175982,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

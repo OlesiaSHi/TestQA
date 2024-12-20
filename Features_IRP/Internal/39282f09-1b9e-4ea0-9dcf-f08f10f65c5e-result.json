@@ -1,0 +1,118 @@
+{
+	"uuid": "39282f09-1b9e-4ea0-9dcf-f08f10f65c5e",
+	"historyId": "Дымовые тесты - Отчеты - ФормаОбъекта.Открытие формы отчета \"Движения документа\" (DocumentRegistrationsReport)",
+	"name": "Открытие формы отчета \"Движения документа\" (DocumentRegistrationsReport)",
+	"fullName": "internal/072_отчеты_формаобъекта.feature_открытие формы отчета \"движения документа\" (documentregistrationsreport)",
+	"testCaseId": "d8aafbe30a1b16f911424caf20bee691",
+	"start": 1734441175652,
+	"stop": 1734441176266,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму отчета \"DocumentRegistrationsReport\"",
+			"start": 1734441176185,
+			"stop": 1734441176188,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "DocumentRegistrationsReport"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441176188,
+			"stop": 1734441176263,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441176263,
+			"stop": 1734441176264,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441176264,
+			"stop": 1734441176266,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы отчета \"Движения документа\" (DocumentRegistrationsReport)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы отчета \"Движения документа\" (DocumentRegistrationsReport)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

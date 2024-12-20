@@ -1,0 +1,118 @@
+{
+	"uuid": "d6989cbe-b7af-4720-a507-576d46206601",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Настройки вывода мультивалютной аналитики\" (CurrencyMovementSets)",
+	"name": "Открытие формы справочника \"Настройки вывода мультивалютной аналитики\" (CurrencyMovementSets)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"настройки вывода мультивалютной аналитики\" (currencymovementsets)",
+	"testCaseId": "ddf0753c4274b9fcb01f92374e1793cb",
+	"start": 1734438799388,
+	"stop": 1734438799989,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"CurrencyMovementSets\"",
+			"start": 1734438799885,
+			"stop": 1734438799888,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CurrencyMovementSets"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438799888,
+			"stop": 1734438799985,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438799986,
+			"stop": 1734438799987,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438799987,
+			"stop": 1734438799988,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Настройки вывода мультивалютной аналитики\" (CurrencyMovementSets)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Настройки вывода мультивалютной аналитики\" (CurrencyMovementSets)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

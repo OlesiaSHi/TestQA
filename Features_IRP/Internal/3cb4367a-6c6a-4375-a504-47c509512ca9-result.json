@@ -1,0 +1,118 @@
+{
+	"uuid": "3cb4367a-6c6a-4375-a504-47c509512ca9",
+	"historyId": "Дымовые тесты - Регистры сведений - ФормаОбъекта.Открытие формы регистра сведений \"Просканированный штрихкод\" (T1010S_ScannedBarcode)",
+	"name": "Открытие формы регистра сведений \"Просканированный штрихкод\" (T1010S_ScannedBarcode)",
+	"fullName": "internal/092_регистрысведений_формаобъекта.feature_открытие формы регистра сведений \"просканированный штрихкод\" (t1010s_scannedbarcode)",
+	"testCaseId": "b321c7cfdf18dfe80366a703d7e56e49",
+	"start": 1734438906452,
+	"stop": 1734438907066,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму регистра сведений \"T1010S_ScannedBarcode\"",
+			"start": 1734438906970,
+			"stop": 1734438906975,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "T1010S_ScannedBarcode"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438906975,
+			"stop": 1734438907062,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438907062,
+			"stop": 1734438907064,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438907064,
+			"stop": 1734438907066,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы регистра сведений \"Просканированный штрихкод\" (T1010S_ScannedBarcode)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы регистра сведений \"Просканированный штрихкод\" (T1010S_ScannedBarcode)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

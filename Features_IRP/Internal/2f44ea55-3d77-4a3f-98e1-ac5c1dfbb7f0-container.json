@@ -1,0 +1,42 @@
+{
+	"uuid": "a87037d4-747d-4431-baee-d89d5ad72573",
+	"name": "Контекст_Открытие формы справочника \"Метаданные конфигурации\" (ConfigurationMetadata)",
+	"description": "",
+	"children": [
+		"2f44ea55-3d77-4a3f-98e1-ac5c1dfbb7f0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441085723,
+			"stop": 1734441085741,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441085741,
+			"stop": 1734441085978,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

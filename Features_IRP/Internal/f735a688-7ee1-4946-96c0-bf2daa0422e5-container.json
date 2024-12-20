@@ -1,0 +1,42 @@
+{
+	"uuid": "86ac26a5-3f0d-4749-bba7-f9f4c15ccfc4",
+	"name": "Контекст_Открытие формы справочника \"Соглашения\" (Agreements)",
+	"description": "",
+	"children": [
+		"f735a688-7ee1-4946-96c0-bf2daa0422e5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441080776,
+			"stop": 1734441080794,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441080794,
+			"stop": 1734441081097,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

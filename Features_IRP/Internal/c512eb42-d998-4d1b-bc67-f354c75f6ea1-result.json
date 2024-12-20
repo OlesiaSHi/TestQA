@@ -1,0 +1,118 @@
+{
+	"uuid": "c512eb42-d998-4d1b-bc67-f354c75f6ea1",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Приходная товарная накладная\" (GoodsReceipt)",
+	"name": "Открытие формы списка документа \"Приходная товарная накладная\" (GoodsReceipt)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"приходная товарная накладная\" (goodsreceipt)",
+	"testCaseId": "82b36ebf3e6968f5ccd2f15c8d98db6f",
+	"start": 1734438839245,
+	"stop": 1734438839885,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"GoodsReceipt\"",
+			"start": 1734438839719,
+			"stop": 1734438839723,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "GoodsReceipt"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438839724,
+			"stop": 1734438839881,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438839881,
+			"stop": 1734438839883,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438839883,
+			"stop": 1734438839885,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Приходная товарная накладная\" (GoodsReceipt)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Приходная товарная накладная\" (GoodsReceipt)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

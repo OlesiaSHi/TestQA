@@ -1,0 +1,42 @@
+{
+	"uuid": "07d5a151-e069-4d95-93bb-c7b011a65237",
+	"name": "Контекст_Открытие формы списка справочника \"Налоговые ставки\" (TaxRates)",
+	"description": "",
+	"children": [
+		"40342f3b-4d6c-413a-9e78-ec00abdf99ea"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441074479,
+			"stop": 1734441074500,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441074500,
+			"stop": 1734441074778,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

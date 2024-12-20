@@ -1,0 +1,27 @@
+{
+	"uuid": "c083476f-e88a-4d71-8355-de4d97ac32de",
+	"name": "Контекст__0902 проверка отчета по Закупкам",
+	"description": "",
+	"children": [
+		"ddd05504-d3ed-4db0-a3b4-7df4cf0f2e9e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441297079,
+			"stop": 1734441297119,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

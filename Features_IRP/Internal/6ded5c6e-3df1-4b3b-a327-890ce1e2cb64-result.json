@@ -1,0 +1,118 @@
+{
+	"uuid": "6ded5c6e-3df1-4b3b-a327-890ce1e2cb64",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Заявка на поступление денежных средств\" (IncomingPaymentOrder)",
+	"name": "Открытие формы списка документа \"Заявка на поступление денежных средств\" (IncomingPaymentOrder)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"заявка на поступление денежных средств\" (incomingpaymentorder)",
+	"testCaseId": "461886aadc31cb82206934c5b3504f6a",
+	"start": 1734438839886,
+	"stop": 1734438840470,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"IncomingPaymentOrder\"",
+			"start": 1734438840332,
+			"stop": 1734438840335,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "IncomingPaymentOrder"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438840336,
+			"stop": 1734438840466,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438840466,
+			"stop": 1734438840468,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438840468,
+			"stop": 1734438840470,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Заявка на поступление денежных средств\" (IncomingPaymentOrder)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Заявка на поступление денежных средств\" (IncomingPaymentOrder)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

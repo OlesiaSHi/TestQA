@@ -1,0 +1,42 @@
+{
+	"uuid": "d52f13d8-54ba-43e6-b5fa-dfaf17dc5219",
+	"name": "Контекст_Открытие формы документа \"Списание товаров\" (StockAdjustmentAsWriteOff)",
+	"description": "",
+	"children": [
+		"69ef255c-4e45-4386-8977-fd6e2a11d30d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438888236,
+			"stop": 1734438888262,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438888263,
+			"stop": 1734438888454,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "0bd840a6-deba-416f-83a7-1a28ed4a11ec",
+	"name": "Контекст_Открытие формы справочника \"Виды оплаты\" (PaymentTypes)",
+	"description": "",
+	"children": [
+		"15d8e35f-c2fb-494f-9530-48879a214e77"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441105004,
+			"stop": 1734441105022,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441105022,
+			"stop": 1734441105304,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

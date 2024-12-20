@@ -1,0 +1,42 @@
+{
+	"uuid": "d744c30d-7db0-43b1-8fe4-c2ac7747eb21",
+	"name": "Контекст_Открытие формы документа \"Инвентаризация товаров\" (PhysicalInventory)",
+	"description": "",
+	"children": [
+		"73c5e1ec-da9e-4ca6-b479-2c4403805e9f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441161655,
+			"stop": 1734441161673,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441161673,
+			"stop": 1734441161932,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

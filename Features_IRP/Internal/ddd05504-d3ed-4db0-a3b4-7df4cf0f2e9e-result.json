@@ -1,0 +1,255 @@
+{
+	"uuid": "ddd05504-d3ed-4db0-a3b4-7df4cf0f2e9e",
+	"historyId": "тестирование отчетов._0902 проверка отчета по Закупкам",
+	"name": "_0902 проверка отчета по Закупкам",
+	"fullName": "internal/тестирование отчетов.feature__0902 проверка отчета по закупкам",
+	"testCaseId": "2ed5158c0bd54d4f0ce6a4f470f23bb4",
+	"start": 1734441297079,
+	"stop": 1734441321491,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Ожидали, что ячейка <R21C4> будет заполнена.",
+		"trace": "Ожидали, что ячейка <R21C4> будет заполнена.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: D1001 Закупки\n        ИмяАктивнойФормы: Report.D1001_Purchases.Form\n        ИмяФичи: тестирование отчетов\n        ИмяСценария: _0902 проверка отчета по Закупкам\n        НомерСтрокиДерева: 3 672\n        НомерСтрокиФичи: 42\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Тестирование отчетов.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсомДополнительный.epf\n        ИмяПроцедуры: ЯЖдуКогдаВТабличномДокументеЗаполнитсяЯчейкаВТечениеСекунд\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 7088\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:24 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 16:15:21"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1734441297119,
+			"stop": 1734441297252,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю \"Отчеты\" \"D1001 Закупки\"",
+			"start": 1734441297455,
+			"stop": 1734441297475,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчеты"
+				},
+				{
+					"name": "Парам2",
+					"value": "D1001 Закупки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"D1001 Закупки\"",
+			"start": 1734441297475,
+			"stop": 1734441297608,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "D1001 Закупки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'Result' я перехожу к ячейке \"R1C1\"",
+			"start": 1734441297608,
+			"stop": 1734441297610,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Result"
+				},
+				{
+					"name": "Парам2",
+					"value": "R1C1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'FormGenerate'",
+			"start": 1734441297610,
+			"stop": 1734441297615,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FormGenerate"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду когда в табличном документе \"Result\" заполнится ячейка \"R21C4\" в течение 20 секунд",
+			"start": 1734441297616,
+			"stop": 1734441321491,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Ожидали, что ячейка <R21C4> будет заполнена.",
+				"trace": "Ожидали, что ячейка <R21C4> будет заполнена.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: D1001 Закупки\n        ИмяАктивнойФормы: Report.D1001_Purchases.Form\n        ИмяФичи: тестирование отчетов\n        ИмяСценария: _0902 проверка отчета по Закупкам\n        НомерСтрокиДерева: 3 672\n        НомерСтрокиФичи: 42\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Тестирование отчетов.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсомДополнительный.epf\n        ИмяПроцедуры: ЯЖдуКогдаВТабличномДокументеЗаполнитсяЯчейкаВТечениеСекунд\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 7088\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:24 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 16:15:21"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Result"
+				},
+				{
+					"name": "Парам2",
+					"value": "R21C4"
+				},
+				{
+					"name": "Парам3",
+					"value": 20
+				}
+			],
+			"attachments": [
+				{
+					"name": "ТекущееЗначениеМакета.mxl",
+					"source": "162efa93-5852-4f19-a898-aa4f2a44aa98-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ТекущееЗначениеМакета.html",
+					"source": "fe301d4a-88e3-4a61-b086-0f1a8b12d3ab-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЗначенияПеременных.mxl",
+					"source": "a2e70e34-a9c8-458b-a102-e69a6d510afd-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЗначенияПеременных.html",
+					"source": "cca74d4b-b4ca-418f-9d4c-48a4190f54b4-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "MainScreen",
+					"source": "f60efb04-14db-451f-afe5-f262e7a08cd9-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "a03c518c-8edf-48ba-bcd5-e10d577ee44a-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "9a0a3e1f-794d-4174-8297-0a4c40989515-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0902 проверка отчета по Закупкам"
+		},
+		{
+			"name": "feature",
+			"value": "_0902 проверка отчета по Закупкам"
+		},
+		{
+			"name": "tag",
+			"value": "Отчеты"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "64762f83-9ecb-4f75-a70d-8beb78c29f9a-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "d6f2412c-75fd-4ac7-8e7c-6a1bf6536009-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "4e8c7c77-dfc0-496c-81b0-b2d00122890b-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ТекущееЗначениеМакета.mxl",
+			"source": "9a96a5b4-6210-4c2f-82fe-630af7480507-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ТекущееЗначениеМакета.html",
+			"source": "2fc3f4aa-8987-439b-8c84-9b201df762ba-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "455b56fb-9b04-4ce6-8c30-8de05f80ab2d-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "d4b598e6-8fbb-4582-8694-d7a9cbf7bb28-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

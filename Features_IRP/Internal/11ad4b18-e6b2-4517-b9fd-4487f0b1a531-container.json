@@ -1,0 +1,42 @@
+{
+	"uuid": "55de09fe-a82d-42db-9966-7952ca5c7506",
+	"name": "Контекст_Открытие формы справочника \"Варианты отчета\" (ReportOptions)",
+	"description": "",
+	"children": [
+		"11ad4b18-e6b2-4517-b9fd-4487f0b1a531"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441107913,
+			"stop": 1734441107938,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441107938,
+			"stop": 1734441108145,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

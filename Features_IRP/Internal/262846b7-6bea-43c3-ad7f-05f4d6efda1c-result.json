@@ -1,0 +1,118 @@
+{
+	"uuid": "262846b7-6bea-43c3-ad7f-05f4d6efda1c",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Кассы\\банковские счета\" (CashAccounts)",
+	"name": "Открытие формы справочника \"Кассы\\банковские счета\" (CashAccounts)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"кассы\\банковские счета\" (cashaccounts)",
+	"testCaseId": "b5a1f25aea252aba6a0b96bcbdff84b6",
+	"start": 1734438795087,
+	"stop": 1734438795551,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"CashAccounts\"",
+			"start": 1734438795407,
+			"stop": 1734438795412,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CashAccounts"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438795412,
+			"stop": 1734438795547,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438795548,
+			"stop": 1734438795549,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438795550,
+			"stop": 1734438795551,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Кассы\\банковские счета\" (CashAccounts)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Кассы\\банковские счета\" (CashAccounts)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

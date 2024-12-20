@@ -1,0 +1,42 @@
+{
+	"uuid": "cabbd4ca-0d7d-4eee-a3dc-ad2fd7b01bf6",
+	"name": "Контекст_Открытие формы списка документа \"Ввод начальных остатков\" (OpeningEntry)",
+	"description": "",
+	"children": [
+		"d4c262c6-ba56-4112-adae-be9244a0c081"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438844936,
+			"stop": 1734438844956,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438844956,
+			"stop": 1734438845234,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

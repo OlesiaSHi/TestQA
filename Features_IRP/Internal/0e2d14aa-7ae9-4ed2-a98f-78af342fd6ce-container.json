@@ -1,0 +1,42 @@
+{
+	"uuid": "f6261c34-3452-4cc8-8559-91bd44e373ce",
+	"name": "Контекст_Открытие формы списка документа \"Кредит-нота\" (CreditNote)",
+	"description": "",
+	"children": [
+		"0e2d14aa-7ae9-4ed2-a98f-78af342fd6ce"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441123988,
+			"stop": 1734441124004,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441124005,
+			"stop": 1734441124260,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

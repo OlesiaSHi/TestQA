@@ -1,0 +1,27 @@
+{
+	"uuid": "f2df93db-6127-42cd-aaa9-5163482cb542",
+	"name": "Контекст_проверка заполнения справочника Организации",
+	"description": "",
+	"children": [
+		"35204895-69b1-4dd9-b237-6edf68f1d3a0"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438979671,
+			"stop": 1734438979689,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

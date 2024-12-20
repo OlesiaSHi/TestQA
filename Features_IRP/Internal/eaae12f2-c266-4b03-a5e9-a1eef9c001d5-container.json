@@ -1,0 +1,42 @@
+{
+	"uuid": "180516fd-ff22-4135-8abf-18e65ffdf266",
+	"name": "Контекст_Открытие формы списка справочника \"Настройка интеграции\" (IntegrationSettings)",
+	"description": "",
+	"children": [
+		"eaae12f2-c266-4b03-a5e9-a1eef9c001d5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438768668,
+			"stop": 1734438768688,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438768688,
+			"stop": 1734438768958,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

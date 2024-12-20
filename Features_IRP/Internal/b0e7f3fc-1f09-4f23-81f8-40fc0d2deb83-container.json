@@ -1,0 +1,42 @@
+{
+	"uuid": "0c7afd91-f083-497d-ae88-298a125b83a7",
+	"name": "Контекст_Открытие формы справочника \"Условия предоставления специальных предложений\" (SpecialOfferRules)",
+	"description": "",
+	"children": [
+		"b0e7f3fc-1f09-4f23-81f8-40fc0d2deb83"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438823585,
+			"stop": 1734438823606,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438823606,
+			"stop": 1734438823888,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

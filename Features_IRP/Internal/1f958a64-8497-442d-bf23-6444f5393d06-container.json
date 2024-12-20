@@ -1,0 +1,42 @@
+{
+	"uuid": "c3117427-ec1d-4c32-a458-be2ee739b75a",
+	"name": "Контекст_Открытие формы списка документа \"Разукомлектация набора\" (Unbundling)",
+	"description": "",
+	"children": [
+		"1f958a64-8497-442d-bf23-6444f5393d06"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441145371,
+			"stop": 1734441145392,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441145392,
+			"stop": 1734441145645,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

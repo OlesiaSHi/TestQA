@@ -1,0 +1,118 @@
+{
+	"uuid": "2be5194e-6a34-43ac-a842-5c0ef1d185f1",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Профили доступа пользователей\" (AccessProfiles)",
+	"name": "Открытие формы справочника \"Профили доступа пользователей\" (AccessProfiles)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"профили доступа пользователей\" (accessprofiles)",
+	"testCaseId": "6cde8c653c5ae1f75a78e855fda4cc8a",
+	"start": 1734441078787,
+	"stop": 1734441079559,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"AccessProfiles\"",
+			"start": 1734441079456,
+			"stop": 1734441079459,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "AccessProfiles"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441079459,
+			"stop": 1734441079555,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441079555,
+			"stop": 1734441079557,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441079557,
+			"stop": 1734441079559,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Профили доступа пользователей\" (AccessProfiles)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Профили доступа пользователей\" (AccessProfiles)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

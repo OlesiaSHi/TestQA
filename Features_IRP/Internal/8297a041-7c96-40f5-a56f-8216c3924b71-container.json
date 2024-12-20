@@ -1,0 +1,42 @@
+{
+	"uuid": "05722b07-1934-438d-a419-85e13956c988",
+	"name": "Контекст_Открытие формы обработки \"Обеспечение\" (Procurement)",
+	"description": "",
+	"children": [
+		"8297a041-7c96-40f5-a56f-8216c3924b71"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438895526,
+			"stop": 1734438895545,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438895545,
+			"stop": 1734438895801,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

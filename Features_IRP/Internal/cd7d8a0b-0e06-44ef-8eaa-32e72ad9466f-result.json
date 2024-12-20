@@ -1,0 +1,118 @@
+{
+	"uuid": "cd7d8a0b-0e06-44ef-8eaa-32e72ad9466f",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Сверка взаиморасчетов\" (ReconciliationStatement)",
+	"name": "Открытие формы списка документа \"Сверка взаиморасчетов\" (ReconciliationStatement)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"сверка взаиморасчетов\" (reconciliationstatement)",
+	"testCaseId": "bb36d637bd2b69b158e9247a9dd973e1",
+	"start": 1734438851920,
+	"stop": 1734438852520,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"ReconciliationStatement\"",
+			"start": 1734438852371,
+			"stop": 1734438852374,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ReconciliationStatement"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438852374,
+			"stop": 1734438852517,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438852517,
+			"stop": 1734438852518,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438852519,
+			"stop": 1734438852520,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Сверка взаиморасчетов\" (ReconciliationStatement)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Сверка взаиморасчетов\" (ReconciliationStatement)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

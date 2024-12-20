@@ -1,0 +1,42 @@
+{
+	"uuid": "c21c81aa-6a38-40fd-ad25-24f4bdd95cad",
+	"name": "Контекст_Открытие формы справочника \"Валюты\" (Currencies)",
+	"description": "",
+	"children": [
+		"935bad83-bad8-41bc-904e-dfa845194678"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438798780,
+			"stop": 1734438798798,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438798799,
+			"stop": 1734438799070,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

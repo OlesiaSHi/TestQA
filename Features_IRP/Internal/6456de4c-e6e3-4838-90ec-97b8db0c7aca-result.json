@@ -1,0 +1,118 @@
+{
+	"uuid": "6456de4c-e6e3-4838-90ec-97b8db0c7aca",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Тома хранения файлов\" (FileStorageVolumes)",
+	"name": "Открытие формы справочника \"Тома хранения файлов\" (FileStorageVolumes)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"тома хранения файлов\" (filestoragevolumes)",
+	"testCaseId": "64f6476287a818090f053b4e2545217b",
+	"start": 1734438805656,
+	"stop": 1734438806271,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"FileStorageVolumes\"",
+			"start": 1734438806175,
+			"stop": 1734438806180,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FileStorageVolumes"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438806180,
+			"stop": 1734438806268,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438806268,
+			"stop": 1734438806270,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438806270,
+			"stop": 1734438806271,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Тома хранения файлов\" (FileStorageVolumes)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Тома хранения файлов\" (FileStorageVolumes)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

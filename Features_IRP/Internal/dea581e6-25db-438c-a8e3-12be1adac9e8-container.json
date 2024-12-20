@@ -1,0 +1,42 @@
+{
+	"uuid": "e939cf85-062f-412e-a600-4e7f00d6b038",
+	"name": "Контекст_Открытие формы регистра сведений \"Штрихкоды номенклатуры\" (Barcodes)",
+	"description": "",
+	"children": [
+		"dea581e6-25db-438c-a8e3-12be1adac9e8"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441191953,
+			"stop": 1734441191980,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441191980,
+			"stop": 1734441192267,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

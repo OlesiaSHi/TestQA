@@ -1,0 +1,42 @@
+{
+	"uuid": "3eeae81f-3584-4a0a-adc2-8e5b5de8d38c",
+	"name": "Контекст_Открытие формы списка справочника \"Виды цен\" (PriceTypes)",
+	"description": "",
+	"children": [
+		"00cf99be-433c-4492-b3b4-d52a1e49a2c6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438780251,
+			"stop": 1734438780272,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438780272,
+			"stop": 1734438780553,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,118 @@
+{
+	"uuid": "4b4af52b-f444-4f82-9efb-c7125d1f2f65",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Установка цен номенклатуры\" (PriceList)",
+	"name": "Открытие формы списка документа \"Установка цен номенклатуры\" (PriceList)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"установка цен номенклатуры\" (pricelist)",
+	"testCaseId": "7b7cd9c24ad45cb12a910efb11476421",
+	"start": 1734438848233,
+	"stop": 1734438848848,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"PriceList\"",
+			"start": 1734438848703,
+			"stop": 1734438848707,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PriceList"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438848708,
+			"stop": 1734438848842,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438848843,
+			"stop": 1734438848845,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438848845,
+			"stop": 1734438848847,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Установка цен номенклатуры\" (PriceList)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Установка цен номенклатуры\" (PriceList)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

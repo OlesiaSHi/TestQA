@@ -1,0 +1,42 @@
+{
+	"uuid": "8c477a98-de4c-423b-a37d-3c3675f7f75d",
+	"name": "Контекст_Открытие формы справочника \"Статус базы данных\" (DataBaseStatus)",
+	"description": "",
+	"children": [
+		"77e66372-5cb4-41e0-9e14-6b7af0d5521a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438800579,
+			"stop": 1734438800598,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438800598,
+			"stop": 1734438800898,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

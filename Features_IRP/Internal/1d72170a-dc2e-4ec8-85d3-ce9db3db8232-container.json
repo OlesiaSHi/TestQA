@@ -1,0 +1,42 @@
+{
+	"uuid": "7dcbff26-6a61-47a1-80c3-9d791b143767",
+	"name": "Контекст_Открытие формы документа \"Расходная товарная накладная\" (ShipmentConfirmation)",
+	"description": "",
+	"children": [
+		"1d72170a-dc2e-4ec8-85d3-ce9db3db8232"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438887042,
+			"stop": 1734438887054,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438887054,
+			"stop": 1734438887248,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

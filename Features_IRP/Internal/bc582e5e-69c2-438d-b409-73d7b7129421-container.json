@@ -1,0 +1,42 @@
+{
+	"uuid": "d9c29fd0-1593-44f7-9a0a-22731904d210",
+	"name": "Контекст_Открытие формы списка документа \"Приходная товарная накладная\" (GoodsReceipt)",
+	"description": "",
+	"children": [
+		"bc582e5e-69c2-438d-b409-73d7b7129421"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441125810,
+			"stop": 1734441125831,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441125831,
+			"stop": 1734441126097,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

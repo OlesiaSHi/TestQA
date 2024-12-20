@@ -1,0 +1,42 @@
+{
+	"uuid": "a7cc3a4f-728f-4129-85c2-ad50dc1289ab",
+	"name": "Контекст_Открытие формы справочника \"Объект соответствия внешних данных\" (DataMappingItems)",
+	"description": "",
+	"children": [
+		"96edfbcc-6104-4a50-b5e1-c24dcea7d288"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438801211,
+			"stop": 1734438801230,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438801230,
+			"stop": 1734438801509,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

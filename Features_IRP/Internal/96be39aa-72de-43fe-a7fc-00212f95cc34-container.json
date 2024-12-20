@@ -1,0 +1,42 @@
+{
+	"uuid": "6e9716cb-69d1-4da8-8f2d-1186a0b98a65",
+	"name": "Контекст_Открытие формы документа \"Дебет-нота\" (DebitNote)",
+	"description": "",
+	"children": [
+		"96be39aa-72de-43fe-a7fc-00212f95cc34"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438867140,
+			"stop": 1734438867157,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438867158,
+			"stop": 1734438867466,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "ae8e0c9e-1360-4ea4-bc1b-ac1026c201ea",
+	"name": "Контекст_Открытие формы списка документа \"Заявка на расходование денежных средств\" (OutgoingPaymentOrder)",
+	"description": "",
+	"children": [
+		"32c69f41-0dd1-4561-82d1-94867ca7a086"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438845552,
+			"stop": 1734438845571,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438845571,
+			"stop": 1734438845846,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

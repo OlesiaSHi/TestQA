@@ -1,0 +1,2 @@
+﻿"Ref","DeletionMark","Code","Description","FilesType","POSTIntegrationSettings","GETIntegrationSettings"
+"e1cib/data/Catalog.FileStorageVolumes?ref=b772dbcd8801bc7611ec420177a49496","False","1","DEFAULT PICTURE STORAGE","Enum.FileTypes.Picture","e1cib/data/Catalog.IntegrationSettings?ref=b772dbcd8801bc7611ec420177a49494","e1cib/data/Catalog.IntegrationSettings?ref=b772dbcd8801bc7611ec420177a49494"

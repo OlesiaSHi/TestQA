@@ -1,0 +1,42 @@
+{
+	"uuid": "70ff6d6f-4245-428d-87cf-c7dd5b1db09d",
+	"name": "Контекст_Открытие формы документа \"Приходный кассовый ордер\" (CashReceipt)",
+	"description": "",
+	"children": [
+		"42eeac9b-9b69-46cd-947e-20426bdad876"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441149883,
+			"stop": 1734441149903,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441149903,
+			"stop": 1734441150115,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

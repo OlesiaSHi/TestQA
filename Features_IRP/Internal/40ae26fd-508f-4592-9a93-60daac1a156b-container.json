@@ -1,0 +1,42 @@
+{
+	"uuid": "0e6d275b-ef44-4a0f-909c-47baa17a970a",
+	"name": "Контекст_Открытие формы документа \"Ручная проводка в регистры\" (ManualRegisterEntry)",
+	"description": "",
+	"children": [
+		"40ae26fd-508f-4592-9a93-60daac1a156b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438872999,
+			"stop": 1734438873021,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438873021,
+			"stop": 1734438873205,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

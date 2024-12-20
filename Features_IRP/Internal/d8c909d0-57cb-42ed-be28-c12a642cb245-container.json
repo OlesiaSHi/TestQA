@@ -1,0 +1,42 @@
+{
+	"uuid": "dd647c38-0325-4edc-99ec-814d7fb25ea7",
+	"name": "Контекст_Открытие формы справочника \"Рабочие места\" (Workstations)",
+	"description": "",
+	"children": [
+		"d8c909d0-57cb-42ed-be28-c12a642cb245"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441117670,
+			"stop": 1734441117689,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441117689,
+			"stop": 1734441117931,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "9ead35cd-fd81-4710-ae33-4e40e6f42272",
+	"name": "Контекст_Открытие формы справочника \"Файлы\" (Files)",
+	"description": "",
+	"children": [
+		"8156e967-8700-4da5-9aae-f54e8ce95159"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438804458,
+			"stop": 1734438804475,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438804475,
+			"stop": 1734438804761,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

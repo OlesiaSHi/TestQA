@@ -1,0 +1,42 @@
+{
+	"uuid": "c6d02320-6e76-4621-ba02-9303e0550f0e",
+	"name": "Контекст_Открытие формы списка документа \"Штрихкодирование товаров\" (Labeling)",
+	"description": "",
+	"children": [
+		"cc84084a-2907-4f1a-af30-e5c5e5ff91de"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438843727,
+			"stop": 1734438843747,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438843747,
+			"stop": 1734438844017,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

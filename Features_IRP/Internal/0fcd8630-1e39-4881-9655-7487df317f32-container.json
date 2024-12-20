@@ -1,0 +1,42 @@
+{
+	"uuid": "918c1f23-f409-4024-afbc-c2a7302a47a1",
+	"name": "Контекст_Открытие формы списка справочника \"Подразделения\" (BusinessUnits)",
+	"description": "",
+	"children": [
+		"0fcd8630-1e39-4881-9655-7487df317f32"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441044779,
+			"stop": 1734441044796,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441044796,
+			"stop": 1734441045086,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

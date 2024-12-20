@@ -1,0 +1,42 @@
+{
+	"uuid": "cb794436-2e26-4827-b296-5f18cda00e70",
+	"name": "Контекст_Открытие формы списка документа \"Оприходование товаров\" (StockAdjustmentAsSurplus)",
+	"description": "",
+	"children": [
+		"5c29a6bf-9a63-4220-8dcc-d5e88ef86392"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441144173,
+			"stop": 1734441144191,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441144191,
+			"stop": 1734441144435,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

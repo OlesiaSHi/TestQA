@@ -1,0 +1,42 @@
+{
+	"uuid": "3e612af4-9adf-4e07-a2bc-c8f267fa44ce",
+	"name": "Контекст_Открытие формы обработки \"Проанализировать движения документа\" (AnaliseDocumentMovements)",
+	"description": "",
+	"children": [
+		"e46b2f3d-d912-4ed4-a014-99c271b0fdb3"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438891033,
+			"stop": 1734438891056,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438891056,
+			"stop": 1734438891316,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

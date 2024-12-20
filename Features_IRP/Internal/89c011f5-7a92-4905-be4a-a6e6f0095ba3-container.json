@@ -1,0 +1,27 @@
+{
+	"uuid": "cc0862c0-0d32-40a0-956d-efc6c75df899",
+	"name": "Контекст__0602 проверка добавления картинки",
+	"description": "",
+	"children": [
+		"89c011f5-7a92-4905-be4a-a6e6f0095ba3"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441244686,
+			"stop": 1734441244706,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

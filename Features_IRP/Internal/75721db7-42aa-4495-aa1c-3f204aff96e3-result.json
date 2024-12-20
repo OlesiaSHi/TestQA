@@ -1,0 +1,118 @@
+{
+	"uuid": "75721db7-42aa-4495-aa1c-3f204aff96e3",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Причина запрета изменения данных\" (LockDataModificationReasons)",
+	"name": "Открытие формы справочника \"Причина запрета изменения данных\" (LockDataModificationReasons)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"причина запрета изменения данных\" (lockdatamodificationreasons)",
+	"testCaseId": "4698d3f0e4b2d1f09eb39163ff787174",
+	"start": 1734438812775,
+	"stop": 1734438813439,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"LockDataModificationReasons\"",
+			"start": 1734438813291,
+			"stop": 1734438813293,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "LockDataModificationReasons"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438813293,
+			"stop": 1734438813434,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438813434,
+			"stop": 1734438813437,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438813437,
+			"stop": 1734438813439,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Причина запрета изменения данных\" (LockDataModificationReasons)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Причина запрета изменения данных\" (LockDataModificationReasons)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,118 @@
+{
+	"uuid": "7db372b8-46f4-4fc5-a090-5f6ac0d5338f",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Заказ покупателя\" (SalesOrder)",
+	"name": "Открытие формы списка документа \"Заказ покупателя\" (SalesOrder)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"заказ покупателя\" (salesorder)",
+	"testCaseId": "b15721be9cf5320923874c398c86670e",
+	"start": 1734441141113,
+	"stop": 1734441141709,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"SalesOrder\"",
+			"start": 1734441141566,
+			"stop": 1734441141571,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SalesOrder"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441141571,
+			"stop": 1734441141705,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441141705,
+			"stop": 1734441141707,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441141707,
+			"stop": 1734441141709,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Заказ покупателя\" (SalesOrder)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Заказ покупателя\" (SalesOrder)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

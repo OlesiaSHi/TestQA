@@ -1,0 +1,118 @@
+{
+	"uuid": "cf9a46d8-1ad0-4787-b51a-1f51d3a6c7e9",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Банковские счета партнеров\" (PartnersBankAccounts)",
+	"name": "Открытие формы списка справочника \"Банковские счета партнеров\" (PartnersBankAccounts)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"банковские счета партнеров\" (partnersbankaccounts)",
+	"testCaseId": "c5cfca98daba3965ee258b8148ff4f3d",
+	"start": 1734441063727,
+	"stop": 1734441064301,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"PartnersBankAccounts\"",
+			"start": 1734441064206,
+			"stop": 1734441064208,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PartnersBankAccounts"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441064208,
+			"stop": 1734441064295,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441064295,
+			"stop": 1734441064298,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441064298,
+			"stop": 1734441064301,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Банковские счета партнеров\" (PartnersBankAccounts)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Банковские счета партнеров\" (PartnersBankAccounts)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

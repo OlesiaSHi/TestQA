@@ -1,0 +1,118 @@
+{
+	"uuid": "e1d79b5e-99dc-44a6-8836-b4c924a2c853",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Сегменты номенклатуры\" (ItemSegments)",
+	"name": "Открытие формы списка справочника \"Сегменты номенклатуры\" (ItemSegments)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"сегменты номенклатуры\" (itemsegments)",
+	"testCaseId": "0c80844c7b6c8ec8da9f3f0458a84139",
+	"start": 1734441059210,
+	"stop": 1734441059845,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"ItemSegments\"",
+			"start": 1734441059746,
+			"stop": 1734441059749,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ItemSegments"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441059749,
+			"stop": 1734441059842,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441059842,
+			"stop": 1734441059844,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441059844,
+			"stop": 1734441059845,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Сегменты номенклатуры\" (ItemSegments)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Сегменты номенклатуры\" (ItemSegments)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

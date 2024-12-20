@@ -1,0 +1,118 @@
+{
+	"uuid": "c925b06e-4888-4526-9987-bb6bec5ac976",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Заказ на возврат покупателя\" (SalesReturnOrder)",
+	"name": "Открытие формы списка документа \"Заказ на возврат покупателя\" (SalesReturnOrder)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"заказ на возврат покупателя\" (salesreturnorder)",
+	"testCaseId": "99f51267379da3d749e46296d456e418",
+	"start": 1734438856372,
+	"stop": 1734438856994,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"SalesReturnOrder\"",
+			"start": 1734438856837,
+			"stop": 1734438856841,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SalesReturnOrder"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438856841,
+			"stop": 1734438856987,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438856988,
+			"stop": 1734438856991,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438856991,
+			"stop": 1734438856993,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Заказ на возврат покупателя\" (SalesReturnOrder)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Заказ на возврат покупателя\" (SalesReturnOrder)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

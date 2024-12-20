@@ -1,0 +1,42 @@
+{
+	"uuid": "caa14068-127c-44fb-9b5f-5410e74360d3",
+	"name": "Контекст_Открытие формы обработки \"Рабочее место менеджера склада\" (StoreKeeperWorkspace)",
+	"description": "",
+	"children": [
+		"667f983a-f74e-42d0-8da1-5ac8cc9610e4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438902314,
+			"stop": 1734438902436,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438902437,
+			"stop": 1734438902819,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

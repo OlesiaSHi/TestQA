@@ -1,0 +1,4 @@
+﻿"Ref","DeletionMark","Code","UseGoodsReceipt","UseShipmentConfirmation","Transit","NegativeStockControl","Description_en","Description_hash","Description_ru","Description_tr"
+"e1cib/data/Catalog.Stores?ref=b762b13668d0905011eb76684b9f6861","False","1","True","True","False","True","Склад 1 (с контролем остатка)","","",""
+"e1cib/data/Catalog.Stores?ref=b762b13668d0905011eb76684b9f6862","False","2","True","True","False","False","Склад 2 (без контроля остатка)","","",""
+"e1cib/data/Catalog.Stores?ref=b762b13668d0905011eb76684b9f6863","False","3","False","False","True","False","Транзитный склад","","",""

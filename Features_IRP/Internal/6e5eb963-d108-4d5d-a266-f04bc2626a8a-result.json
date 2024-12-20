@@ -1,0 +1,118 @@
+{
+	"uuid": "6e5eb963-d108-4d5d-a266-f04bc2626a8a",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Пересорт товара\" (ItemStockAdjustment)",
+	"name": "Открытие формы списка документа \"Пересорт товара\" (ItemStockAdjustment)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"пересорт товара\" (itemstockadjustment)",
+	"testCaseId": "6997f0e2282f573a04e8378a64870ba2",
+	"start": 1734438843134,
+	"stop": 1734438843727,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"ItemStockAdjustment\"",
+			"start": 1734438843602,
+			"stop": 1734438843606,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ItemStockAdjustment"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438843607,
+			"stop": 1734438843721,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438843722,
+			"stop": 1734438843724,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438843724,
+			"stop": 1734438843727,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Пересорт товара\" (ItemStockAdjustment)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Пересорт товара\" (ItemStockAdjustment)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

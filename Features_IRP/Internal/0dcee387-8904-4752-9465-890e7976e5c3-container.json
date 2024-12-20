@@ -1,0 +1,42 @@
+{
+	"uuid": "e575a09c-9742-4b4c-bfa0-7c8d91ed31fd",
+	"name": "Контекст_Открытие формы списка документа \"Закрытие авансов поставщиков\" (VendorsAdvancesClosing)",
+	"description": "",
+	"children": [
+		"0dcee387-8904-4752-9465-890e7976e5c3"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438859406,
+			"stop": 1734438859423,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438859423,
+			"stop": 1734438859708,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

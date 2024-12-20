@@ -1,0 +1,118 @@
+{
+	"uuid": "850aafb8-b3b0-4d6e-b99a-31d930ea70b9",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Сопоставление документа-основания взаиморасчетов с платежами\" (InvoiceMatch)",
+	"name": "Открытие формы документа \"Сопоставление документа-основания взаиморасчетов с платежами\" (InvoiceMatch)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"сопоставление документа-основания взаиморасчетов с платежами\" (invoicematch)",
+	"testCaseId": "30fed4f4ce4258c234c39070ca62f2e5",
+	"start": 1734441157219,
+	"stop": 1734441157841,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"InvoiceMatch\"",
+			"start": 1734441157662,
+			"stop": 1734441157664,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "InvoiceMatch"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441157665,
+			"stop": 1734441157837,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441157837,
+			"stop": 1734441157839,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441157839,
+			"stop": 1734441157840,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Сопоставление документа-основания взаиморасчетов с платежами\" (InvoiceMatch)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Сопоставление документа-основания взаиморасчетов с платежами\" (InvoiceMatch)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,27 @@
+{
+	"uuid": "a05da932-8c46-406c-a510-1002da9fae10",
+	"name": "Контекст__0401 подготовительный сценарий (заказ поставщику)",
+	"description": "",
+	"children": [
+		"f693249c-46fc-48e5-96b9-6fc6f70f2413"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441194789,
+			"stop": 1734441194813,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

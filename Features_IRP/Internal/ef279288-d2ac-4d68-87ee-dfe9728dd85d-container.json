@@ -1,0 +1,42 @@
+{
+	"uuid": "6bc64ea9-8417-4d1e-81ef-b7cfcf14e7f3",
+	"name": "Контекст_Открытие формы регистра сведений \"Настройки налоговых ставок\" (TaxSettings)",
+	"description": "",
+	"children": [
+		"ef279288-d2ac-4d68-87ee-dfe9728dd85d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441194191,
+			"stop": 1734441194210,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441194210,
+			"stop": 1734441194509,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

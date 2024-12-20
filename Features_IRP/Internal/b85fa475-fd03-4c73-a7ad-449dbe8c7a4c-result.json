@@ -1,0 +1,118 @@
+{
+	"uuid": "b85fa475-fd03-4c73-a7ad-449dbe8c7a4c",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Единицы измерения\" (UnitsOfMeasurement)",
+	"name": "Открытие формы справочника \"Единицы измерения\" (UnitsOfMeasurement)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"единицы измерения\" (unitsofmeasurement)",
+	"testCaseId": "6beead2084b7d249f88e1693d470d9c3",
+	"start": 1734441116019,
+	"stop": 1734441116587,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"UnitsOfMeasurement\"",
+			"start": 1734441116507,
+			"stop": 1734441116511,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "UnitsOfMeasurement"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441116511,
+			"stop": 1734441116584,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441116584,
+			"stop": 1734441116586,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441116586,
+			"stop": 1734441116587,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Единицы измерения\" (UnitsOfMeasurement)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Единицы измерения\" (UnitsOfMeasurement)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

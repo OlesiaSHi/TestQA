@@ -1,0 +1,42 @@
+{
+	"uuid": "9c22a090-8168-4f8a-8fae-52b91b8b5fac",
+	"name": "Контекст_Открытие формы списка документа \"Комплектация набора\" (Bundling)",
+	"description": "",
+	"children": [
+		"7154abf7-8341-462b-a2ed-e0b25971a795"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438832971,
+			"stop": 1734438832988,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438832988,
+			"stop": 1734438833222,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

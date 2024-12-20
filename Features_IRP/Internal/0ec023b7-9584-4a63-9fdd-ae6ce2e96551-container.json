@@ -1,0 +1,27 @@
+{
+	"uuid": "b6a3b015-5ec5-4c6a-8aa2-fd90293094c0",
+	"name": "Контекст__0501 подготовительный сценарий (движения документа Поступление товаров)",
+	"description": "",
+	"children": [
+		"0ec023b7-9584-4a63-9fdd-ae6ce2e96551"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441209737,
+			"stop": 1734441209754,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

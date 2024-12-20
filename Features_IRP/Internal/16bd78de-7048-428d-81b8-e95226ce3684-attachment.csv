@@ -1,0 +1,3 @@
+﻿"Ref","Key","Tax","Analytics","TaxRate","Amount","IncludeToTotalAmount","ManualAmount"
+"e1cib/data/Document.PurchaseInvoice?ref=b068201e88dd788f11efb6f29ed7c076","35a1b8c1-7423-4ef5-9d49-7211802648fd","e1cib/data/Catalog.Taxes?ref=b762b13668d0905011eb7663e35d7970","","e1cib/data/Catalog.TaxRates?ref=b762b13668d0905011eb7663e35d796c","33,33","True","33,33"
+"e1cib/data/Document.PurchaseInvoice?ref=b068201e88dd788f11efb6f29ed7c076","b7e004c7-89b2-46da-9b5c-b6a9ef0bcb35","e1cib/data/Catalog.Taxes?ref=b762b13668d0905011eb7663e35d7970","","e1cib/data/Catalog.TaxRates?ref=b762b13668d0905011eb7663e35d796c","33,33","True","33,33"

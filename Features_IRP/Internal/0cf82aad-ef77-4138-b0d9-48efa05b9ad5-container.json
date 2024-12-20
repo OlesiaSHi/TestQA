@@ -1,0 +1,27 @@
+{
+	"uuid": "47398542-af74-4f14-bc8d-18cb6d957ecb",
+	"name": "Контекст__0503 проверка движений документа Поступление товаров по регистру R1021 Взаиморасчеты с поставщиками",
+	"description": "",
+	"children": [
+		"0cf82aad-ef77-4138-b0d9-48efa05b9ad5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438940997,
+			"stop": 1734438941028,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

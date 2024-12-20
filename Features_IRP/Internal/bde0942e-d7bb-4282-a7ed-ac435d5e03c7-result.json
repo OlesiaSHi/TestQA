@@ -1,0 +1,118 @@
+{
+	"uuid": "bde0942e-d7bb-4282-a7ed-ac435d5e03c7",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Мобильная инвентаризация\" (MobileInvent)",
+	"name": "Открытие формы обработки \"Мобильная инвентаризация\" (MobileInvent)",
+	"fullName": "internal/082_обработки_формаобъекта.feature_открытие формы обработки \"мобильная инвентаризация\" (mobileinvent)",
+	"testCaseId": "05c93f0ac5a642fb46343f4e6dfc9a4c",
+	"start": 1734438892847,
+	"stop": 1734438893662,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"MobileInvent\"",
+			"start": 1734438893566,
+			"stop": 1734438893568,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "MobileInvent"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438893568,
+			"stop": 1734438893658,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438893658,
+			"stop": 1734438893660,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438893660,
+			"stop": 1734438893661,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Мобильная инвентаризация\" (MobileInvent)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы обработки \"Мобильная инвентаризация\" (MobileInvent)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

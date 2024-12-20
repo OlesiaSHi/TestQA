@@ -1,0 +1,27 @@
+{
+	"uuid": "1cad00ad-e1c5-4a97-89a7-b5c19082e57f",
+	"name": "Контекст_проверка функциональной опции искользовать организации в Заказе клиента",
+	"description": "",
+	"children": [
+		"7cde62f3-9ab8-45a0-b8dd-c4a94444c660"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441262066,
+			"stop": 1734441262186,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

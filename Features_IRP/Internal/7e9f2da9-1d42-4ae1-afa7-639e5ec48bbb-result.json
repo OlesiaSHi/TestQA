@@ -1,0 +1,118 @@
+{
+	"uuid": "7e9f2da9-1d42-4ae1-afa7-639e5ec48bbb",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Возврат от розничного покупателя\" (RetailReturnReceipt)",
+	"name": "Открытие формы списка документа \"Возврат от розничного покупателя\" (RetailReturnReceipt)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"возврат от розничного покупателя\" (retailreturnreceipt)",
+	"testCaseId": "29061b5c7b3df9864c25534850025830",
+	"start": 1734441139049,
+	"stop": 1734441139677,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"RetailReturnReceipt\"",
+			"start": 1734441139536,
+			"stop": 1734441139541,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "RetailReturnReceipt"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441139541,
+			"stop": 1734441139673,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441139673,
+			"stop": 1734441139675,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441139675,
+			"stop": 1734441139677,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Возврат от розничного покупателя\" (RetailReturnReceipt)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Возврат от розничного покупателя\" (RetailReturnReceipt)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

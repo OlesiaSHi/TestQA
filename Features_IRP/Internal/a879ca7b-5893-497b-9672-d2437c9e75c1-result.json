@@ -1,0 +1,118 @@
+{
+	"uuid": "a879ca7b-5893-497b-9672-d2437c9e75c1",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Прочие наличные расходы\" (CashExpense)",
+	"name": "Открытие формы документа \"Прочие наличные расходы\" (CashExpense)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"прочие наличные расходы\" (cashexpense)",
+	"testCaseId": "11e43fbab5577fb3d60651913dcf5b22",
+	"start": 1734441148635,
+	"stop": 1734441149242,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"CashExpense\"",
+			"start": 1734441149097,
+			"stop": 1734441149101,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CashExpense"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441149102,
+			"stop": 1734441149238,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441149238,
+			"stop": 1734441149240,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441149240,
+			"stop": 1734441149242,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Прочие наличные расходы\" (CashExpense)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Прочие наличные расходы\" (CashExpense)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

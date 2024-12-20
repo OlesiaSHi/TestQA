@@ -1,0 +1,118 @@
+{
+	"uuid": "28c46b5d-3950-4e3f-8164-2cdd1d58d28e",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Договора контрагентов\" (LegalNameContracts)",
+	"name": "Открытие формы списка справочника \"Договора контрагентов\" (LegalNameContracts)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"договора контрагентов\" (legalnamecontracts)",
+	"testCaseId": "d3b1c98c38ce4f66b3df6fe415ed3119",
+	"start": 1734441060660,
+	"stop": 1734441061264,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"LegalNameContracts\"",
+			"start": 1734441061163,
+			"stop": 1734441061167,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "LegalNameContracts"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441061167,
+			"stop": 1734441061261,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441061261,
+			"stop": 1734441061262,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441061263,
+			"stop": 1734441061264,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Договора контрагентов\" (LegalNameContracts)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Договора контрагентов\" (LegalNameContracts)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

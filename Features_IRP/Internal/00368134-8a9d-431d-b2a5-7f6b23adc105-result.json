@@ -1,0 +1,118 @@
+{
+	"uuid": "00368134-8a9d-431d-b2a5-7f6b23adc105",
+	"historyId": "Дымовые тесты - Отчеты - ФормаОбъекта.Открытие формы отчета \"Цены\" (PriceInfo)",
+	"name": "Открытие формы отчета \"Цены\" (PriceInfo)",
+	"fullName": "internal/072_отчеты_формаобъекта.feature_открытие формы отчета \"цены\" (priceinfo)",
+	"testCaseId": "563b43fbf7ffe37a272d6d0bf18a462f",
+	"start": 1734441176266,
+	"stop": 1734441176893,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму отчета \"PriceInfo\"",
+			"start": 1734441176795,
+			"stop": 1734441176796,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PriceInfo"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441176796,
+			"stop": 1734441176890,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441176890,
+			"stop": 1734441176891,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441176892,
+			"stop": 1734441176893,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы отчета \"Цены\" (PriceInfo)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы отчета \"Цены\" (PriceInfo)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

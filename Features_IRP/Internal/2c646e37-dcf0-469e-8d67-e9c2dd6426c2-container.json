@@ -1,0 +1,27 @@
+{
+	"uuid": "987bef0f-866b-4db2-bbb7-ffb2c9b783ca",
+	"name": "Контекст_проверка формы элемента справочника Организации",
+	"description": "",
+	"children": [
+		"2c646e37-dcf0-469e-8d67-e9c2dd6426c2"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441261603,
+			"stop": 1734441261646,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

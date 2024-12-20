@@ -1,0 +1,42 @@
+{
+	"uuid": "2ffe42d9-368d-4396-83f3-8df166f2815d",
+	"name": "Контекст_Открытие формы справочника \"Группы пользователей\" (UserGroups)",
+	"description": "",
+	"children": [
+		"8d8fafe5-68f4-493c-abbf-4d1ab93d0ec7"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441116588,
+			"stop": 1734441116604,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441116604,
+			"stop": 1734441116711,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

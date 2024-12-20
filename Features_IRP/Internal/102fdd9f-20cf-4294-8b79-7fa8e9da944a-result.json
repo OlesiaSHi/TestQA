@@ -1,0 +1,118 @@
+{
+	"uuid": "102fdd9f-20cf-4294-8b79-7fa8e9da944a",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Настройка интеграции\" (IntegrationSettings)",
+	"name": "Открытие формы списка справочника \"Настройка интеграции\" (IntegrationSettings)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"настройка интеграции\" (integrationsettings)",
+	"testCaseId": "8e8a67830575aec655a9ea4351facd4e",
+	"start": 1734441056376,
+	"stop": 1734441057006,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"IntegrationSettings\"",
+			"start": 1734441056894,
+			"stop": 1734441056898,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "IntegrationSettings"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441056898,
+			"stop": 1734441057001,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441057001,
+			"stop": 1734441057003,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441057003,
+			"stop": 1734441057006,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Настройка интеграции\" (IntegrationSettings)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Настройка интеграции\" (IntegrationSettings)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

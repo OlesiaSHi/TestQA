@@ -1,0 +1,42 @@
+{
+	"uuid": "f3303450-2494-4af6-bb42-44cd3504da41",
+	"name": "Контекст_Открытие формы списка документа \"Расходный кассовый ордер\" (CashPayment)",
+	"description": "",
+	"children": [
+		"61ad16e7-91bb-49a9-9483-238f2cd0fd80"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441120715,
+			"stop": 1734441120735,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441120735,
+			"stop": 1734441120990,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

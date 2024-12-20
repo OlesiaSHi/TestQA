@@ -1,0 +1,42 @@
+{
+	"uuid": "40d15bf7-a739-49e5-af0f-159deb6c91ea",
+	"name": "Контекст_Открытие формы документа \"Кассовая книга\" (CashStatement)",
+	"description": "",
+	"children": [
+		"05993e5b-9ae0-4afe-b755-e9bb8a858987"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438864555,
+			"stop": 1734438864579,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438864579,
+			"stop": 1734438864812,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

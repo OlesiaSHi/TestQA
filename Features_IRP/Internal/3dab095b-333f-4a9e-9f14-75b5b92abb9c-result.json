@@ -1,0 +1,118 @@
+{
+	"uuid": "3dab095b-333f-4a9e-9f14-75b5b92abb9c",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Возврат поставщику\" (PurchaseReturn)",
+	"name": "Открытие формы списка документа \"Возврат поставщику\" (PurchaseReturn)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"возврат поставщику\" (purchasereturn)",
+	"testCaseId": "b563fff8b00d387c914833f0f5dd8120",
+	"start": 1734438850670,
+	"stop": 1734438851320,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"PurchaseReturn\"",
+			"start": 1734438851148,
+			"stop": 1734438851153,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PurchaseReturn"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438851153,
+			"stop": 1734438851314,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438851315,
+			"stop": 1734438851317,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438851317,
+			"stop": 1734438851319,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Возврат поставщику\" (PurchaseReturn)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Возврат поставщику\" (PurchaseReturn)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

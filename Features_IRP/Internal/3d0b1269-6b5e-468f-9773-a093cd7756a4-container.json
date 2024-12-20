@@ -1,0 +1,42 @@
+{
+	"uuid": "9b40534f-5f0b-49c2-82f5-32cce0d7c669",
+	"name": "Контекст_Открытие формы списка документа \"Поступление товаров и услуг\" (PurchaseInvoice)",
+	"description": "",
+	"children": [
+		"3d0b1269-6b5e-468f-9773-a093cd7756a4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438848848,
+			"stop": 1734438848882,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438848882,
+			"stop": 1734438849113,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

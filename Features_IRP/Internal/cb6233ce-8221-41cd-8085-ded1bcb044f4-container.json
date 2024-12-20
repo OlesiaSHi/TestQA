@@ -1,0 +1,42 @@
+{
+	"uuid": "3313f6d4-73dd-4459-a58a-9cc05f62a269",
+	"name": "Контекст_Открытие формы списка справочника \"Банковские чеки\" (ChequeBonds)",
+	"description": "",
+	"children": [
+		"cb6233ce-8221-41cd-8085-ded1bcb044f4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441047315,
+			"stop": 1734441047328,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441047328,
+			"stop": 1734441047524,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

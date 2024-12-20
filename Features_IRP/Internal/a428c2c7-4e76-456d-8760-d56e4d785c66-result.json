@@ -1,0 +1,118 @@
+{
+	"uuid": "a428c2c7-4e76-456d-8760-d56e4d785c66",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Резервирование запланированного прихода товара\" (PlannedReceiptReservation)",
+	"name": "Открытие формы списка документа \"Резервирование запланированного прихода товара\" (PlannedReceiptReservation)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"резервирование запланированного прихода товара\" (plannedreceiptreservation)",
+	"testCaseId": "f9f8e05b090b6e7e066e15fdbc409377",
+	"start": 1734441133969,
+	"stop": 1734441134776,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"PlannedReceiptReservation\"",
+			"start": 1734441134647,
+			"stop": 1734441134660,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PlannedReceiptReservation"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441134660,
+			"stop": 1734441134772,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441134772,
+			"stop": 1734441134774,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441134774,
+			"stop": 1734441134776,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Резервирование запланированного прихода товара\" (PlannedReceiptReservation)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Резервирование запланированного прихода товара\" (PlannedReceiptReservation)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

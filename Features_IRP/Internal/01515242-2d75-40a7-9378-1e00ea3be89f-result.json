@@ -1,0 +1,118 @@
+{
+	"uuid": "01515242-2d75-40a7-9378-1e00ea3be89f",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Расходный кассовый ордер\" (CashPayment)",
+	"name": "Открытие формы списка документа \"Расходный кассовый ордер\" (CashPayment)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"расходный кассовый ордер\" (cashpayment)",
+	"testCaseId": "92dd0468c586126a0ace3d4b3267fbbd",
+	"start": 1734438834184,
+	"stop": 1734438834785,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"CashPayment\"",
+			"start": 1734438834649,
+			"stop": 1734438834651,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CashPayment"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438834651,
+			"stop": 1734438834781,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438834781,
+			"stop": 1734438834783,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438834783,
+			"stop": 1734438834785,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Расходный кассовый ордер\" (CashPayment)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Расходный кассовый ордер\" (CashPayment)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "adc8e5fc-d859-4d58-8c3b-82e62106ed14",
+	"name": "Контекст_Открытие формы списка справочника \"Статусы объектов\" (ObjectStatuses)",
+	"description": "",
+	"children": [
+		"5c6ea38a-1d4b-4935-a22d-9f8e0602e06d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438774118,
+			"stop": 1734438774135,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438774135,
+			"stop": 1734438774239,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

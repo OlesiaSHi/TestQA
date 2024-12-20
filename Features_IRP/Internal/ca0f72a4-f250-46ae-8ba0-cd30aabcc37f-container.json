@@ -1,0 +1,42 @@
+{
+	"uuid": "2201dc95-2906-4911-84e2-7dcaf02264a9",
+	"name": "Контекст_Открытие формы справочника \"Единицы измерения\" (UnitsOfMeasurement)",
+	"description": "",
+	"children": [
+		"ca0f72a4-f250-46ae-8ba0-cd30aabcc37f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438829284,
+			"stop": 1734438829303,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438829303,
+			"stop": 1734438829569,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

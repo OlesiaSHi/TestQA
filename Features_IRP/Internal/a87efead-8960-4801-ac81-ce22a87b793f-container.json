@@ -1,0 +1,42 @@
+{
+	"uuid": "3367d824-0ab5-4a95-a79a-bb9e34ae5c87",
+	"name": "Контекст_Открытие формы списка справочника \"Договора контрагентов\" (LegalNameContracts)",
+	"description": "",
+	"children": [
+		"a87efead-8960-4801-ac81-ce22a87b793f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438772939,
+			"stop": 1734438772956,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438772956,
+			"stop": 1734438773232,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

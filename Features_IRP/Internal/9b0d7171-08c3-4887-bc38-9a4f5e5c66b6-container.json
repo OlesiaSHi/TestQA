@@ -1,0 +1,42 @@
+{
+	"uuid": "ef56a936-5b28-46a1-a1f7-022ab256655b",
+	"name": "Контекст_Открытие формы справочника \"Row IDs\" (RowIDs)",
+	"description": "",
+	"children": [
+		"9b0d7171-08c3-4887-bc38-9a4f5e5c66b6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441109359,
+			"stop": 1734441109376,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441109376,
+			"stop": 1734441109564,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

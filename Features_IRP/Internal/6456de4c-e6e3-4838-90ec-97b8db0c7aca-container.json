@@ -1,0 +1,42 @@
+{
+	"uuid": "2283d14d-1401-4dbe-b0ef-7ea3698974d5",
+	"name": "Контекст_Открытие формы справочника \"Тома хранения файлов\" (FileStorageVolumes)",
+	"description": "",
+	"children": [
+		"6456de4c-e6e3-4838-90ec-97b8db0c7aca"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438805656,
+			"stop": 1734438805678,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438805678,
+			"stop": 1734438805975,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

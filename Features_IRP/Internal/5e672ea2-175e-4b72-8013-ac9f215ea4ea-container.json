@@ -1,0 +1,42 @@
+{
+	"uuid": "8c883b50-1b24-4d28-9a88-711d7283ec0c",
+	"name": "Контекст_Открытие формы документа \"Реализация розничному покупателю\" (RetailSalesReceipt)",
+	"description": "",
+	"children": [
+		"5e672ea2-175e-4b72-8013-ac9f215ea4ea"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438882508,
+			"stop": 1734438882532,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438882533,
+			"stop": 1734438882767,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

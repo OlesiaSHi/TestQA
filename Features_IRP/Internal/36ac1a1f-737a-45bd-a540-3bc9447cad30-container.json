@@ -1,0 +1,42 @@
+{
+	"uuid": "376c63d3-323a-4a2d-80e4-f2c85df607b0",
+	"name": "Контекст_Открытие формы справочника \"Дополнительная налоговая аналитика\" (TaxAnalytics)",
+	"description": "",
+	"children": [
+		"36ac1a1f-737a-45bd-a540-3bc9447cad30"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441113573,
+			"stop": 1734441113591,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441113591,
+			"stop": 1734441113871,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

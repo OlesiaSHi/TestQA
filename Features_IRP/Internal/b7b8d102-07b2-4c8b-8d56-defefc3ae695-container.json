@@ -1,0 +1,42 @@
+{
+	"uuid": "2609cae9-fbf4-4c45-8422-73d9c80da562",
+	"name": "Контекст_Открытие формы справочника \"Группы доступа пользователей\" (AccessGroups)",
+	"description": "",
+	"children": [
+		"b7b8d102-07b2-4c8b-8d56-defefc3ae695"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441078156,
+			"stop": 1734441078177,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441078177,
+			"stop": 1734441078453,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

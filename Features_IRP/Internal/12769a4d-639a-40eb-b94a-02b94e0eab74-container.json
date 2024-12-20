@@ -1,0 +1,42 @@
+{
+	"uuid": "0c08a35f-d2fe-4971-86c5-3a71e0708a0d",
+	"name": "Контекст_Открытие формы списка документа \"Заявка на обеспечение товара\" (InternalSupplyRequest)",
+	"description": "",
+	"children": [
+		"12769a4d-639a-40eb-b94a-02b94e0eab74"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438840471,
+			"stop": 1734438840491,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438840492,
+			"stop": 1734438840743,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

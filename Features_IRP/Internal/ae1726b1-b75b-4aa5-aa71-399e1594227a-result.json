@@ -1,0 +1,118 @@
+{
+	"uuid": "ae1726b1-b75b-4aa5-aa71-399e1594227a",
+	"historyId": "Дымовые тесты - Справочники - ФормаСписка.Открытие формы списка справочника \"Платежные терминалы\" (PaymentTerminals)",
+	"name": "Открытие формы списка справочника \"Платежные терминалы\" (PaymentTerminals)",
+	"fullName": "internal/011_справочники_формасписка.feature_открытие формы списка справочника \"платежные терминалы\" (paymentterminals)",
+	"testCaseId": "c84a23e1cde6df41eed5db287796a6a0",
+	"start": 1734441065541,
+	"stop": 1734441066144,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка справочника \"PaymentTerminals\"",
+			"start": 1734441066036,
+			"stop": 1734441066039,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PaymentTerminals"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441066039,
+			"stop": 1734441066139,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441066140,
+			"stop": 1734441066142,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441066142,
+			"stop": 1734441066144,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка справочника \"Платежные терминалы\" (PaymentTerminals)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка справочника \"Платежные терминалы\" (PaymentTerminals)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

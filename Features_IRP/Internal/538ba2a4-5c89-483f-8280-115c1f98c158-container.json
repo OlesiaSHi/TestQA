@@ -1,0 +1,42 @@
+{
+	"uuid": "b565ee1a-957c-4f76-9df6-06a7dd7e8da4",
+	"name": "Контекст_Открытие формы списка справочника \"Причины отмены/возврата\" (CancelReturnReasons)",
+	"description": "",
+	"children": [
+		"538ba2a4-5c89-483f-8280-115c1f98c158"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438757238,
+			"stop": 1734438757253,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438757253,
+			"stop": 1734438757536,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

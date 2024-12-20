@@ -1,0 +1,42 @@
+{
+	"uuid": "91dc3dee-4d44-41af-8593-672a04c4c0b4",
+	"name": "Контекст_Открытие формы обработки \"Печать этикеток\" (PrintLabels)",
+	"description": "",
+	"children": [
+		"d094bd8b-79cc-44d3-bd49-df84192a9aac"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441180492,
+			"stop": 1734441180527,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441180527,
+			"stop": 1734441180659,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

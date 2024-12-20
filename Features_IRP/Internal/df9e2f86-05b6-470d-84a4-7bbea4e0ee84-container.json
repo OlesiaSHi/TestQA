@@ -1,0 +1,42 @@
+{
+	"uuid": "4036f5a6-e084-4dfd-b2a3-90b2e6626b8f",
+	"name": "Контекст_Открытие формы списка справочника \"Виды налогов\" (Taxes)",
+	"description": "",
+	"children": [
+		"df9e2f86-05b6-470d-84a4-7bbea4e0ee84"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438785753,
+			"stop": 1734438785773,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438785774,
+			"stop": 1734438786055,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

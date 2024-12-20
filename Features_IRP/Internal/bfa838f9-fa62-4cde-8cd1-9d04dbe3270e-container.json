@@ -1,0 +1,42 @@
+{
+	"uuid": "d0d71148-9943-4cae-a2dc-07f610e2b695",
+	"name": "Контекст_Открытие формы справочника \"Адрес файловых хранилищ\" (FileStoragesInfo)",
+	"description": "",
+	"children": [
+		"bfa838f9-fa62-4cde-8cd1-9d04dbe3270e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441093019,
+			"stop": 1734441093040,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441093040,
+			"stop": 1734441093286,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

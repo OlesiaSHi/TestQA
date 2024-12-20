@@ -1,0 +1,118 @@
+{
+	"uuid": "c6ca5408-98fd-44da-95d8-0dbe2bdfaf03",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Заявка на расходование денежных средств\" (OutgoingPaymentOrder)",
+	"name": "Открытие формы списка документа \"Заявка на расходование денежных средств\" (OutgoingPaymentOrder)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"заявка на расходование денежных средств\" (outgoingpaymentorder)",
+	"testCaseId": "2306817b6572b9bf4c54c9ed1bc1c267",
+	"start": 1734441132130,
+	"stop": 1734441132743,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"OutgoingPaymentOrder\"",
+			"start": 1734441132620,
+			"stop": 1734441132623,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "OutgoingPaymentOrder"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441132624,
+			"stop": 1734441132740,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441132740,
+			"stop": 1734441132742,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441132742,
+			"stop": 1734441132743,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Заявка на расходование денежных средств\" (OutgoingPaymentOrder)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Заявка на расходование денежных средств\" (OutgoingPaymentOrder)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

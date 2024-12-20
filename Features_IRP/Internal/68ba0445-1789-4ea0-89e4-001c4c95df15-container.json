@@ -1,0 +1,42 @@
+{
+	"uuid": "2434cce2-a26d-459e-a68a-8e7d9d9a318a",
+	"name": "Контекст_Открытие формы справочника \"Значения дополнительных реквизитов и сведений\" (AddAttributeAndPropertyValues)",
+	"description": "",
+	"children": [
+		"68ba0445-1789-4ea0-89e4-001c4c95df15"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438792131,
+			"stop": 1734438792152,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438792152,
+			"stop": 1734438792358,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

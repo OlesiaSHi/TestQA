@@ -1,0 +1,118 @@
+{
+	"uuid": "b3cdb961-f5ff-427b-9c6b-ba923c30896c",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Адресная иерархия\" (IDInfoAddresses)",
+	"name": "Открытие формы справочника \"Адресная иерархия\" (IDInfoAddresses)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"адресная иерархия\" (idinfoaddresses)",
+	"testCaseId": "f63c7dbfb2cd09351a0dd66caa4aa607",
+	"start": 1734438806925,
+	"stop": 1734438807489,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"IDInfoAddresses\"",
+			"start": 1734438807396,
+			"stop": 1734438807400,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "IDInfoAddresses"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438807400,
+			"stop": 1734438807487,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438807487,
+			"stop": 1734438807488,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438807488,
+			"stop": 1734438807489,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Адресная иерархия\" (IDInfoAddresses)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Адресная иерархия\" (IDInfoAddresses)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

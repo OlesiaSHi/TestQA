@@ -1,0 +1,118 @@
+{
+	"uuid": "2cf2b9f0-438e-41c9-a34a-19ec4ec9056d",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Интерфейсные группы\" (InterfaceGroups)",
+	"name": "Открытие формы справочника \"Интерфейсные группы\" (InterfaceGroups)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"интерфейсные группы\" (interfacegroups)",
+	"testCaseId": "bb6d119e5230dc3e5a9abd59ea4a58f7",
+	"start": 1734441096098,
+	"stop": 1734441096661,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"InterfaceGroups\"",
+			"start": 1734441096575,
+			"stop": 1734441096578,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "InterfaceGroups"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441096578,
+			"stop": 1734441096657,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441096657,
+			"stop": 1734441096660,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441096660,
+			"stop": 1734441096661,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Интерфейсные группы\" (InterfaceGroups)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Интерфейсные группы\" (InterfaceGroups)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

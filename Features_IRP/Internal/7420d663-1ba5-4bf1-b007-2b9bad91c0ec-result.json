@@ -1,0 +1,139 @@
+{
+	"uuid": "7420d663-1ba5-4bf1-b007-2b9bad91c0ec",
+	"historyId": "проверка формы элемента справочника Организации.проверка расположения элементов в форме Организаций",
+	"name": "проверка расположения элементов в форме Организаций",
+	"fullName": "internal/справочникорганиции.feature_проверка расположения элементов в форме организаций",
+	"testCaseId": "8c58cdc600223688e7bf7ace2f137215",
+	"start": 1734438989837,
+	"stop": 1734438990843,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Справочники\" \"Организации\"",
+			"start": 1734438989906,
+			"stop": 1734438989925,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Справочники"
+				},
+				{
+					"name": "Парам2",
+					"value": "Организации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Организации\"",
+			"start": 1734438989925,
+			"stop": 1734438989996,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'FormCreate'",
+			"start": 1734438989996,
+			"stop": 1734438990006,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FormCreate"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Организация (создание)\"",
+			"start": 1734438990006,
+			"stop": 1734438990843,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация (создание)"
+				}
+			],
+			"attachments": [
+				{
+					"name": "Перед выполнением шага",
+					"source": "63870035790007_Тогда открылось окно Организация (создание).png",
+					"type": "image/png"
+				},
+				{
+					"name": "После выполнения шага",
+					"source": "63870035790437_Тогда открылось окно Организация (создание).png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "проверка расположения элементов в форме Организаций"
+		},
+		{
+			"name": "feature",
+			"value": "проверка расположения элементов в форме Организаций"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

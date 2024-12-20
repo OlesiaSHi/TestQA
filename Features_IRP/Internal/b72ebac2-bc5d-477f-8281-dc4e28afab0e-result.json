@@ -1,0 +1,118 @@
+{
+	"uuid": "b72ebac2-bc5d-477f-8281-dc4e28afab0e",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Закрытие авансов поставщиков\" (VendorsAdvancesClosing)",
+	"name": "Открытие формы документа \"Закрытие авансов поставщиков\" (VendorsAdvancesClosing)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"закрытие авансов поставщиков\" (vendorsadvancesclosing)",
+	"testCaseId": "f4a4ed11c71952c3bdb7975316e1a413",
+	"start": 1734438889430,
+	"stop": 1734438889960,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"VendorsAdvancesClosing\"",
+			"start": 1734438889882,
+			"stop": 1734438889884,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "VendorsAdvancesClosing"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438889884,
+			"stop": 1734438889955,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438889955,
+			"stop": 1734438889957,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438889957,
+			"stop": 1734438889960,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Закрытие авансов поставщиков\" (VendorsAdvancesClosing)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Закрытие авансов поставщиков\" (VendorsAdvancesClosing)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

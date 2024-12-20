@@ -1,0 +1,42 @@
+{
+	"uuid": "17430941-400b-47f2-9925-8649c4991e7f",
+	"name": "Контекст_Открытие формы справочника \"Номенклатура партнера\" (PartnerItems)",
+	"description": "",
+	"children": [
+		"59384957-fcf6-42e3-9509-816c9203aa61"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441101357,
+			"stop": 1734441101373,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441101373,
+			"stop": 1734441101654,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

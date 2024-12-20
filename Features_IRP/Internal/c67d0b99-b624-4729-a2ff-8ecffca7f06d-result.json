@@ -1,0 +1,118 @@
+{
+	"uuid": "c67d0b99-b624-4729-a2ff-8ecffca7f06d",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Пересчет товаров\" (PhysicalCountByLocation)",
+	"name": "Открытие формы документа \"Пересчет товаров\" (PhysicalCountByLocation)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"пересчет товаров\" (physicalcountbylocation)",
+	"testCaseId": "0a539e2b36696331bf6c447a05152d34",
+	"start": 1734441161049,
+	"stop": 1734441161655,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"PhysicalCountByLocation\"",
+			"start": 1734441161524,
+			"stop": 1734441161527,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PhysicalCountByLocation"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441161527,
+			"stop": 1734441161651,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441161651,
+			"stop": 1734441161653,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441161653,
+			"stop": 1734441161655,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Пересчет товаров\" (PhysicalCountByLocation)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Пересчет товаров\" (PhysicalCountByLocation)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

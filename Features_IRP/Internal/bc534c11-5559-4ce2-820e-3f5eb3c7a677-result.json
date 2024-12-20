@@ -1,0 +1,118 @@
+{
+	"uuid": "bc534c11-5559-4ce2-820e-3f5eb3c7a677",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Заявка на обеспечение товара\" (InternalSupplyRequest)",
+	"name": "Открытие формы списка документа \"Заявка на обеспечение товара\" (InternalSupplyRequest)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"заявка на обеспечение товара\" (internalsupplyrequest)",
+	"testCaseId": "636b6fe8ea8a6ed2069b2402e00fb89f",
+	"start": 1734441127056,
+	"stop": 1734441127634,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"InternalSupplyRequest\"",
+			"start": 1734441127516,
+			"stop": 1734441127519,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "InternalSupplyRequest"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441127519,
+			"stop": 1734441127629,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441127630,
+			"stop": 1734441127632,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441127632,
+			"stop": 1734441127634,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Заявка на обеспечение товара\" (InternalSupplyRequest)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Заявка на обеспечение товара\" (InternalSupplyRequest)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

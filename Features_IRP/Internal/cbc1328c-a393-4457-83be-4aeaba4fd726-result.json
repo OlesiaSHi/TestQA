@@ -1,0 +1,118 @@
+{
+	"uuid": "cbc1328c-a393-4457-83be-4aeaba4fd726",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Инвентаризация товаров\" (PhysicalInventory)",
+	"name": "Открытие формы списка документа \"Инвентаризация товаров\" (PhysicalInventory)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"инвентаризация товаров\" (physicalinventory)",
+	"testCaseId": "000cd7bad7656165003ec1c4aedd9b5a",
+	"start": 1734438846797,
+	"stop": 1734438847402,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"PhysicalInventory\"",
+			"start": 1734438847275,
+			"stop": 1734438847278,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PhysicalInventory"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438847278,
+			"stop": 1734438847398,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438847398,
+			"stop": 1734438847400,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438847400,
+			"stop": 1734438847402,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Инвентаризация товаров\" (PhysicalInventory)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Инвентаризация товаров\" (PhysicalInventory)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,118 @@
+{
+	"uuid": "36001901-7810-44e3-bd1c-af56ca82ff3f",
+	"historyId": "Дымовые тесты - Обработки - ФормаОбъекта.Открытие формы обработки \"Проанализировать движения документа\" (AnaliseDocumentMovements)",
+	"name": "Открытие формы обработки \"Проанализировать движения документа\" (AnaliseDocumentMovements)",
+	"fullName": "internal/082_обработки_формаобъекта.feature_открытие формы обработки \"проанализировать движения документа\" (analisedocumentmovements)",
+	"testCaseId": "3bac9ec71480cd268a49539266792ffb",
+	"start": 1734441176893,
+	"stop": 1734441177493,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"AnaliseDocumentMovements\"",
+			"start": 1734441177390,
+			"stop": 1734441177393,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "AnaliseDocumentMovements"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441177393,
+			"stop": 1734441177488,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441177488,
+			"stop": 1734441177490,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441177490,
+			"stop": 1734441177493,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы обработки \"Проанализировать движения документа\" (AnaliseDocumentMovements)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы обработки \"Проанализировать движения документа\" (AnaliseDocumentMovements)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

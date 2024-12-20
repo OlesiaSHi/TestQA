@@ -1,0 +1,118 @@
+{
+	"uuid": "342ede56-149e-42f7-9963-7c05156d7d7c",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Разукомлектация набора\" (Unbundling)",
+	"name": "Открытие формы документа \"Разукомлектация набора\" (Unbundling)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"разукомлектация набора\" (unbundling)",
+	"testCaseId": "02261a5ec141c8cdd63c2bbbbf6cba73",
+	"start": 1734438888877,
+	"stop": 1734438889430,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"Unbundling\"",
+			"start": 1734438889270,
+			"stop": 1734438889272,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Unbundling"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438889272,
+			"stop": 1734438889425,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438889425,
+			"stop": 1734438889427,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438889427,
+			"stop": 1734438889429,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Разукомлектация набора\" (Unbundling)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Разукомлектация набора\" (Unbundling)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

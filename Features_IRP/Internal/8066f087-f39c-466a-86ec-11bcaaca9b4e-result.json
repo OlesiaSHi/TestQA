@@ -1,0 +1,118 @@
+{
+	"uuid": "8066f087-f39c-466a-86ec-11bcaaca9b4e",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Реализация товаров и услуг\" (SalesInvoice)",
+	"name": "Открытие формы списка документа \"Реализация товаров и услуг\" (SalesInvoice)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"реализация товаров и услуг\" (salesinvoice)",
+	"testCaseId": "1542ba0ccfafb9cc5278aacc0c2bc42f",
+	"start": 1734441140292,
+	"stop": 1734441141113,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"SalesInvoice\"",
+			"start": 1734441140967,
+			"stop": 1734441140969,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SalesInvoice"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441140969,
+			"stop": 1734441141106,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441141106,
+			"stop": 1734441141109,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441141109,
+			"stop": 1734441141112,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Реализация товаров и услуг\" (SalesInvoice)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Реализация товаров и услуг\" (SalesInvoice)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

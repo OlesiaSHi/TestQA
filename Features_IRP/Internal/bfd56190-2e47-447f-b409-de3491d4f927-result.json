@@ -1,0 +1,118 @@
+{
+	"uuid": "bfd56190-2e47-447f-b409-de3491d4f927",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Заказ на перемещение товаров\" (InventoryTransferOrder)",
+	"name": "Открытие формы документа \"Заказ на перемещение товаров\" (InventoryTransferOrder)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"заказ на перемещение товаров\" (inventorytransferorder)",
+	"testCaseId": "ec84940f5fe3a7c076dd921b1277b6f0",
+	"start": 1734441156596,
+	"stop": 1734441157219,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"InventoryTransferOrder\"",
+			"start": 1734441157050,
+			"stop": 1734441157053,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "InventoryTransferOrder"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441157053,
+			"stop": 1734441157216,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441157216,
+			"stop": 1734441157218,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441157218,
+			"stop": 1734441157219,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Заказ на перемещение товаров\" (InventoryTransferOrder)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Заказ на перемещение товаров\" (InventoryTransferOrder)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "985f6c4d-6519-4cce-80ad-ee77caf27714",
+	"name": "Контекст_Открытие формы списка справочника \"Настройки контактной информации\" (IDInfoSets)",
+	"description": "",
+	"children": [
+		"6876420b-9c7d-442a-ae0b-fa521a451d80"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438768093,
+			"stop": 1734438768110,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438768110,
+			"stop": 1734438768360,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

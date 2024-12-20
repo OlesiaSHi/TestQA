@@ -1,0 +1,42 @@
+{
+	"uuid": "8e8b6cc1-8b0f-483c-8849-ed3c589b7c90",
+	"name": "Контекст_Открытие формы регистра сведений \"Просканированный штрихкод\" (T1010S_ScannedBarcode)",
+	"description": "",
+	"children": [
+		"dfb93830-e4a3-4cb0-a2cd-9168e93a4f98"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441193165,
+			"stop": 1734441193183,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441193184,
+			"stop": 1734441193290,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

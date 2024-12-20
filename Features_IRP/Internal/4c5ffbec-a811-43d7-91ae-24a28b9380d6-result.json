@@ -1,0 +1,118 @@
+{
+	"uuid": "4c5ffbec-a811-43d7-91ae-24a28b9380d6",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Платежное поручение входящее\" (BankReceipt)",
+	"name": "Открытие формы документа \"Платежное поручение входящее\" (BankReceipt)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"платежное поручение входящее\" (bankreceipt)",
+	"testCaseId": "72db9a733919beb0ded4f49efed79a29",
+	"start": 1734441147510,
+	"stop": 1734441148028,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"BankReceipt\"",
+			"start": 1734441147881,
+			"stop": 1734441147885,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "BankReceipt"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441147885,
+			"stop": 1734441148024,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441148024,
+			"stop": 1734441148026,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441148026,
+			"stop": 1734441148028,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Платежное поручение входящее\" (BankReceipt)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Платежное поручение входящее\" (BankReceipt)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

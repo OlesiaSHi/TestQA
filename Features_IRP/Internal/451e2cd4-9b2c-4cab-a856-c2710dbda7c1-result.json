@@ -1,0 +1,118 @@
+{
+	"uuid": "451e2cd4-9b2c-4cab-a856-c2710dbda7c1",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Приходный кассовый ордер\" (CashReceipt)",
+	"name": "Открытие формы списка документа \"Приходный кассовый ордер\" (CashReceipt)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"приходный кассовый ордер\" (cashreceipt)",
+	"testCaseId": "f1d3b517df8877bc7d97e6b50b08de72",
+	"start": 1734441121319,
+	"stop": 1734441122144,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"CashReceipt\"",
+			"start": 1734441122013,
+			"stop": 1734441122017,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CashReceipt"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441122017,
+			"stop": 1734441122140,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441122140,
+			"stop": 1734441122142,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441122142,
+			"stop": 1734441122144,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Приходный кассовый ордер\" (CashReceipt)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Приходный кассовый ордер\" (CashReceipt)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

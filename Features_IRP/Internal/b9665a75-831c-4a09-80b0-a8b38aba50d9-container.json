@@ -1,0 +1,42 @@
+{
+	"uuid": "104faac2-2815-408b-a3a3-836c6b28a610",
+	"name": "Контекст_Открытие формы списка справочника \"Страны\" (Countries)",
+	"description": "",
+	"children": [
+		"b9665a75-831c-4a09-80b0-a8b38aba50d9"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441049069,
+			"stop": 1734441049089,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441049089,
+			"stop": 1734441049348,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

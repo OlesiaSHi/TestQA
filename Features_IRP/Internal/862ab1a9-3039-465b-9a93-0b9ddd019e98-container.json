@@ -1,0 +1,42 @@
+{
+	"uuid": "51525c05-3469-46b5-ac20-7965afc18f95",
+	"name": "Контекст_Открытие формы документа \"Реализация товаров и услуг\" (SalesInvoice)",
+	"description": "",
+	"children": [
+		"862ab1a9-3039-465b-9a93-0b9ddd019e98"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441169308,
+			"stop": 1734441169332,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441169332,
+			"stop": 1734441169450,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

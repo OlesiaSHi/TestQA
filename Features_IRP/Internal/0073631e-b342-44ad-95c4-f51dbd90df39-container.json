@@ -1,0 +1,42 @@
+{
+	"uuid": "9ef1ed95-6092-4276-a974-3cd2c7929f90",
+	"name": "Контекст_Открытие формы документа \"Заявка на перемещение денежных средств\" (CashTransferOrder)",
+	"description": "",
+	"children": [
+		"0073631e-b342-44ad-95c4-f51dbd90df39"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438865210,
+			"stop": 1734438865229,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438865229,
+			"stop": 1734438865437,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

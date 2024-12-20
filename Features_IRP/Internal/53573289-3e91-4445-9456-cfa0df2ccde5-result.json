@@ -1,0 +1,118 @@
+{
+	"uuid": "53573289-3e91-4445-9456-cfa0df2ccde5",
+	"historyId": "Дымовые тесты - Справочники - ФормаОбъекта.Открытие формы справочника \"Ключи аналитики ценообразования\" (PriceKeys)",
+	"name": "Открытие формы справочника \"Ключи аналитики ценообразования\" (PriceKeys)",
+	"fullName": "internal/012_справочники_формаобъекта.feature_открытие формы справочника \"ключи аналитики ценообразования\" (pricekeys)",
+	"testCaseId": "a2a8b860e6363a28eaf388030a928812",
+	"start": 1734438819074,
+	"stop": 1734438819708,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"PriceKeys\"",
+			"start": 1734438819595,
+			"stop": 1734438819599,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PriceKeys"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438819599,
+			"stop": 1734438819705,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438819705,
+			"stop": 1734438819707,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438819707,
+			"stop": 1734438819708,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы справочника \"Ключи аналитики ценообразования\" (PriceKeys)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы справочника \"Ключи аналитики ценообразования\" (PriceKeys)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

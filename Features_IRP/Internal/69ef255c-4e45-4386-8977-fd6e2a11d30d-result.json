@@ -1,0 +1,118 @@
+{
+	"uuid": "69ef255c-4e45-4386-8977-fd6e2a11d30d",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Списание товаров\" (StockAdjustmentAsWriteOff)",
+	"name": "Открытие формы документа \"Списание товаров\" (StockAdjustmentAsWriteOff)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"списание товаров\" (stockadjustmentaswriteoff)",
+	"testCaseId": "a99f87db2975b740fc60617eb71306f6",
+	"start": 1734438888236,
+	"stop": 1734438888877,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"StockAdjustmentAsWriteOff\"",
+			"start": 1734438888658,
+			"stop": 1734438888661,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "StockAdjustmentAsWriteOff"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438888662,
+			"stop": 1734438888871,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438888871,
+			"stop": 1734438888874,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438888874,
+			"stop": 1734438888877,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Списание товаров\" (StockAdjustmentAsWriteOff)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Списание товаров\" (StockAdjustmentAsWriteOff)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "7f5a4385-7632-435a-874f-490703d19bab",
+	"name": "Контекст_Открытие формы списка справочника \"Рабочие области\" (DataAreas)",
+	"description": "",
+	"children": [
+		"4b9c66b7-5cd3-4e49-8a7a-a67e6dabda6b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441050890,
+			"stop": 1734441050906,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441050906,
+			"stop": 1734441051187,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

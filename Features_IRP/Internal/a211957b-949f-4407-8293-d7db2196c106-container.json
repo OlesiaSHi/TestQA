@@ -1,0 +1,42 @@
+{
+	"uuid": "bf0ee443-0cc5-4da4-8a28-1a1f41a9f631",
+	"name": "Контекст_Открытие формы списка справочника \"Причина запрета изменения данных\" (LockDataModificationReasons)",
+	"description": "",
+	"children": [
+		"a211957b-949f-4407-8293-d7db2196c106"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441061265,
+			"stop": 1734441061285,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441061286,
+			"stop": 1734441061573,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

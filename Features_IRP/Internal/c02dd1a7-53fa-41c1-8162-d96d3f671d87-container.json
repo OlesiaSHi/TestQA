@@ -1,0 +1,42 @@
+{
+	"uuid": "2cabe18b-78d1-4122-baab-fd8ffcc1144d",
+	"name": "Контекст_Открытие формы документа \"Пересчет товаров\" (PhysicalCountByLocation)",
+	"description": "",
+	"children": [
+		"c02dd1a7-53fa-41c1-8162-d96d3f671d87"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438874999,
+			"stop": 1734438875025,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438875025,
+			"stop": 1734438875250,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

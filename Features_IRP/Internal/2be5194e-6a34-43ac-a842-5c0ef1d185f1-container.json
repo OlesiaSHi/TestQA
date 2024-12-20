@@ -1,0 +1,42 @@
+{
+	"uuid": "239e1851-68b2-4adb-9d39-f38635b75209",
+	"name": "Контекст_Открытие формы справочника \"Профили доступа пользователей\" (AccessProfiles)",
+	"description": "",
+	"children": [
+		"2be5194e-6a34-43ac-a842-5c0ef1d185f1"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441079062,
+			"stop": 1734441079085,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441079086,
+			"stop": 1734441079252,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

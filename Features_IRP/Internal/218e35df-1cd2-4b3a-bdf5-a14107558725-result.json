@@ -1,0 +1,118 @@
+{
+	"uuid": "218e35df-1cd2-4b3a-bdf5-a14107558725",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Пересчет товаров\" (PhysicalCountByLocation)",
+	"name": "Открытие формы списка документа \"Пересчет товаров\" (PhysicalCountByLocation)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"пересчет товаров\" (physicalcountbylocation)",
+	"testCaseId": "13b4dc6f6ff91cd8cfde1c3209d52f78",
+	"start": 1734441132744,
+	"stop": 1734441133356,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"PhysicalCountByLocation\"",
+			"start": 1734441133232,
+			"stop": 1734441133234,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PhysicalCountByLocation"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734441133234,
+			"stop": 1734441133351,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734441133351,
+			"stop": 1734441133354,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734441133354,
+			"stop": 1734441133356,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Пересчет товаров\" (PhysicalCountByLocation)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Пересчет товаров\" (PhysicalCountByLocation)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

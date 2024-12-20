@@ -1,0 +1,430 @@
+{
+	"uuid": "ef1fa35a-bb20-4d17-9c3d-d923d2e8d612",
+	"historyId": "проверка формы элемента справочника Организации.проверка заполнения справочника Организации",
+	"name": "проверка заполнения справочника Организации",
+	"fullName": "internal/справочникорганиции.feature_проверка заполнения справочника организации",
+	"testCaseId": "7278deddbc6ee04ae43ac1c5d2116141",
+	"start": 1734441267916,
+	"stop": 1734441275489,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Элемента формы с именем <Description_ru> не найдено.",
+		"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(4251)}: {ExternalDataProcessor.VanessaAutomation.Form.УправляемаяФорма.Form(7878)}: Элемента формы с именем <Description_ru> не найдено.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Организация (создание)\n        ИмяАктивнойФормы: Catalog.Companies.Form.ItemForm\n        ИмяФичи: проверка формы элемента справочника Организации\n        ИмяСценария: проверка заполнения справочника Организации\n        НомерСтрокиДерева: 3 089\n        НомерСтрокиФичи: 41\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\СправочникОрганиции.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВПолеСИменемЯВвожуТекст\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 7088\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 16:14:35"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Справочники\" \"Организации\"",
+			"start": 1734441268095,
+			"stop": 1734441268119,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Справочники"
+				},
+				{
+					"name": "Парам2",
+					"value": "Организации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Организации\"",
+			"start": 1734441268119,
+			"stop": 1734441268189,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организации"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'FormCreate'",
+			"start": 1734441268189,
+			"stop": 1734441268196,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FormCreate"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Организация (создание)\"",
+			"start": 1734441268197,
+			"stop": 1734441268288,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организация (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Description_ru' я ввожу текст \"Тестовый контрагент\"",
+			"start": 1734441268289,
+			"stop": 1734441275488,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Элемента формы с именем <Description_ru> не найдено.",
+				"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(4251)}: {ExternalDataProcessor.VanessaAutomation.Form.УправляемаяФорма.Form(7878)}: Элемента формы с именем <Description_ru> не найдено.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Организация (создание)\n        ИмяАктивнойФормы: Catalog.Companies.Form.ItemForm\n        ИмяФичи: проверка формы элемента справочника Организации\n        ИмяСценария: проверка заполнения справочника Организации\n        НомерСтрокиДерева: 3 089\n        НомерСтрокиФичи: 41\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\СправочникОрганиции.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВПолеСИменемЯВвожуТекст\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 7088\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:08 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 16:14:35"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Description_ru"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тестовый контрагент"
+				}
+			],
+			"attachments": [
+				{
+					"name": "ЗначенияПеременных.mxl",
+					"source": "d244ac14-eacf-41cb-bebd-757a3f71412e-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЗначенияПеременных.html",
+					"source": "a63646cc-55d5-40de-a2be-3df445399c31-attachment.html",
+					"type": "html"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'Type' я выбираю точное значение \"Организация\"",
+			"start": 1734441275488,
+			"stop": 1734441275488,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Type"
+				},
+				{
+					"name": "Парам2",
+					"value": "Организация"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'FormWrite'",
+			"start": 1734441275488,
+			"stop": 1734441275488,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FormWrite"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем 'Description_ru' стал равен \"Тестовый контрагент\"",
+			"start": 1734441275488,
+			"stop": 1734441275488,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Description_ru"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тестовый контрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем 'Type' стал равен \"Организация\"",
+			"start": 1734441275488,
+			"stop": 1734441275488,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Type"
+				},
+				{
+					"name": "Парам2",
+					"value": "Организация"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'FormWriteAndClose'",
+			"start": 1734441275489,
+			"stop": 1734441275489,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FormWriteAndClose"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'List' я перехожу к строке:",
+			"start": 1734441275489,
+			"stop": 1734441275489,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "List"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "cc09b87d-d48d-49e2-82c1-5a87e5e99c56-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'List' я выбираю текущую строку",
+			"start": 1734441275489,
+			"stop": 1734441275489,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "List"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем 'Description_ru' стал равен \"Тестовый контрагент\"",
+			"start": 1734441275489,
+			"stop": 1734441275489,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Description_ru"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тестовый контрагент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем 'Type' стал равен \"Организация\"",
+			"start": 1734441275489,
+			"stop": 1734441275489,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Type"
+				},
+				{
+					"name": "Парам2",
+					"value": "Организация"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1734441275489,
+			"stop": 1734441275489,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "MainScreen",
+					"source": "57f3c365-1e29-4633-97be-71309f46fc0b-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "88770cb4-1243-42f1-8463-c192eb4c2720-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "fceb11b0-5e27-4828-acae-a9c7b642a1d2-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "проверка заполнения справочника Организации"
+		},
+		{
+			"name": "feature",
+			"value": "проверка заполнения справочника Организации"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "07cf4b7d-a397-441a-85cc-cb1f48d05915-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "23e4478c-2ad8-49d4-b319-45264159f7ef-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "a943fadb-3c44-45f3-a76e-e1b71c9b1020-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "83b6f3c0-2fd3-44ac-8b94-be1b95ecab1d-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "724e09da-875c-4f52-9270-e57595dbebc7-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

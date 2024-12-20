@@ -1,0 +1,95 @@
+{
+	"uuid": "cd560e95-e4fb-425c-ab9d-fcefbc18b452",
+	"historyId": "проверка добавления картинок в справочник Номенклатура._0601 подготовительный (добавление картинок)",
+	"name": "_0601 подготовительный (добавление картинок)",
+	"fullName": "internal/картинки.feature__0601 подготовительный (добавление картинок)",
+	"testCaseId": "d1a6b9e1ecbeb383428c40609b43e153",
+	"start": 1734418018071,
+	"stop": 1734418036726,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не найдена процедура или функция для выполнения шага:",
+		"trace": "Не найдена процедура или функция для выполнения шага: Когда экспорт основных данных"
+	},
+	"status": "pending",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда экспорт основных данных",
+			"start": 1734418036726,
+			"stop": 1734418036726,
+			"status": "pending",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Не найдена процедура или функция для выполнения шага:",
+				"trace": "Не найдена процедура или функция для выполнения шага: Когда экспорт основных данных"
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "MainScreen",
+					"source": "d72fbb94-1566-481c-8c5c-90887df40c6d-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "9057fa9b-3d95-4315-ab43-aa0ba919964e-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "e4ec4d90-b65d-48dd-8a36-d2f40a08083e-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0601 подготовительный (добавление картинок)"
+		},
+		{
+			"name": "feature",
+			"value": "_0601 подготовительный (добавление картинок)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "cad8067e-0a66-42a2-bc5f-82e297bf221e-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "52f418da-d9a8-42a9-b6b7-1eaef7ac91a1-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "4b414c43-b8fb-40a8-a77f-20ed64eb4549-attachment.png",
+			"type": "image/png"
+		}
+	],
+	"description": null
+}

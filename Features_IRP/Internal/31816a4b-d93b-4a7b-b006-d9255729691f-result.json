@@ -1,0 +1,275 @@
+{
+	"uuid": "31816a4b-d93b-4a7b-b006-d9255729691f",
+	"historyId": "проверка движения документа Поступление товаров._0503 проверка движений документа Поступление товаров по регистру R1021 Взаиморасчеты с поставщиками",
+	"name": "_0503 проверка движений документа Поступление товаров по регистру R1021 Взаиморасчеты с поставщиками",
+	"fullName": "internal/закупки/поступлениетоваровуслуг.feature__0503 проверка движений документа поступление товаров по регистру r1021 взаиморасчеты с поставщиками",
+	"testCaseId": "7bdf1de21541565d67b079d80e00804b",
+	"start": 1734441227013,
+	"stop": 1734441231514,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не удалось перейти к нужной строке в таблице <List>.",
+		"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(3744)}: Не удалось перейти к нужной строке в таблице <List>. \n\u0009\u0009| 'Номер' | \n\u0009\u0009| '101'   | \n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Поступления товаров и услуг\n        ИмяАктивнойФормы: Document.PurchaseInvoice.Form.ListForm\n        ИмяФичи: проверка движения документа Поступление товаров\n        ИмяСценария: _0503 проверка движений документа Поступление товаров по регистру R1021 Взаиморасчеты с поставщиками\n        НомерСтрокиДерева: 2 606\n        НомерСтрокиФичи: 52\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Закупки\\ПоступлениеТоваровУслуг.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯПерехожуКСтроке\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 7088\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 16:13:51"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/list/Document.PurchaseInvoice\"",
+			"start": 1734441227048,
+			"stop": 1734441227050,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/list/Document.PurchaseInvoice"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"List\" я перехожу к строке",
+			"start": 1734441227051,
+			"stop": 1734441231514,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Не удалось перейти к нужной строке в таблице <List>.",
+				"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(3744)}: Не удалось перейти к нужной строке в таблице <List>. \n\u0009\u0009| 'Номер' | \n\u0009\u0009| '101'   | \n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Поступления товаров и услуг\n        ИмяАктивнойФормы: Document.PurchaseInvoice.Form.ListForm\n        ИмяФичи: проверка движения документа Поступление товаров\n        ИмяСценария: _0503 проверка движений документа Поступление товаров по регистру R1021 Взаиморасчеты с поставщиками\n        НомерСтрокиДерева: 2 606\n        НомерСтрокиФичи: 52\n        ПолныйПутьКФиче: C:\\Users\\ooshiriaeva\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Закупки\\ПоступлениеТоваровУслуг.feature\n        ИмяФайла: C:/Users/ooshiriaeva/Desktop/СценарноеТестирование/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯПерехожуКСтроке\n        ИмяРаннера: NB9206\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Base\\ДемоIRP\";\n        ДопПараметрыПодключения: /N\"CI\" \n        PIDКлиентаТестирования: 7088\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.24.1667\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 17.12.2024 16:13:51"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "List"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "fe34a9eb-01b2-4a44-a42c-2691a6e85aa6-attachment.csv",
+					"type": "text/csv"
+				},
+				{
+					"name": "ТекущееЗначениеТаблицы.mxl",
+					"source": "e0982fa5-90a2-4884-bdc2-c83bd4b6c88c-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ТекущееЗначениеТаблицы.html",
+					"source": "0551ceb8-f03c-41ab-b27d-b29f34bd0ff5-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЗначенияПеременных.mxl",
+					"source": "3120605e-6a3e-43b4-b802-460ad1ada964-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЗначенияПеременных.html",
+					"source": "e441c398-14c4-4286-b7de-7e56f4fd4215-attachment.html",
+					"type": "html"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку \"Движения документа\"",
+			"start": 1734441231514,
+			"stop": 1734441231514,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Движения документа"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем 'FilterRegister' я выбираю точное значение \"R1021 Взаиморасчеты с поставщиками\"",
+			"start": 1734441231514,
+			"stop": 1734441231514,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FilterRegister"
+				},
+				{
+					"name": "Парам2",
+					"value": "R1021 Взаиморасчеты с поставщиками"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'GenerateReport'",
+			"start": 1734441231514,
+			"stop": 1734441231514,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "GenerateReport"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда табличный документ 'ResultTable' равен:",
+			"start": 1734441231514,
+			"stop": 1734441231514,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ResultTable"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "c78cf931-9995-4bdc-ae3b-ad14a65fda91-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1734441231514,
+			"stop": 1734441231514,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "MainScreen",
+					"source": "50aaa018-755c-4f8a-8de4-9e8b45dab3da-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "4ac1a9e3-8941-410a-9f1b-0bdf99e49f61-attachment.png",
+					"type": "image/png"
+				},
+				{
+					"name": "MainScreen",
+					"source": "739a12e7-5e92-4ecc-9f47-b068e42630ee-attachment.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0503 проверка движений документа Поступление товаров по регистру R1021 Взаиморасчеты с поставщиками"
+		},
+		{
+			"name": "feature",
+			"value": "_0503 проверка движений документа Поступление товаров по регистру R1021 Взаиморасчеты с поставщиками"
+		},
+		{
+			"name": "tag",
+			"value": "ДвиженияДокументов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Закупки"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "8888ac79-fa67-4c72-8aeb-abc106bf6bea-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "ed9b3419-5252-4b7b-9bcb-ed4ce63a55ae-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "MainScreen",
+			"source": "12f1286b-fce3-4a35-8c3e-251016ecce5d-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ТекущееЗначениеТаблицы.mxl",
+			"source": "82b2e09b-b265-4c1b-9627-f2243b52140b-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ТекущееЗначениеТаблицы.html",
+			"source": "0bb43521-f705-4869-9535-623e5ede3c04-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "e0860f27-7b3b-48ee-a341-dbf8ccd724d4-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "b6e7e8a3-a12f-469e-b3a8-a0ce519eb853-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

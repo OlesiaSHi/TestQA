@@ -1,0 +1,42 @@
+{
+	"uuid": "841efe14-be77-439f-9a4c-979e61f46981",
+	"name": "Контекст_Открытие формы обработки \"Мобильная инвентаризация\" (MobileInvent)",
+	"description": "",
+	"children": [
+		"1e3fbcbb-20c2-4dc7-acef-179a82934c86"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441178819,
+			"stop": 1734441178837,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441178837,
+			"stop": 1734441179029,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

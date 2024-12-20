@@ -1,0 +1,42 @@
+{
+	"uuid": "46aa88e3-9af0-4a7c-baac-d4f030ae84c9",
+	"name": "Контекст_Открытие формы документа \"Установка цен номенклатуры\" (PriceList)",
+	"description": "",
+	"children": [
+		"8c60490a-45a8-4da0-af51-edb6a990206d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441162906,
+			"stop": 1734441162929,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441162929,
+			"stop": 1734441163154,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

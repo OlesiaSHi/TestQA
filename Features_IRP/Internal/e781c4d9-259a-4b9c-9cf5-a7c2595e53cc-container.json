@@ -1,0 +1,42 @@
+{
+	"uuid": "78ad9166-cb45-4f09-82c0-348931453095",
+	"name": "Контекст_Открытие формы справочника \"Способы применения специальных предложений\" (SpecialOfferTypes)",
+	"description": "",
+	"children": [
+		"e781c4d9-259a-4b9c-9cf5-a7c2595e53cc"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441111762,
+			"stop": 1734441111785,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441111786,
+			"stop": 1734441112047,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

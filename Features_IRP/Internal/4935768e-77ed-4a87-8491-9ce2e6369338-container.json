@@ -1,0 +1,42 @@
+{
+	"uuid": "ab0800f6-9dc8-448d-b6e3-918dcbfbdddc",
+	"name": "Контекст_Открытие формы регистра сведений \"Налоги организации\" (Taxes)",
+	"description": "",
+	"children": [
+		"4935768e-77ed-4a87-8491-9ce2e6369338"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438907067,
+			"stop": 1734438907086,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438907086,
+			"stop": 1734438907382,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "44cc9082-e99b-4df9-b063-ace94866c3e3",
+	"name": "Контекст_Открытие формы документа \"Заказ на возврат покупателя\" (SalesReturnOrder)",
+	"description": "",
+	"children": [
+		"cf91f1b3-484b-46f6-93fb-e01400d1e013"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438886108,
+			"stop": 1734438886126,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438886126,
+			"stop": 1734438886428,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

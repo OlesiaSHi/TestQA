@@ -1,0 +1,118 @@
+{
+	"uuid": "e49d0765-f0bf-47a9-b72f-b44bb55c8969",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Прочие наличные доходы\" (CashRevenue)",
+	"name": "Открытие формы документа \"Прочие наличные доходы\" (CashRevenue)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"прочие наличные доходы\" (cashrevenue)",
+	"testCaseId": "7fe3d5127a3d281bc3262516bc065fb1",
+	"start": 1734438863936,
+	"stop": 1734438864554,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"CashRevenue\"",
+			"start": 1734438864403,
+			"stop": 1734438864407,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CashRevenue"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438864408,
+			"stop": 1734438864550,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438864550,
+			"stop": 1734438864552,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438864552,
+			"stop": 1734438864554,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Прочие наличные доходы\" (CashRevenue)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Прочие наличные доходы\" (CashRevenue)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

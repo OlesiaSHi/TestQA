@@ -1,0 +1,42 @@
+{
+	"uuid": "f596c26c-52d4-41d9-90e9-c17b39535e56",
+	"name": "Контекст_Открытие формы справочника \"Серии номенклатуры\" (SerialLotNumbers)",
+	"description": "",
+	"children": [
+		"d5c928c5-4166-42ab-a7b7-318d0439078f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438822992,
+			"stop": 1734438823012,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438823012,
+			"stop": 1734438823272,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

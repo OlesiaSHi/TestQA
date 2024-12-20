@@ -1,0 +1,42 @@
+{
+	"uuid": "36811070-0b23-4e8a-8a6c-4c3632a4addc",
+	"name": "Контекст_Открытие формы документа \"Закрытие авансов покупателей\" (CustomersAdvancesClosing)",
+	"description": "",
+	"children": [
+		"aa50f008-8d1f-4bcf-970c-6014c64981ac"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441153182,
+			"stop": 1734441153203,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441153203,
+			"stop": 1734441153389,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

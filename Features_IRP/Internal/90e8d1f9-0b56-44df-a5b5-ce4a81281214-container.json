@@ -1,0 +1,42 @@
+{
+	"uuid": "11f6d4da-5531-4fa0-967e-9af66a281da3",
+	"name": "Контекст_Открытие формы справочника \"Статусы кассовой книги\" (CashStatementStatuses)",
+	"description": "",
+	"children": [
+		"90e8d1f9-0b56-44df-a5b5-ce4a81281214"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441083668,
+			"stop": 1734441083686,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441083686,
+			"stop": 1734441083945,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

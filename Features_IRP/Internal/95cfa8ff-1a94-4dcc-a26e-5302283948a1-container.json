@@ -1,0 +1,42 @@
+{
+	"uuid": "edb85b3a-fc9e-491e-b6b4-19da62985762",
+	"name": "Контекст_Открытие формы документа \"Заявка на поступление денежных средств\" (IncomingPaymentOrder)",
+	"description": "",
+	"children": [
+		"95cfa8ff-1a94-4dcc-a26e-5302283948a1"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438868501,
+			"stop": 1734438868520,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438868520,
+			"stop": 1734438868713,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

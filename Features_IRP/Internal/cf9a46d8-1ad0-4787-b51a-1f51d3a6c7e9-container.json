@@ -1,0 +1,42 @@
+{
+	"uuid": "00954828-0b5b-4e53-bc53-43ae4503deab",
+	"name": "Контекст_Открытие формы списка справочника \"Банковские счета партнеров\" (PartnersBankAccounts)",
+	"description": "",
+	"children": [
+		"cf9a46d8-1ad0-4787-b51a-1f51d3a6c7e9"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441063727,
+			"stop": 1734441063754,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441063754,
+			"stop": 1734441064005,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

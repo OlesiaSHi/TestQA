@@ -1,0 +1,42 @@
+{
+	"uuid": "ae81c358-63b9-4af6-8157-232d98b66b1f",
+	"name": "Контекст_Открытие формы обработки \"Мобильный стол\" (MobileDesktop)",
+	"description": "",
+	"children": [
+		"6c451b93-e084-4704-b792-e18247b8884b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734438892244,
+			"stop": 1734438892262,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734438892262,
+			"stop": 1734438892543,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

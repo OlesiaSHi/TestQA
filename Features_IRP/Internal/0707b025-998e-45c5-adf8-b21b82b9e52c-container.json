@@ -1,0 +1,42 @@
+{
+	"uuid": "3aa736bc-b325-4cea-934a-1c4e95daabfd",
+	"name": "Контекст_Открытие формы справочника \"Оборудование\" (Hardware)",
+	"description": "",
+	"children": [
+		"0707b025-998e-45c5-adf8-b21b82b9e52c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441093973,
+			"stop": 1734441093992,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441093992,
+			"stop": 1734441094109,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

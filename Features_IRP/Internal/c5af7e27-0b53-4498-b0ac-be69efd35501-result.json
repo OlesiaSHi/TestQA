@@ -1,0 +1,118 @@
+{
+	"uuid": "c5af7e27-0b53-4498-b0ac-be69efd35501",
+	"historyId": "Дымовые тесты - Документы - ФормаСписка.Открытие формы списка документа \"Ручная проводка в регистры\" (ManualRegisterEntry)",
+	"name": "Открытие формы списка документа \"Ручная проводка в регистры\" (ManualRegisterEntry)",
+	"fullName": "internal/021_документы_формасписка.feature_открытие формы списка документа \"ручная проводка в регистры\" (manualregisterentry)",
+	"testCaseId": "a766f9167e9d260bbf9ac71e3a8cb61c",
+	"start": 1734438844328,
+	"stop": 1734438844936,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму списка документа \"ManualRegisterEntry\"",
+			"start": 1734438844812,
+			"stop": 1734438844815,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ManualRegisterEntry"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438844815,
+			"stop": 1734438844932,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438844932,
+			"stop": 1734438844934,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438844934,
+			"stop": 1734438844936,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы списка документа \"Ручная проводка в регистры\" (ManualRegisterEntry)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы списка документа \"Ручная проводка в регистры\" (ManualRegisterEntry)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

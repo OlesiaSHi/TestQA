@@ -1,0 +1,118 @@
+{
+	"uuid": "31e27113-3d84-4606-b6f9-e3a88d78f406",
+	"historyId": "Дымовые тесты - Документы - ФормаОбъекта.Открытие формы документа \"Закрытие заказа поставщика\" (PurchaseOrderClosing)",
+	"name": "Открытие формы документа \"Закрытие заказа поставщика\" (PurchaseOrderClosing)",
+	"fullName": "internal/022_документы_формаобъекта.feature_открытие формы документа \"закрытие заказа поставщика\" (purchaseorderclosing)",
+	"testCaseId": "54fbcea2b38af40b934cb34247a1694b",
+	"start": 1734438878954,
+	"stop": 1734438879547,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму документа \"PurchaseOrderClosing\"",
+			"start": 1734438879312,
+			"stop": 1734438879316,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PurchaseOrderClosing"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение Тогда",
+			"start": 1734438879316,
+			"stop": 1734438879543,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если имя текущей формы \"ErrorWindow\" Тогда",
+			"start": 1734438879543,
+			"stop": 1734438879545,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ErrorWindow"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1734438879545,
+			"stop": 1734438879547,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы документа \"Закрытие заказа поставщика\" (PurchaseOrderClosing)"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие формы документа \"Закрытие заказа поставщика\" (PurchaseOrderClosing)"
+		},
+		{
+			"name": "tag",
+			"value": "SmokeTest"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Internal"
+		},
+		{
+			"name": "host",
+			"value": "NB9206"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "da6284ba-b023-471b-a3d4-ce9cce13f5cf",
+	"name": "Контекст_Открытие формы списка справочника \"Сегменты партнеров\" (PartnerSegments)",
+	"description": "",
+	"children": [
+		"1171a862-c0e6-45c4-bb7f-7c2993a64b55"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441064302,
+			"stop": 1734441064317,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441064317,
+			"stop": 1734441064612,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "90b68610-40c3-4107-8d31-dde27f473957",
+	"name": "Контекст_Открытие формы списка справочника \"Кассы\\банковские счета\" (CashAccounts)",
+	"description": "",
+	"children": [
+		"8fa37515-4b3e-482e-a0b3-4555ee340790"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441045997,
+			"stop": 1734441046012,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1734441046012,
+			"stop": 1734441046303,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,27 @@
+{
+	"uuid": "6a93dcfe-1835-4988-97c0-453d1ece8a11",
+	"name": "Контекст__0601 подготовительный (добавление картинок)",
+	"description": "",
+	"children": [
+		"0d026ff1-338c-4d79-bb8d-d6dcbd20f63d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1734441234051,
+			"stop": 1734441234080,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
